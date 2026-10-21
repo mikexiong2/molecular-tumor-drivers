@@ -1,0 +1,2372 @@
+{
+  "sources": {
+    "v_who_thoracic": {
+      "title": "WHO Thoracic Tumours, 5th edition (2021)",
+      "url": "https://publications.iarc.fr/Book-And-Report-Series/Who-Classification-Of-Tumours/Thoracic-Tumours-2021"
+    },
+    "v_who_digestive": {
+      "title": "WHO Digestive System Tumours, 5th edition (2019)",
+      "url": "https://publications.iarc.who.int/Book-And-Report-Series/Who-Classification-Of-Tumours/Digestive-System-Tumours-2019"
+    },
+    "v_who_breast": {
+      "title": "WHO Breast Tumours, 5th edition (2019)",
+      "url": "https://publications.iarc.who.int/Book-And-Report-Series/Who-Classification-Of-Tumours/Breast-Tumours-2019"
+    },
+    "v_who_endocrine": {
+      "title": "WHO Endocrine and Neuroendocrine Tumours, 5th edition",
+      "url": "https://publications.iarc.who.int/645"
+    },
+    "v_lung_who": {
+      "title": "WHO authors: 2021 classification of lung tumors",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34808341/"
+    },
+    "v_thyroid_who": {
+      "title": "WHO authors: overview of 2022 thyroid neoplasms classification",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35288841/"
+    },
+    "v_nen_who": {
+      "title": "WHO authors: overview of 2022 neuroendocrine neoplasms classification",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35294740/"
+    },
+    "v_ppgl_who": {
+      "title": "WHO authors: 2022 paraganglioma and pheochromocytoma classification",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35285002/"
+    },
+    "v_luad": {
+      "title": "TCGA: Comprehensive molecular profiling of lung adenocarcinoma",
+      "url": "https://www.nature.com/articles/nature13385"
+    },
+    "v_lusc": {
+      "title": "TCGA: Genomic characterization of squamous lung cancers",
+      "url": "https://www.nature.com/articles/nature11404"
+    },
+    "v_sclc": {
+      "title": "George et al.: Comprehensive genomic profiles of small cell lung cancer",
+      "url": "https://www.nature.com/articles/nature14664"
+    },
+    "v_lcnec": {
+      "title": "George et al.: Integrative genomic profiling of pulmonary LCNEC",
+      "url": "https://www.nature.com/articles/s41467-018-03099-x"
+    },
+    "v_carcinoid": {
+      "title": "Alcala et al.: Integrated genomic analysis of pulmonary carcinoids",
+      "url": "https://www.nature.com/articles/s41467-019-11276-9"
+    },
+    "v_thymoma": {
+      "title": "TCGA: Integrated genomic landscape of thymic epithelial tumors",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29438696/"
+    },
+    "v_thymic": {
+      "title": "Comprehensive genomic profiling of 274 thymic epithelial tumors",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35749302/"
+    },
+    "v_thymic_net": {
+      "title": "Genetic insights into thymic carcinomas and neuroendocrine neoplasms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37749819/"
+    },
+    "v_meso": {
+      "title": "TCGA: Integrative molecular characterization of pleural mesothelioma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30322867/"
+    },
+    "v_sarcomatoid": {
+      "title": "Genomic landscape of pulmonary sarcomatoid carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37973906/"
+    },
+    "v_smarca4": {
+      "title": "Rekhtman et al.: SMARCA4-deficient thoracic sarcomatoid tumors",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7556987/"
+    },
+    "v_pblastoma": {
+      "title": "Exomic and epigenomic analysis of pulmonary blastoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39121796/"
+    },
+    "v_lung_mec": {
+      "title": "MAML2 rearrangement in pulmonary mucoepidermoid carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24714697/"
+    },
+    "v_lung_adcc": {
+      "title": "Histopathologic and cytogenetic features of pulmonary adenoid cystic carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26309189/"
+    },
+    "v_lung_clear": {
+      "title": "Primary pulmonary hyalinizing clear cell carcinoma of bronchial gland origin",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25543160/"
+    },
+    "v_esoph": {
+      "title": "TCGA: Integrated genomic characterization of oesophageal carcinoma",
+      "url": "https://www.nature.com/articles/nature20805"
+    },
+    "v_stomach": {
+      "title": "TCGA: Comprehensive molecular characterization of gastric adenocarcinoma",
+      "url": "https://www.nature.com/articles/nature13480"
+    },
+    "v_crc": {
+      "title": "TCGA: Molecular characterization of colon and rectal cancer",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22810696/"
+    },
+    "v_sba": {
+      "title": "Genomic profiling of small-bowel adenocarcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28617917/"
+    },
+    "v_ampulla": {
+      "title": "Genomic sequencing identifies ELF3 as a driver of ampullary carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26806338/"
+    },
+    "v_appendix": {
+      "title": "Genomic landscape of appendiceal neoplasms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32913983/"
+    },
+    "v_goblet": {
+      "title": "Genomic profile of appendiceal goblet cell tumors and NETs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29634977/"
+    },
+    "v_anal": {
+      "title": "Comprehensive genomic profiling of anal squamous cell carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27052656/"
+    },
+    "v_hcc": {
+      "title": "TCGA: Comprehensive genomic characterization of hepatocellular carcinoma",
+      "url": "https://gdc.cancer.gov/about-data/publications/comprehensive-and-integrative-genomic-characterization-hepatocellular-carcinoma"
+    },
+    "v_flc": {
+      "title": "Molecular testing for diagnosis of fibrolamellar carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28862261/"
+    },
+    "v_hepatoblastoma": {
+      "title": "Genomic landscape of hepatoblastoma and HCC-like progenies",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25135868/"
+    },
+    "v_combinedliver": {
+      "title": "Genomic profiling of combined hepatocellular cholangiocarcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34476330/"
+    },
+    "v_icca": {
+      "title": "TCGA: Integrated genomic analysis of cholangiocarcinoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/5493145/"
+    },
+    "v_biliary": {
+      "title": "Nakamura et al.: Genomic spectra of biliary tract cancer",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26258846/"
+    },
+    "v_gallbladder": {
+      "title": "Comprehensive molecular characterization of gallbladder carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36228155/"
+    },
+    "v_pdac": {
+      "title": "TCGA: Integrated genomic characterization of pancreatic ductal adenocarcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28810144/"
+    },
+    "v_acinar": {
+      "title": "Pancreatic acinar cell carcinoma: RAF fusions and DNA repair defects",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25266736/"
+    },
+    "v_pancreatoblastoma": {
+      "title": "APC/beta-catenin and 11p alterations in pancreatoblastomas",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11696422/"
+    },
+    "v_spn": {
+      "title": "Solid pseudopapillary neoplasms depend on Wnt signaling",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30972907/"
+    },
+    "v_pannet": {
+      "title": "Scarpa et al.: Whole-genome landscape of pancreatic NETs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28199314/"
+    },
+    "v_sinet": {
+      "title": "Somatic CDKN1B mutations in small-intestine NETs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24185511/"
+    },
+    "v_duonet": {
+      "title": "Whole-exome sequencing of NF1-associated duodenal NETs",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6168403/"
+    },
+    "v_rectalnet": {
+      "title": "Whole-exome sequencing of rectal neuroendocrine tumors",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36645718/"
+    },
+    "v_ginec": {
+      "title": "Genomic heterogeneity in gastrointestinal neuroendocrine carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41647975/"
+    },
+    "v_gepnen": {
+      "title": "Genomic/transcriptomic characterization of high-grade GEP neoplasms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38729995/"
+    },
+    "v_gastroblastoma": {
+      "title": "Gastroblastoma harbors recurrent MALAT1::GLI1 fusion",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28731043/"
+    },
+    "v_brca": {
+      "title": "TCGA: Comprehensive molecular portraits of human breast tumours",
+      "url": "https://www.nature.com/articles/nature11412"
+    },
+    "v_ilc": {
+      "title": "TCGA: Molecular portraits of invasive lobular breast cancer",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26451490/"
+    },
+    "v_specialbreast": {
+      "title": "Molecular analysis of TCGA breast cancer histologic types",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35465400/"
+    },
+    "v_breast_metap": {
+      "title": "Landscape of somatic alterations in metaplastic breast carcinomas",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28153863/"
+    },
+    "v_breast_secretory": {
+      "title": "ETV6::NTRK3 as primary event in secretory breast carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12450792/"
+    },
+    "v_breast_adcc": {
+      "title": "Genomic landscape of adenoid cystic carcinoma of breast",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26095796/"
+    },
+    "v_breast_idh": {
+      "title": "IDH2 mutations define breast carcinoma with reversed polarity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27913435/"
+    },
+    "v_breast_phyllodes": {
+      "title": "Sequencing of phyllodes tumors: MED12 and TERT alterations",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26832993/"
+    },
+    "v_breast_ame": {
+      "title": "HRAS Q61 and PI3K-AKT pathway mutations in adenomyoepitheliomas",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29739933/"
+    },
+    "v_breast_nec": {
+      "title": "Genetic profiling of small and large cell breast NEC",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35590107/"
+    },
+    "v_breast_net": {
+      "title": "Genetic landscape of breast carcinomas with neuroendocrine differentiation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27925203/"
+    },
+    "v_breast_mec": {
+      "title": "Molecular landscape of breast mucoepidermoid carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36916425/"
+    },
+    "v_breast_mecfusion": {
+      "title": "Pleomorphic adenomas and breast mucoepidermoid carcinomas: fusion genes",
+      "url": "https://www.nature.com/articles/s41523-020-0164-0"
+    },
+    "v_ptc": {
+      "title": "TCGA: Integrated genomic characterization of papillary thyroid carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25417114/"
+    },
+    "v_ftc": {
+      "title": "Transcriptional and mutational landscape of follicular and papillary thyroid cancers",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27494611/"
+    },
+    "v_highthyroid": {
+      "title": "Genomic and transcriptomic hallmarks of poorly differentiated and anaplastic thyroid cancer",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/4767360/"
+    },
+    "v_oncothyroid": {
+      "title": "Chromosomal loss and mitochondrial mutations in Hürthle cell carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30107175/"
+    },
+    "v_mtc": {
+      "title": "Integrated proteogenomic characterization of medullary thyroid carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36344509/"
+    },
+    "v_cribmor": {
+      "title": "Cribriform-morular thyroid carcinoma and beta-catenin mutations",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12474227/"
+    },
+    "v_thyroblastoma": {
+      "title": "Thyroblastoma: DICER1-altered multiphenotypic malignancy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32507920/"
+    },
+    "v_settle": {
+      "title": "Molecular genetic study of 11 spindle epithelial tumors with thymus-like differentiation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19417583/"
+    },
+    "v_thyroid_secretory": {
+      "title": "NTRK-rearranged thyroid carcinomas including secretory carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32457407/"
+    },
+    "v_smece": {
+      "title": "Molecular analysis of sclerosing mucoepidermoid carcinoma with eosinophilia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27910944/"
+    },
+    "v_acc": {
+      "title": "TCGA: Comprehensive pan-genomic characterization of adrenocortical carcinoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4864952/"
+    },
+    "v_ppgl": {
+      "title": "TCGA: Molecular characterization of pheochromocytoma and paraganglioma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5643159/"
+    },
+    "v_parathyroid": {
+      "title": "Genomic/transcriptomic profiling of parathyroid carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37121965/"
+    },
+    "v_pitblast": {
+      "title": "Pituitary blastoma and germline DICER1 mutations",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24839956/"
+    },
+    "v_pitnet": {
+      "title": "ATRX mutations in aggressive and metastatic pituitary tumors",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33106857/"
+    }
+  },
+  "entities": [
+    {
+      "id": "v_lung_adenocarcinoma",
+      "name": "Lung adenocarcinoma",
+      "system": "Thoracic",
+      "aliases": [
+        "LUAD",
+        "Pulmonary adenocarcinoma",
+        "Invasive mucinous adenocarcinoma",
+        "Invasive nonmucinous adenocarcinoma"
+      ],
+      "anchor": "Think receptor–RAS–RAF drivers; keep mutations, amplifications and fusions separate.",
+      "snv": [
+        "Driver — EGFR activating SNVs/indels; KRAS; BRAF (including V600E); ERBB2 activating variants (distinct subsets)",
+        "Driver — MET splice-site variants causing exon 14 skipping; less often NF1 loss or RIT1 activation",
+        "Cooperating — TP53, STK11, KEAP1, SMARCA4 inactivation"
+      ],
+      "cnv": [
+        "Driver — focal high-level MET or ERBB2 amplification (subset)",
+        "Cooperating — CDKN2A deletion; MYC amplification"
+      ],
+      "rearr": [
+        "Driver — EML4::ALK; CD74::ROS1; KIF5B::RET / CCDC6::RET (examples; alternative partners)",
+        "Driver — NTRK1/2/3 or NRG1 fusions (rare; NRG1 enriched in mucinous tumors)"
+      ],
+      "other": [],
+      "pitfall": "A list represents alternative molecular subsets, not mutations expected together in every tumor. MET exon 14 skipping is a splicing consequence, not a gene fusion.",
+      "refs": [
+        "v_who_thoracic",
+        "v_luad",
+        "v_lung_who"
+      ]
+    },
+    {
+      "id": "v_lung_squamous_cell_carcinoma",
+      "name": "Lung squamous cell carcinoma",
+      "system": "Thoracic",
+      "aliases": [
+        "LUSC",
+        "Lymphoepithelial carcinoma of lung"
+      ],
+      "anchor": "Squamous lung: TP53 plus cell-cycle/PI3K alterations.",
+      "snv": [
+        "Driver/cooperating — TP53, CDKN2A loss; PIK3CA activation; PTEN loss",
+        "Cooperating — NFE2L2 activation; KEAP1 and NOTCH1 loss"
+      ],
+      "cnv": [
+        "Characteristic — SOX2/TP63 (3q) amplification; FGFR1 amplification (subset)",
+        "Cooperating — CDKN2A deletion"
+      ],
+      "rearr": [],
+      "other": [
+        "Viral — EBV in many pulmonary lymphoepithelial carcinomas, a squamous subtype"
+      ],
+      "pitfall": "A squamous phenotype does not imply EGFR or ALK-driven disease; SOX2/TP63 gain is a lineage-associated event.",
+      "refs": [
+        "v_who_thoracic",
+        "v_lusc",
+        "v_lung_who"
+      ]
+    },
+    {
+      "id": "v_lung_adenosquamous_carcinoma",
+      "name": "Lung adenosquamous carcinoma",
+      "system": "Thoracic",
+      "aliases": [
+        "Pulmonary adenosquamous carcinoma"
+      ],
+      "anchor": "Two morphologies can share one lung adenocarcinoma-type driver.",
+      "snv": [
+        "Driver — EGFR or KRAS activating variants in subsets",
+        "Cooperating — TP53 alterations"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Driver — ALK and other kinase fusions can occur (uncommon)"
+      ],
+      "other": [],
+      "pitfall": "Molecular findings overlap adenocarcinoma; both components do not require separate drivers.",
+      "refs": [
+        "v_who_thoracic",
+        "v_lung_who",
+        "v_luad"
+      ]
+    },
+    {
+      "id": "v_lung_large_cell_carcinoma",
+      "name": "Lung large cell carcinoma",
+      "system": "Thoracic",
+      "aliases": [
+        "Pulmonary large cell carcinoma"
+      ],
+      "anchor": "An exclusion diagnosis with no defining molecular switch.",
+      "snv": [
+        "Driver/cooperating — heterogeneous NSCLC-type changes, including TP53; KRAS in a subset"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Requires exclusion of glandular, squamous and neuroendocrine differentiation; no single defining recurrent driver established.",
+      "refs": [
+        "v_who_thoracic",
+        "v_lung_who"
+      ]
+    },
+    {
+      "id": "v_pulmonary_sarcomatoid_carcinoma",
+      "name": "Pulmonary sarcomatoid carcinoma",
+      "system": "Thoracic",
+      "aliases": [
+        "Pleomorphic carcinoma of lung",
+        "Pulmonary carcinosarcoma",
+        "Spindle cell carcinoma of lung",
+        "Giant cell carcinoma of lung"
+      ],
+      "anchor": "MET exon 14 skipping is a memorable enrichment.",
+      "snv": [
+        "Driver — MET splice alterations causing exon 14 skipping; KRAS activating variants (subsets)",
+        "Cooperating — TP53 loss"
+      ],
+      "cnv": [
+        "Cooperating — MDM2 amplification in a subset"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Includes pleomorphic, spindle/giant-cell carcinoma and carcinosarcoma for study; MET alteration is not universal.",
+      "refs": [
+        "v_who_thoracic",
+        "v_sarcomatoid",
+        "v_lung_who"
+      ]
+    },
+    {
+      "id": "v_pulmonary_blastoma",
+      "name": "Pulmonary blastoma",
+      "system": "Thoracic",
+      "aliases": [
+        "Biphasic pulmonary blastoma"
+      ],
+      "anchor": "Adult biphasic blastoma: DICER1 plus Wnt.",
+      "snv": [
+        "Driver — DICER1 pathogenic variants",
+        "Driver — CTNNB1 exon 3 hotspot variants (often co-occurring)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Different entity from childhood pleuropulmonary blastoma, despite shared DICER1 biology.",
+      "refs": [
+        "v_who_thoracic",
+        "v_pblastoma",
+        "v_lung_who"
+      ]
+    },
+    {
+      "id": "v_small_cell_lung_carcinoma",
+      "name": "Small cell lung carcinoma",
+      "system": "Thoracic",
+      "aliases": [
+        "SCLC",
+        "Combined small cell lung carcinoma"
+      ],
+      "anchor": "Small cell: lose TP53 and RB1.",
+      "snv": [
+        "Driver/cooperating — TP53 and RB1 biallelic inactivation",
+        "Cooperating — NOTCH-family loss-of-function variants"
+      ],
+      "cnv": [
+        "Driver/cooperating — RB1/TP53 deletions; MYC, MYCL or MYCN amplification (subsets)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "TP53/RB1 loss is characteristic but not absolutely universal; combined histology is included.",
+      "refs": [
+        "v_who_thoracic",
+        "v_sclc"
+      ]
+    },
+    {
+      "id": "v_large_cell_neuroendocrine_carcinoma_of_lung",
+      "name": "Large cell neuroendocrine carcinoma of lung",
+      "system": "Thoracic",
+      "aliases": [
+        "Pulmonary LCNEC"
+      ],
+      "anchor": "LCNEC can follow either TP53/RB1 or TP53/STK11–KEAP1 patterns.",
+      "snv": [
+        "Driver/cooperating — TP53 with RB1 loss in one major subset",
+        "Driver/cooperating — STK11, KEAP1, KRAS alterations in another subset"
+      ],
+      "cnv": [
+        "Cooperating — RB1 deletion; MYC-family amplification (subsets)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "LCNEC and carcinoid are different biological classes; not all LCNEC has RB1 loss.",
+      "refs": [
+        "v_who_thoracic",
+        "v_lcnec"
+      ]
+    },
+    {
+      "id": "v_pulmonary_carcinoid_tumor",
+      "name": "Pulmonary carcinoid tumor",
+      "system": "Thoracic",
+      "aliases": [
+        "Typical carcinoid of lung",
+        "Atypical carcinoid of lung",
+        "Pulmonary NET"
+      ],
+      "anchor": "Carcinoid favors MEN1/chromatin biology over the classic small-cell pair.",
+      "snv": [
+        "Driver — MEN1 inactivation (subset)",
+        "Cooperating — chromatin-regulator alterations including ARID1A and EIF1AX (subsets)"
+      ],
+      "cnv": [
+        "Characteristic — 11q/MEN1 loss and other variable arm-level losses"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Typical and atypical carcinoids are merged; both have malignant potential. TP53/RB1 alterations are not their usual baseline signature.",
+      "refs": [
+        "v_who_thoracic",
+        "v_carcinoid"
+      ]
+    },
+    {
+      "id": "v_thoracic_smarca4_deficient_undifferentiated_tumor",
+      "name": "Thoracic SMARCA4-deficient undifferentiated tumor",
+      "system": "Thoracic",
+      "aliases": [
+        "SMARCA4-DUT",
+        "SMARCA4-deficient thoracic sarcoma"
+      ],
+      "anchor": "Undifferentiated thoracic tumor: lose SMARCA4/BRG1.",
+      "snv": [
+        "Driver — SMARCA4 inactivating variants",
+        "Cooperating — TP53, KRAS, STK11 or KEAP1 alterations (subsets)"
+      ],
+      "cnv": [
+        "Driver — SMARCA4 deletion / second-allele loss"
+      ],
+      "rearr": [],
+      "other": [
+        "Phenotype — SMARCA2 protein loss is frequent, often without a corresponding gene mutation"
+      ],
+      "pitfall": "SMARCA4-deficient conventional NSCLC is not automatically this entity; morphology and immunophenotype matter.",
+      "refs": [
+        "v_who_thoracic",
+        "v_smarca4",
+        "v_lung_who"
+      ]
+    },
+    {
+      "id": "v_pulmonary_mucoepidermoid_carcinoma",
+      "name": "Pulmonary mucoepidermoid carcinoma",
+      "system": "Thoracic",
+      "aliases": [
+        "Bronchial mucoepidermoid carcinoma"
+      ],
+      "anchor": "Mucoepidermoid: MAML2 fusion.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — CRTC1::MAML2; less often CRTC3::MAML2"
+      ],
+      "other": [],
+      "pitfall": "Fusion-negative tumors exist; distinguish from ordinary adenosquamous carcinoma.",
+      "refs": [
+        "v_who_thoracic",
+        "v_lung_mec"
+      ]
+    },
+    {
+      "id": "v_pulmonary_adenoid_cystic_carcinoma",
+      "name": "Pulmonary adenoid cystic carcinoma",
+      "system": "Thoracic",
+      "aliases": [
+        "Tracheobronchial adenoid cystic carcinoma"
+      ],
+      "anchor": "Adenoid cystic: MYB-family transcriptional activation.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — MYB::NFIB or other MYB rearrangements (subset)"
+      ],
+      "other": [],
+      "pitfall": "A negative MYB break-apart test does not exclude adenoid cystic carcinoma.",
+      "refs": [
+        "v_who_thoracic",
+        "v_lung_adcc"
+      ]
+    },
+    {
+      "id": "v_pulmonary_epithelial_myoepithelial_carcinoma",
+      "name": "Pulmonary epithelial-myoepithelial carcinoma",
+      "system": "Thoracic",
+      "aliases": [],
+      "anchor": "A rare biphasic salivary-type lung tumor without a firmly established recurrent driver.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Do not assume that the HRAS frequencies of salivary-gland counterparts apply to lung cases; molecular evidence remains limited.",
+      "refs": [
+        "v_who_thoracic",
+        "v_lung_who"
+      ]
+    },
+    {
+      "id": "v_pulmonary_hyalinizing_clear_cell_carcinoma",
+      "name": "Pulmonary hyalinizing clear cell carcinoma",
+      "system": "Thoracic",
+      "aliases": [],
+      "anchor": "Clear cells in hyaline stroma: EWSR1::ATF1.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — EWSR1::ATF1 (characteristic)"
+      ],
+      "other": [],
+      "pitfall": "EWSR1 rearrangement alone is nonspecific; gene partner, morphology and site determine the diagnosis.",
+      "refs": [
+        "v_who_thoracic",
+        "v_lung_clear",
+        "v_lung_who"
+      ]
+    },
+    {
+      "id": "v_thymoma",
+      "name": "Thymoma",
+      "system": "Thoracic",
+      "aliases": [
+        "Type A thymoma",
+        "Type AB thymoma",
+        "Type B thymoma"
+      ],
+      "anchor": "Thymoma: remember GTF2I, especially A/AB morphology.",
+      "snv": [
+        "Driver — GTF2I p.L424H hotspot (enriched in type A/AB)",
+        "Driver — HRAS/NRAS alterations (minor subset)"
+      ],
+      "cnv": [
+        "Characteristic — variable aneuploidy; CDKN2A/B deletion in some advanced tumors"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "A, AB and B1–B3 are merged. Thymoma can invade or metastasize even when cytologically bland.",
+      "refs": [
+        "v_who_thoracic",
+        "v_thymoma",
+        "v_thymic"
+      ]
+    },
+    {
+      "id": "v_thymic_carcinoma",
+      "name": "Thymic carcinoma",
+      "system": "Thoracic",
+      "aliases": [
+        "Thymic squamous cell carcinoma"
+      ],
+      "anchor": "Thymic carcinoma: TP53/CDKN2A; KIT mutation is a minority.",
+      "snv": [
+        "Driver/cooperating — TP53 and CDKN2A inactivation",
+        "Driver — KIT activating variants (subset); PI3K-pathway alterations (subset)"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B deletion"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "CD117/KIT protein expression is much more common than activating KIT mutation. Histologic subtypes are merged.",
+      "refs": [
+        "v_who_thoracic",
+        "v_thymic"
+      ]
+    },
+    {
+      "id": "v_thymic_neuroendocrine_tumor",
+      "name": "Thymic neuroendocrine tumor",
+      "system": "Thoracic",
+      "aliases": [
+        "Thymic carcinoid",
+        "Thymic atypical carcinoid"
+      ],
+      "anchor": "Thymic carcinoid can connect to MEN1.",
+      "snv": [
+        "Driver — MEN1 loss (subset, sporadic or hereditary)",
+        "Cooperating — chromatin/mTOR-pathway alterations are heterogeneous"
+      ],
+      "cnv": [
+        "Characteristic — variable chromosomal losses and gains"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Typical/atypical carcinoids are merged; do not transfer the lung small-cell signature to all thymic NETs.",
+      "refs": [
+        "v_who_thoracic",
+        "v_thymic_net",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_thymic_neuroendocrine_carcinoma",
+      "name": "Thymic neuroendocrine carcinoma",
+      "system": "Thoracic",
+      "aliases": [
+        "Thymic small cell carcinoma",
+        "Thymic large cell neuroendocrine carcinoma"
+      ],
+      "anchor": "High-grade thymic NEC often disrupts cell-cycle tumor suppressors.",
+      "snv": [
+        "Driver/cooperating — TP53 and RB1 inactivation in subsets"
+      ],
+      "cnv": [
+        "Characteristic — marked copy-number instability in many high-grade tumors"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Small- and large-cell NEC are merged; thymic data are smaller than pulmonary cohorts.",
+      "refs": [
+        "v_who_thoracic",
+        "v_thymic_net",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_mesothelioma",
+      "name": "Mesothelioma",
+      "system": "Thoracic",
+      "aliases": [
+        "Pleural mesothelioma",
+        "Peritoneal mesothelioma",
+        "Pericardial mesothelioma",
+        "Malignant mesothelioma"
+      ],
+      "anchor": "Mesothelioma: BAP1, NF2 and CDKN2A tumor-suppressor losses.",
+      "snv": [
+        "Driver — BAP1 and NF2 inactivation",
+        "Cooperating — SETD2, TP53 and Hippo-pathway alterations (subsets)"
+      ],
+      "cnv": [
+        "Driver/cooperating — CDKN2A/B homozygous deletion, often with MTAP co-deletion; BAP1/NF2 loss"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Includes diffuse/localized invasive pleural and extrapleural forms. Peritoneal tumors have different alteration frequencies; no alteration alone establishes invasion.",
+      "refs": [
+        "v_who_thoracic",
+        "v_meso"
+      ]
+    },
+    {
+      "id": "v_esophageal_squamous_cell_carcinoma",
+      "name": "Esophageal squamous cell carcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Oesophageal squamous carcinoma",
+        "ESCC"
+      ],
+      "anchor": "Esophageal squamous: TP53 plus CCND1/SOX2.",
+      "snv": [
+        "Driver/cooperating — TP53, NOTCH1, CDKN2A inactivation; NFE2L2 activation"
+      ],
+      "cnv": [
+        "Driver/characteristic — CCND1, SOX2/TP63 and EGFR amplification (subsets)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "HPV is not an established universal etiologic driver of esophageal squamous carcinoma.",
+      "refs": [
+        "v_who_digestive",
+        "v_esoph"
+      ]
+    },
+    {
+      "id": "v_esophageal_adenocarcinoma",
+      "name": "Esophageal adenocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Oesophageal adenocarcinoma",
+        "Barrett adenocarcinoma",
+        "Gastroesophageal junction adenocarcinoma"
+      ],
+      "anchor": "Esophageal adenocarcinoma often has unstable chromosomes and amplified receptors.",
+      "snv": [
+        "Driver/cooperating — TP53, CDKN2A, SMAD4 and ARID1A alterations"
+      ],
+      "cnv": [
+        "Driver — ERBB2 amplification (subset)",
+        "Characteristic — EGFR, KRAS, GATA4/GATA6 or CCNE1 amplification (subsets)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Barrett-associated adenocarcinoma is molecularly distinct from squamous carcinoma.",
+      "refs": [
+        "v_who_digestive",
+        "v_esoph"
+      ]
+    },
+    {
+      "id": "v_gastric_adenocarcinoma",
+      "name": "Gastric adenocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Stomach carcinoma",
+        "Poorly cohesive gastric carcinoma",
+        "Gastric signet ring carcinoma"
+      ],
+      "anchor": "Stomach: receptors, adhesion/Wnt-like signaling, MSI or EBV pathways.",
+      "snv": [
+        "Driver — CDH1 loss; RHOA or PIK3CA activation (different subsets)",
+        "Cooperating — TP53, ARID1A, APC or RNF43 alterations"
+      ],
+      "cnv": [
+        "Driver — ERBB2, FGFR2, MET or EGFR amplification (subsets)",
+        "Cooperating — CCNE1 amplification; CDKN2A deletion"
+      ],
+      "rearr": [
+        "Driver — CLDN18::ARHGAP26 / CLDN18::ARHGAP6 (subset)"
+      ],
+      "other": [
+        "Other — EBV-associated oncogenesis (subset)",
+        "Epigenetic — MLH1 promoter methylation can cause mismatch-repair deficiency/MSI"
+      ],
+      "pitfall": "Intestinal, diffuse/poorly cohesive and other histologic variants are merged. CLDN18 protein expression is not the same finding as a CLDN18 gene fusion.",
+      "refs": [
+        "v_who_digestive",
+        "v_stomach"
+      ]
+    },
+    {
+      "id": "v_small_intestinal_adenocarcinoma",
+      "name": "Small intestinal adenocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Duodenal adenocarcinoma",
+        "Jejunal adenocarcinoma",
+        "Ileal adenocarcinoma"
+      ],
+      "anchor": "Small-bowel adenocarcinoma overlaps colon, with relatively more ERBB2 mutations.",
+      "snv": [
+        "Driver/cooperating — KRAS, APC, TP53, SMAD4, PIK3CA alterations",
+        "Driver — ERBB2 activating variants; BRAF variants (often non-V600E)"
+      ],
+      "cnv": [
+        "Driver — ERBB2 amplification (subset)"
+      ],
+      "rearr": [],
+      "other": [
+        "Other — mismatch-repair deficiency/MSI in a subset"
+      ],
+      "pitfall": "Do not assume all BRAF mutations are V600E or that small-bowel tumors have the same APC frequency as colon tumors.",
+      "refs": [
+        "v_who_digestive",
+        "v_sba"
+      ]
+    },
+    {
+      "id": "v_ampullary_adenocarcinoma",
+      "name": "Ampullary adenocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Ampulla of Vater carcinoma"
+      ],
+      "anchor": "Ampulla links intestinal APC and pancreatobiliary KRAS; remember ELF3.",
+      "snv": [
+        "Driver/cooperating — APC, KRAS, TP53, SMAD4 and ELF3 inactivation/activation as appropriate"
+      ],
+      "cnv": [
+        "Driver — ERBB2 amplification (subset)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Intestinal and pancreatobiliary histologic subtypes are merged; they have different mutation distributions.",
+      "refs": [
+        "v_who_digestive",
+        "v_ampulla"
+      ]
+    },
+    {
+      "id": "v_colorectal_adenocarcinoma",
+      "name": "Colorectal adenocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Colon adenocarcinoma",
+        "Rectal adenocarcinoma",
+        "CRC"
+      ],
+      "anchor": "Colon: APC → RAS/MAPK → TP53, with alternative MSI routes.",
+      "snv": [
+        "Driver — APC loss; KRAS/NRAS or BRAF activation (alternative subsets)",
+        "Cooperating — TP53, SMAD4, PIK3CA and FBXW7 alterations",
+        "Driver — mismatch-repair gene inactivation or POLE proofreading variants (hypermutated subsets)"
+      ],
+      "cnv": [
+        "Driver — ERBB2 amplification (subset)",
+        "Cooperating — SMAD4/18q and CDKN2A losses"
+      ],
+      "rearr": [],
+      "other": [
+        "Epigenetic — MLH1 promoter methylation is a common sporadic cause of MSI"
+      ],
+      "pitfall": "The sequence is a teaching model, not a required order. Mucinous, medullary and signet-ring patterns are included.",
+      "refs": [
+        "v_who_digestive",
+        "v_crc"
+      ]
+    },
+    {
+      "id": "v_appendiceal_adenocarcinoma",
+      "name": "Appendiceal adenocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Appendiceal mucinous adenocarcinoma",
+        "Colonic-type appendiceal adenocarcinoma"
+      ],
+      "anchor": "Appendix: KRAS/GNAS in mucinous tumors; TP53 with higher-grade disease.",
+      "snv": [
+        "Driver — KRAS and GNAS activating variants (especially mucinous tumors)",
+        "Cooperating — TP53, SMAD4 or APC alterations in subsets"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Invasive mucinous and conventional adenocarcinomas are included. Low-grade appendiceal mucinous neoplasm is not automatically invasive adenocarcinoma.",
+      "refs": [
+        "v_who_digestive",
+        "v_appendix"
+      ]
+    },
+    {
+      "id": "v_appendiceal_goblet_cell_adenocarcinoma",
+      "name": "Appendiceal goblet cell adenocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Goblet cell carcinoid",
+        "Goblet cell carcinoma"
+      ],
+      "anchor": "Goblet cell is adenocarcinoma; no single canonical fusion.",
+      "snv": [
+        "Recurrent/candidate — TP53, ARID1A, RHOA, KDM6A and SOX9 alterations in subsets"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Formerly called goblet cell carcinoid; it is not a conventional NET. KRAS/GNAS are less characteristic than in mucinous appendiceal tumors.",
+      "refs": [
+        "v_who_digestive",
+        "v_goblet",
+        "v_appendix"
+      ]
+    },
+    {
+      "id": "v_anal_squamous_cell_carcinoma",
+      "name": "Anal squamous cell carcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Anal basaloid carcinoma",
+        "Anal cloacogenic carcinoma"
+      ],
+      "anchor": "Anal squamous: HPV E6/E7, with PI3K-pathway mutations.",
+      "snv": [
+        "Driver — PIK3CA activation (subset)",
+        "Cooperating — TP53 and CDKN2A mutations enriched in HPV-negative disease"
+      ],
+      "cnv": [
+        "Cooperating — PIK3CA amplification or PTEN deletion (subsets)"
+      ],
+      "rearr": [],
+      "other": [
+        "Viral driver — high-risk HPV E6/E7 disrupt p53 and RB pathways"
+      ],
+      "pitfall": "Viral inhibition of a tumor suppressor is not the same as an SNV in its gene.",
+      "refs": [
+        "v_who_digestive",
+        "v_anal"
+      ]
+    },
+    {
+      "id": "v_anal_adenocarcinoma",
+      "name": "Anal adenocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Anal gland carcinoma"
+      ],
+      "anchor": "Anal gland/colorectal-type adenocarcinoma has heterogeneous genetics.",
+      "snv": [
+        "Driver/cooperating — KRAS, TP53 and APC alterations can occur, depending on origin"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Separate true anal primary from distal rectal extension; no single site-defining recurrent driver is established.",
+      "refs": [
+        "v_who_digestive",
+        "v_crc"
+      ]
+    },
+    {
+      "id": "v_hepatocellular_carcinoma",
+      "name": "Hepatocellular carcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "HCC",
+        "Conventional hepatocellular carcinoma"
+      ],
+      "anchor": "HCC: TERT promoter, TP53 and CTNNB1.",
+      "snv": [
+        "Driver — TERT promoter activation; CTNNB1 activation; AXIN1 loss",
+        "Cooperating — TP53, ARID1A and ARID2 inactivation"
+      ],
+      "cnv": [
+        "Driver/cooperating — FGF19/CCND1 (11q13), MYC or MET amplification (subsets)"
+      ],
+      "rearr": [],
+      "other": [
+        "Other — HBV integration can activate TERT; HBV/HCV-associated chronic liver injury contributes to oncogenesis"
+      ],
+      "pitfall": "TERT promoter changes are DNA variants outside coding exons. Etiology changes frequencies; no one alteration defines ordinary HCC.",
+      "refs": [
+        "v_who_digestive",
+        "v_hcc"
+      ]
+    },
+    {
+      "id": "v_fibrolamellar_carcinoma",
+      "name": "Fibrolamellar carcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Fibrolamellar hepatocellular carcinoma"
+      ],
+      "anchor": "Fibrolamellar: DNAJB1::PRKACA.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — DNAJB1::PRKACA, usually from a focal chromosome 19 deletion"
+      ],
+      "other": [],
+      "pitfall": "The fusion is highly characteristic in the right liver morphology but is not absolutely site-specific; interpret with pathology.",
+      "refs": [
+        "v_who_digestive",
+        "v_flc"
+      ]
+    },
+    {
+      "id": "v_hepatoblastoma",
+      "name": "Hepatoblastoma",
+      "system": "Digestive",
+      "aliases": [],
+      "anchor": "Hepatoblastoma: CTNNB1/Wnt in a young liver.",
+      "snv": [
+        "Driver — CTNNB1 exon 3 SNVs/indels; APC loss in a minority",
+        "Cooperating — NFE2L2 activation (subset)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Predisposition — APC/FAP or 11p15 imprinting disorders in selected patients"
+      ],
+      "pitfall": "Fetal, embryonal and mixed patterns are merged; most have fewer sequence alterations than adult HCC.",
+      "refs": [
+        "v_who_digestive",
+        "v_hepatoblastoma"
+      ]
+    },
+    {
+      "id": "v_combined_hepatocellular_cholangiocarcinoma",
+      "name": "Combined hepatocellular-cholangiocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "cHCC-CCA",
+        "Combined HCC-CCA"
+      ],
+      "anchor": "Mixed liver lineage often shares TERT/TP53 alterations.",
+      "snv": [
+        "Driver/cooperating — TERT promoter and TP53 variants; CTNNB1, KRAS, PTEN or chromatin-gene alterations in subsets"
+      ],
+      "cnv": [
+        "Cooperating — CCND1, MET or ERBB2 amplification (subsets)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Genomic profiles can resemble HCC or CCA; diagnosis requires morphologic evidence of both differentiations.",
+      "refs": [
+        "v_who_digestive",
+        "v_combinedliver"
+      ]
+    },
+    {
+      "id": "v_intrahepatic_cholangiocarcinoma",
+      "name": "Intrahepatic cholangiocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "iCCA",
+        "ICC",
+        "Cholangiocarcinoma of liver"
+      ],
+      "anchor": "Intrahepatic bile duct: FGFR2 fusions or IDH1/2 mutations in subsets.",
+      "snv": [
+        "Driver — IDH1 R132 / IDH2 R172 variants; KRAS or BRAF activation (distinct subsets)",
+        "Cooperating — BAP1, ARID1A, PBRM1, TP53 alterations"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B deletion"
+      ],
+      "rearr": [
+        "Driver — FGFR2::BICC1 and other FGFR2 fusions (many partners)"
+      ],
+      "other": [],
+      "pitfall": "Small- versus large-duct patterns differ molecularly; FGFR2/IDH are enriched in small-duct tumors and are not universal.",
+      "refs": [
+        "v_who_digestive",
+        "v_icca",
+        "v_biliary"
+      ]
+    },
+    {
+      "id": "v_extrahepatic_cholangiocarcinoma",
+      "name": "Extrahepatic cholangiocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "eCCA",
+        "Perihilar cholangiocarcinoma",
+        "Distal cholangiocarcinoma",
+        "Klatskin tumor"
+      ],
+      "anchor": "Extrahepatic bile duct: KRAS/TP53; occasional HER2.",
+      "snv": [
+        "Driver/cooperating — KRAS, TP53, SMAD4, ARID1A alterations"
+      ],
+      "cnv": [
+        "Driver — ERBB2 amplification (subset)",
+        "Cooperating — CDKN2A deletion"
+      ],
+      "rearr": [
+        "Driver — ATP1B1::PRKACA / ATP1B1::PRKACB (rare)"
+      ],
+      "other": [],
+      "pitfall": "Perihilar and distal cholangiocarcinomas are merged. Do not transfer intrahepatic FGFR2 fusion frequencies to extrahepatic disease.",
+      "refs": [
+        "v_who_digestive",
+        "v_biliary"
+      ]
+    },
+    {
+      "id": "v_gallbladder_carcinoma",
+      "name": "Gallbladder carcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Gallbladder adenocarcinoma",
+        "Gallbladder adenosquamous carcinoma",
+        "Gallbladder squamous carcinoma"
+      ],
+      "anchor": "Gallbladder: TP53 plus ERBB2 or KRAS in subsets.",
+      "snv": [
+        "Driver — ERBB2, KRAS or PIK3CA activation (subsets)",
+        "Cooperating — TP53, CDKN2A and SMAD4 inactivation"
+      ],
+      "cnv": [
+        "Driver — ERBB2 amplification",
+        "Cooperating — CDKN2A deletion"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Adenocarcinoma and rare squamous/adenosquamous patterns are merged here; NEC is in the digestive NEC record.",
+      "refs": [
+        "v_who_digestive",
+        "v_gallbladder"
+      ]
+    },
+    {
+      "id": "v_pancreatic_ductal_adenocarcinoma",
+      "name": "Pancreatic ductal adenocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "PDAC",
+        "Pancreatic adenosquamous carcinoma",
+        "Pancreatic undifferentiated carcinoma",
+        "Colloid carcinoma of pancreas"
+      ],
+      "anchor": "Pancreatic ductal: KRAS, TP53, CDKN2A and SMAD4.",
+      "snv": [
+        "Driver — KRAS activating variants",
+        "Cooperating — TP53, CDKN2A and SMAD4 inactivation",
+        "Driver/cooperating — BRCA1/BRCA2/PALB2 defects in a minority; GNAS/RNF43 in some precursor-associated tumors"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A and SMAD4 deletions"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Variants including adenosquamous, colloid and undifferentiated carcinomas are merged. KRAS-wild-type disease can harbor alternative kinase drivers.",
+      "refs": [
+        "v_who_digestive",
+        "v_pdac"
+      ]
+    },
+    {
+      "id": "v_pancreatic_acinar_cell_carcinoma",
+      "name": "Pancreatic acinar cell carcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "PACC",
+        "Mixed acinar-neuroendocrine carcinoma"
+      ],
+      "anchor": "Acinar: RAF fusion or DNA-repair loss, unlike the usual ductal KRAS pattern.",
+      "snv": [
+        "Driver/cooperating — BRCA2/BRCA1 and other homologous-recombination repair defects; APC/CTNNB1 alterations (subsets)"
+      ],
+      "cnv": [
+        "Cooperating — variable tumor-suppressor losses"
+      ],
+      "rearr": [
+        "Driver — SND1::BRAF and other BRAF/RAF1 fusions (subset)"
+      ],
+      "other": [],
+      "pitfall": "Pure and mixed acinar carcinomas are represented; usual PDAC driver combinations are less characteristic.",
+      "refs": [
+        "v_who_digestive",
+        "v_acinar"
+      ]
+    },
+    {
+      "id": "v_pancreatoblastoma",
+      "name": "Pancreatoblastoma",
+      "system": "Digestive",
+      "aliases": [],
+      "anchor": "Pancreatoblastoma: Wnt plus 11p.",
+      "snv": [
+        "Driver — CTNNB1 activation or APC inactivation"
+      ],
+      "cnv": [
+        "Characteristic — 11p allelic loss (may be deletion or copy-neutral LOH)"
+      ],
+      "rearr": [],
+      "other": [
+        "Predisposition — APC/FAP or Beckwith–Wiedemann spectrum in some patients"
+      ],
+      "pitfall": "Not the pediatric equivalent of ordinary KRAS-driven ductal adenocarcinoma.",
+      "refs": [
+        "v_who_digestive",
+        "v_pancreatoblastoma"
+      ]
+    },
+    {
+      "id": "v_solid_pseudopapillary_neoplasm_of_pancreas",
+      "name": "Solid pseudopapillary neoplasm of pancreas",
+      "system": "Digestive",
+      "aliases": [
+        "SPN",
+        "Solid pseudopapillary tumor"
+      ],
+      "anchor": "Solid pseudopapillary: CTNNB1 almost always leads.",
+      "snv": [
+        "Driver — CTNNB1 exon 3 activating variants"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "This low-grade malignant neoplasm may behave indolently; CTNNB1 is shared with other tumors and requires the correct morphology.",
+      "refs": [
+        "v_who_digestive",
+        "v_spn"
+      ]
+    },
+    {
+      "id": "v_pancreatic_neuroendocrine_tumor",
+      "name": "Pancreatic neuroendocrine tumor",
+      "system": "Digestive",
+      "aliases": [
+        "PanNET",
+        "pNET",
+        "Insulinoma",
+        "Gastrinoma",
+        "Glucagonoma",
+        "VIPoma",
+        "Pancreatic somatostatinoma"
+      ],
+      "anchor": "PanNET: MEN1, DAXX/ATRX and mTOR.",
+      "snv": [
+        "Driver — MEN1, DAXX or ATRX inactivation",
+        "Driver — TSC1/TSC2, PTEN or other mTOR-pathway changes (subset)"
+      ],
+      "cnv": [
+        "Characteristic — recurrent chromosome losses, including MEN1/11q; heterogeneous gains"
+      ],
+      "rearr": [],
+      "other": [
+        "Other — alternative lengthening of telomeres associated with DAXX/ATRX loss",
+        "Predisposition — MEN1, VHL, NF1 or TSC syndromes in selected cases"
+      ],
+      "pitfall": "G1–G3 and functional labels are merged. Well-differentiated G3 NET remains distinct from pancreatic NEC.",
+      "refs": [
+        "v_who_digestive",
+        "v_pannet",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_gastric_neuroendocrine_tumor",
+      "name": "Gastric neuroendocrine tumor",
+      "system": "Digestive",
+      "aliases": [
+        "Gastric carcinoid",
+        "ECL-cell NET"
+      ],
+      "anchor": "Gastric NET often follows gastrin stimulation rather than a universal mutation.",
+      "snv": [
+        "Predisposition/driver — MEN1 loss in MEN1-associated cases"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Other — hypergastrinemia from autoimmune atrophic gastritis or gastrinoma can drive ECL-cell proliferation"
+      ],
+      "pitfall": "Gastric NET categories and grades are merged; many sporadic tumors have no established recurrent defining genomic driver.",
+      "refs": [
+        "v_who_digestive",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_duodenal_and_ampullary_neuroendocrine_tumor",
+      "name": "Duodenal and ampullary neuroendocrine tumor",
+      "system": "Digestive",
+      "aliases": [
+        "Duodenal gastrinoma",
+        "Duodenal somatostatinoma",
+        "Ampullary NET"
+      ],
+      "anchor": "Duodenal NET: consider MEN1 or NF1 context.",
+      "snv": [
+        "Driver — NF1 biallelic inactivation in NF1-associated tumors",
+        "Predisposition/driver — MEN1 inactivation in a hereditary subset"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Syndrome-associated changes do not apply to every sporadic tumor; hormonal variants are merged.",
+      "refs": [
+        "v_who_digestive",
+        "v_duonet",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_jejunoileal_neuroendocrine_tumor",
+      "name": "Jejunoileal neuroendocrine tumor",
+      "system": "Digestive",
+      "aliases": [
+        "Small intestinal carcinoid",
+        "Ileal NET",
+        "Jejunal NET"
+      ],
+      "anchor": "Midgut NET: chromosome 18 loss, occasional CDKN1B.",
+      "snv": [
+        "Driver — CDKN1B inactivating variants (minor subset)"
+      ],
+      "cnv": [
+        "Characteristic — chromosome 18 loss; CDKN1B deletion (subset)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Most do not have a single recurrent sequence mutation; a low mutation burden does not mean benign behavior.",
+      "refs": [
+        "v_who_digestive",
+        "v_sinet"
+      ]
+    },
+    {
+      "id": "v_appendiceal_neuroendocrine_tumor",
+      "name": "Appendiceal neuroendocrine tumor",
+      "system": "Digestive",
+      "aliases": [
+        "Appendiceal carcinoid"
+      ],
+      "anchor": "Appendiceal NET has no reliable one-gene mnemonic.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "No consistent defining recurrent driver established. Goblet cell adenocarcinoma is a different entity; low-grade NETs are included because they have malignant potential.",
+      "refs": [
+        "v_who_digestive",
+        "v_goblet",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_colorectal_neuroendocrine_tumor",
+      "name": "Colorectal neuroendocrine tumor",
+      "system": "Digestive",
+      "aliases": [
+        "Rectal NET",
+        "Colonic NET",
+        "Rectal carcinoid"
+      ],
+      "anchor": "Rectal/colonic NET: low mutation burden and heterogeneous biology.",
+      "snv": [
+        "Recurrent/candidate — PI3K–AKT pathway and chromatin-regulator alterations in small series; no universal driver"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Do not substitute TP53/RB1-heavy NEC profiles for well-differentiated colorectal NETs.",
+      "refs": [
+        "v_who_digestive",
+        "v_rectalnet",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_digestive_neuroendocrine_carcinoma",
+      "name": "Digestive neuroendocrine carcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "Gastrointestinal NEC",
+        "Pancreatic NEC",
+        "Gastric small cell carcinoma",
+        "Colorectal NEC",
+        "Gallbladder NEC",
+        "Esophageal NEC"
+      ],
+      "anchor": "Poorly differentiated digestive NEC: TP53 and RB pathway disruption.",
+      "snv": [
+        "Driver/cooperating — TP53 and RB1 inactivation (frequencies vary by site)",
+        "Driver — KRAS/BRAF activation and APC loss in subsets, particularly colorectal NEC"
+      ],
+      "cnv": [
+        "Cooperating — RB1 deletion; MYC or CCNE1 amplification (subsets)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Esophageal, gastric, intestinal, biliary and pancreatic small-/large-cell NEC are grouped; NET G3 is a different entity.",
+      "refs": [
+        "v_who_digestive",
+        "v_ginec",
+        "v_gepnen",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_digestive_mixed_neuroendocrine_non_neuroendocrine_neoplasm",
+      "name": "Digestive mixed neuroendocrine–non-neuroendocrine neoplasm",
+      "system": "Digestive",
+      "aliases": [
+        "MiNEN",
+        "MANEC",
+        "Mixed adenoneuroendocrine carcinoma"
+      ],
+      "anchor": "MiNEN components often share early carcinoma drivers.",
+      "snv": [
+        "Driver/cooperating — site-dependent TP53, KRAS, APC, BRAF and/or RB1 alterations"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "MiNEN is a morphologic mixed-neoplasm category, not a single genetic disease. Not equivalent to appendiceal goblet cell adenocarcinoma.",
+      "refs": [
+        "v_who_digestive",
+        "v_gepnen",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_gastroblastoma",
+      "name": "Gastroblastoma",
+      "system": "Digestive",
+      "aliases": [],
+      "anchor": "Gastroblastoma: activate GLI via fusion.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — MALAT1::GLI1 (characteristic); other GLI fusions reported"
+      ],
+      "other": [],
+      "pitfall": "Rare low-grade malignant biphasic gastric tumor; a GLI1 fusion requires morphologic correlation.",
+      "refs": [
+        "v_who_digestive",
+        "v_gastroblastoma"
+      ]
+    },
+    {
+      "id": "v_invasive_breast_carcinoma_of_no_special_type",
+      "name": "Invasive breast carcinoma of no special type",
+      "system": "Breast",
+      "aliases": [
+        "Invasive ductal carcinoma",
+        "IDC",
+        "IBC-NST",
+        "Breast carcinoma NST",
+        "Medullary pattern breast carcinoma"
+      ],
+      "anchor": "Common breast carcinoma: PIK3CA/TP53 and subtype-dependent amplifications.",
+      "snv": [
+        "Driver — PIK3CA or AKT1 activating variants; PTEN loss (subsets)",
+        "Cooperating — TP53, GATA3 and MAP3K1 alterations"
+      ],
+      "cnv": [
+        "Driver — ERBB2/HER2 amplification (subset)",
+        "Cooperating — CCND1, FGFR1 or MYC amplification; RB1/PTEN deletion (subsets)"
+      ],
+      "rearr": [],
+      "other": [
+        "Predisposition — BRCA1/BRCA2/PALB2 defects and homologous-recombination deficiency in subsets"
+      ],
+      "pitfall": "ER/PR/HER2 and intrinsic expression classes are not separate histologic entities here; HER2 protein positivity and gene amplification are related but different tests.",
+      "refs": [
+        "v_who_breast",
+        "v_brca"
+      ]
+    },
+    {
+      "id": "v_invasive_lobular_carcinoma_of_breast",
+      "name": "Invasive lobular carcinoma of breast",
+      "system": "Breast",
+      "aliases": [
+        "ILC",
+        "Pleomorphic lobular carcinoma"
+      ],
+      "anchor": "Lobular: lose CDH1/E-cadherin.",
+      "snv": [
+        "Driver — CDH1 inactivation",
+        "Cooperating — PIK3CA, PTEN, FOXA1 and TBX3 alterations"
+      ],
+      "cnv": [
+        "Characteristic — 16q/CDH1 loss; 1q gain"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "CDH1 loss is strongly characteristic but may arise through nonmutational mechanisms; pleomorphic and other variants are merged.",
+      "refs": [
+        "v_who_breast",
+        "v_ilc"
+      ]
+    },
+    {
+      "id": "v_tubular_carcinoma_of_breast",
+      "name": "Tubular carcinoma of breast",
+      "system": "Breast",
+      "aliases": [],
+      "anchor": "Low-grade luminal pathway; no unique defining mutation.",
+      "snv": [
+        "Driver — PIK3CA activating variants (subset)"
+      ],
+      "cnv": [
+        "Characteristic — 16q loss and 1q gain"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Morphology defines tubular carcinoma; these alterations also occur in ordinary low-grade luminal breast cancer.",
+      "refs": [
+        "v_who_breast",
+        "v_specialbreast",
+        "v_brca"
+      ]
+    },
+    {
+      "id": "v_cribriform_carcinoma_of_breast",
+      "name": "Cribriform carcinoma of breast",
+      "system": "Breast",
+      "aliases": [
+        "Invasive cribriform carcinoma"
+      ],
+      "anchor": "Low-grade luminal carcinoma with cribriform architecture.",
+      "snv": [
+        "Driver — PIK3CA activating variants (subset)"
+      ],
+      "cnv": [
+        "Characteristic — low-grade luminal copy-number pattern; often 16q loss/1q gain"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "No distinct recurrent fusion established; do not confuse with adenoid cystic carcinoma.",
+      "refs": [
+        "v_who_breast",
+        "v_specialbreast",
+        "v_brca"
+      ]
+    },
+    {
+      "id": "v_mucinous_carcinoma_of_breast",
+      "name": "Mucinous carcinoma of breast",
+      "system": "Breast",
+      "aliases": [
+        "Colloid carcinoma of breast"
+      ],
+      "anchor": "Mucinous breast carcinoma: luminal biology without one defining gene.",
+      "snv": [
+        "Recurrent — PIK3CA and GATA3 alterations in subsets"
+      ],
+      "cnv": [
+        "Characteristic — often relatively few copy-number changes"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Pure and mixed forms differ; do not use mucinous histology to infer a specific mutation.",
+      "refs": [
+        "v_who_breast",
+        "v_specialbreast"
+      ]
+    },
+    {
+      "id": "v_invasive_micropapillary_carcinoma_of_breast",
+      "name": "Invasive micropapillary carcinoma of breast",
+      "system": "Breast",
+      "aliases": [],
+      "anchor": "Micropapillary architecture is not a unique genomic driver.",
+      "snv": [
+        "Driver/cooperating — PIK3CA and TP53 alterations (subsets)"
+      ],
+      "cnv": [
+        "Driver — ERBB2 amplification in a subset",
+        "Characteristic — 1q gain and 16q loss may occur"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Morphologic reverse polarity is different from the IDH2-defined tall-cell carcinoma with reversed polarity.",
+      "refs": [
+        "v_who_breast",
+        "v_specialbreast",
+        "v_brca"
+      ]
+    },
+    {
+      "id": "v_papillary_carcinoma_of_breast_invasive",
+      "name": "Papillary carcinoma of breast, invasive",
+      "system": "Breast",
+      "aliases": [
+        "Invasive papillary breast carcinoma",
+        "Invasive solid papillary carcinoma",
+        "Invasive encapsulated papillary carcinoma"
+      ],
+      "anchor": "Papillary invasive tumors often follow luminal PI3K signaling.",
+      "snv": [
+        "Driver — PIK3CA or AKT1 activating variants (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Includes invasive papillary carcinoma and invasive components of solid/encapsulated papillary lesions; purely in situ lesions are outside this malignant-invasive scope.",
+      "refs": [
+        "v_who_breast",
+        "v_specialbreast"
+      ]
+    },
+    {
+      "id": "v_carcinoma_with_apocrine_differentiation_of_breast",
+      "name": "Carcinoma with apocrine differentiation of breast",
+      "system": "Breast",
+      "aliases": [
+        "Apocrine breast carcinoma"
+      ],
+      "anchor": "Apocrine: PI3K pathway and sometimes ERBB2.",
+      "snv": [
+        "Driver — PIK3CA activation or PTEN loss (subsets)",
+        "Cooperating — TP53 alterations"
+      ],
+      "cnv": [
+        "Driver — ERBB2 amplification (subset)"
+      ],
+      "rearr": [],
+      "other": [
+        "Phenotype — androgen-receptor expression is common; expression is not a gene mutation"
+      ],
+      "pitfall": "Apocrine morphology does not guarantee an ERBB2 amplification or a specific sequence driver.",
+      "refs": [
+        "v_who_breast",
+        "v_specialbreast",
+        "v_brca"
+      ]
+    },
+    {
+      "id": "v_metaplastic_breast_carcinoma",
+      "name": "Metaplastic breast carcinoma",
+      "system": "Breast",
+      "aliases": [
+        "Squamous carcinoma of breast",
+        "Matrix-producing breast carcinoma",
+        "Spindle-cell breast carcinoma"
+      ],
+      "anchor": "Metaplastic breast: TP53 plus PI3K/Wnt-pathway disruption.",
+      "snv": [
+        "Driver/cooperating — TP53, PIK3CA, PIK3R1, PTEN, ARID1A and FAT1 alterations"
+      ],
+      "cnv": [
+        "Characteristic — complex gains/losses; EGFR amplification in a subset"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Squamous, spindle, matrix-producing and other metaplastic patterns are merged; a triple-negative phenotype is not a mutation.",
+      "refs": [
+        "v_who_breast",
+        "v_breast_metap"
+      ]
+    },
+    {
+      "id": "v_secretory_carcinoma_of_breast",
+      "name": "Secretory carcinoma of breast",
+      "system": "Breast",
+      "aliases": [
+        "Juvenile breast carcinoma"
+      ],
+      "anchor": "Secretory breast: ETV6::NTRK3.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — ETV6::NTRK3 (highly characteristic)"
+      ],
+      "other": [],
+      "pitfall": "The same fusion occurs in other organ sites and infantile fibrosarcoma; morphology and site matter.",
+      "refs": [
+        "v_who_breast",
+        "v_breast_secretory"
+      ]
+    },
+    {
+      "id": "v_adenoid_cystic_carcinoma_of_breast",
+      "name": "Adenoid cystic carcinoma of breast",
+      "system": "Breast",
+      "aliases": [
+        "Breast AdCC"
+      ],
+      "anchor": "Adenoid cystic breast: MYB activation.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — MYB::NFIB; MYBL1 rearrangements in a subset"
+      ],
+      "other": [],
+      "pitfall": "Often triple-negative but genomically different from ordinary high-grade triple-negative breast carcinoma.",
+      "refs": [
+        "v_who_breast",
+        "v_breast_adcc"
+      ]
+    },
+    {
+      "id": "v_acinic_cell_carcinoma_of_breast",
+      "name": "Acinic cell carcinoma of breast",
+      "system": "Breast",
+      "aliases": [],
+      "anchor": "Breast acinic carcinoma resembles triple-negative breast cancer genomically.",
+      "snv": [
+        "Cooperating — TP53 alterations; heterogeneous additional breast-cancer drivers"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Do not assume salivary acinic NR4A3 rearrangement applies to the breast counterpart.",
+      "refs": [
+        "v_who_breast",
+        "v_breast_mecfusion"
+      ]
+    },
+    {
+      "id": "v_mucoepidermoid_carcinoma_of_breast",
+      "name": "Mucoepidermoid carcinoma of breast",
+      "system": "Breast",
+      "aliases": [],
+      "anchor": "Breast mucoepidermoid is rare: fusion status varies between series.",
+      "snv": [
+        "Driver — PIK3CA activating variants in a subset"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Driver — CRTC1::MAML2 reported in a subset; other series lack MAML2 fusions"
+      ],
+      "other": [],
+      "pitfall": "Evidence is limited and conflicting across small cohorts; do not memorize MAML2 as universal in breast MEC.",
+      "refs": [
+        "v_who_breast",
+        "v_breast_mec",
+        "v_breast_mecfusion"
+      ]
+    },
+    {
+      "id": "v_tall_cell_carcinoma_with_reversed_polarity_of_breast",
+      "name": "Tall cell carcinoma with reversed polarity of breast",
+      "system": "Breast",
+      "aliases": [
+        "Solid papillary carcinoma with reverse polarity",
+        "TCCRP"
+      ],
+      "anchor": "Reversed polarity: IDH2 R172, often with PIK3CA.",
+      "snv": [
+        "Driver — IDH2 p.R172 hotspot",
+        "Cooperating — PIK3CA activation (frequent co-event)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Different from invasive micropapillary carcinoma and metastatic tall-cell papillary thyroid carcinoma.",
+      "refs": [
+        "v_who_breast",
+        "v_breast_idh"
+      ]
+    },
+    {
+      "id": "v_neuroendocrine_tumor_of_breast",
+      "name": "Neuroendocrine tumor of breast",
+      "system": "Breast",
+      "aliases": [
+        "Breast NET"
+      ],
+      "anchor": "Breast NET often has luminal/chromatin alterations, not universal MEN1.",
+      "snv": [
+        "Recurrent — FOXA1, TBX3, ARID1A and PIK3CA alterations (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Exclude metastasis from another organ. Older studies used broader definitions including carcinomas with neuroendocrine differentiation.",
+      "refs": [
+        "v_who_breast",
+        "v_breast_net",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_neuroendocrine_carcinoma_of_breast",
+      "name": "Neuroendocrine carcinoma of breast",
+      "system": "Breast",
+      "aliases": [
+        "Small cell carcinoma of breast",
+        "Large cell neuroendocrine carcinoma of breast"
+      ],
+      "anchor": "Breast NEC: TP53/RB pathway disruption.",
+      "snv": [
+        "Driver/cooperating — TP53 and RB1 inactivation, particularly in small-cell NEC"
+      ],
+      "cnv": [
+        "Cooperating — RB1 deletion; occasional MDM2/MDM4 amplification"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Small-/large-cell NEC are merged; exclude metastatic pulmonary NEC and distinguish breast NET.",
+      "refs": [
+        "v_who_breast",
+        "v_breast_nec",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_malignant_adenomyoepithelioma_of_breast",
+      "name": "Malignant adenomyoepithelioma of breast",
+      "system": "Breast",
+      "aliases": [
+        "Adenomyoepithelioma with carcinoma"
+      ],
+      "anchor": "Biphasic breast tumor: HRAS Q61 plus PI3K-pathway changes.",
+      "snv": [
+        "Driver — HRAS Q61 with PIK3CA/PIK3R1 alterations in ER-negative tumors",
+        "Driver — PIK3CA or AKT1 activation in some ER-positive tumors"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "These drivers also occur in benign adenomyoepithelioma and do not by themselves establish malignant transformation.",
+      "refs": [
+        "v_who_breast",
+        "v_breast_ame"
+      ]
+    },
+    {
+      "id": "v_malignant_phyllodes_tumor",
+      "name": "Malignant phyllodes tumor",
+      "system": "Breast",
+      "aliases": [
+        "Malignant phyllodes tumour"
+      ],
+      "anchor": "Phyllodes: stromal MED12; progression often adds TERT.",
+      "snv": [
+        "Driver — MED12 exon 2 variants (subset)",
+        "Progression — TERT promoter, TP53, RB1 or EGFR alterations"
+      ],
+      "cnv": [
+        "Progression — TERT or EGFR amplification (subset)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "MED12 and TERT alterations occur in some nonmalignant fibroepithelial tumors; histology determines grade.",
+      "refs": [
+        "v_who_breast",
+        "v_breast_phyllodes"
+      ]
+    },
+    {
+      "id": "v_papillary_thyroid_carcinoma",
+      "name": "Papillary thyroid carcinoma",
+      "system": "Endocrine",
+      "aliases": [
+        "PTC",
+        "Invasive encapsulated follicular variant of papillary thyroid carcinoma"
+      ],
+      "anchor": "Papillary thyroid: BRAF/RAS or a kinase fusion.",
+      "snv": [
+        "Driver — BRAF V600E; NRAS/HRAS/KRAS variants (alternative subsets)",
+        "Progression — TERT promoter mutation (subset)"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Driver — CCDC6::RET / NCOA4::RET; ETV6::NTRK3 and other NTRK fusions; BRAF fusions (subsets)"
+      ],
+      "other": [],
+      "pitfall": "Histologic variants are merged. BRAF-like and RAS-like biology differ; a RAS mutation alone does not prove malignancy.",
+      "refs": [
+        "v_who_endocrine",
+        "v_ptc",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_follicular_thyroid_carcinoma",
+      "name": "Follicular thyroid carcinoma",
+      "system": "Endocrine",
+      "aliases": [
+        "FTC"
+      ],
+      "anchor": "Follicular thyroid: RAS or PAX8::PPARG.",
+      "snv": [
+        "Driver — NRAS/HRAS/KRAS activating variants",
+        "Cooperating/progression — PTEN, EIF1AX or TERT promoter variants (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Driver — PAX8::PPARG (subset)"
+      ],
+      "other": [],
+      "pitfall": "RAS and PAX8::PPARG can occur in nonmalignant follicular tumors; invasion establishes carcinoma.",
+      "refs": [
+        "v_who_endocrine",
+        "v_ftc",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_oncocytic_thyroid_carcinoma",
+      "name": "Oncocytic thyroid carcinoma",
+      "system": "Endocrine",
+      "aliases": [
+        "Hürthle cell carcinoma",
+        "Hurthle cell carcinoma"
+      ],
+      "anchor": "Oncocytic/Hürthle: mitochondrial complex I plus chromosome loss.",
+      "snv": [
+        "Driver/characteristic — mitochondrial complex-I gene variants (MT-ND genes)",
+        "Cooperating — TERT promoter, TP53, NRAS and DAXX alterations (subsets)"
+      ],
+      "cnv": [
+        "Characteristic — widespread chromosome losses / near-haploidy, sometimes followed by genome doubling"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "A distinct entity from ordinary follicular carcinoma; mitochondrial variants require appropriate testing and interpretation.",
+      "refs": [
+        "v_who_endocrine",
+        "v_oncothyroid",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_differentiated_high_grade_thyroid_carcinoma",
+      "name": "Differentiated high-grade thyroid carcinoma",
+      "system": "Endocrine",
+      "aliases": [
+        "DHGTC"
+      ],
+      "anchor": "Differentiated lineage plus progression events such as TERT.",
+      "snv": [
+        "Driver — BRAF or RAS pathway alterations retained from differentiated precursor",
+        "Progression — TERT promoter and TP53 alterations (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Driver — retained RET/NTRK or other kinase fusions in a subset"
+      ],
+      "other": [],
+      "pitfall": "High grade is defined by mitotic activity/necrosis while retaining differentiation; not synonymous with anaplastic carcinoma.",
+      "refs": [
+        "v_who_endocrine",
+        "v_thyroid_who",
+        "v_highthyroid"
+      ]
+    },
+    {
+      "id": "v_poorly_differentiated_thyroid_carcinoma",
+      "name": "Poorly differentiated thyroid carcinoma",
+      "system": "Endocrine",
+      "aliases": [
+        "PDTC"
+      ],
+      "anchor": "RAS/BRAF background plus TERT and additional tumor-suppressor hits.",
+      "snv": [
+        "Driver — NRAS/HRAS/KRAS or BRAF activation",
+        "Progression/cooperating — TERT promoter, TP53, EIF1AX, PI3K-pathway alterations"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Driver — RET, NTRK or other kinase fusions (minor subset)"
+      ],
+      "other": [],
+      "pitfall": "Diagnosis is morphologic; no single mutation distinguishes it from differentiated or anaplastic carcinoma.",
+      "refs": [
+        "v_who_endocrine",
+        "v_highthyroid",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_anaplastic_thyroid_carcinoma",
+      "name": "Anaplastic thyroid carcinoma",
+      "system": "Endocrine",
+      "aliases": [
+        "ATC",
+        "Undifferentiated thyroid carcinoma",
+        "Primary squamous carcinoma of thyroid"
+      ],
+      "anchor": "Anaplastic thyroid: TP53/TERT with accumulated MAPK and PI3K alterations.",
+      "snv": [
+        "Driver — BRAF V600E or RAS activation (subsets)",
+        "Progression/cooperating — TP53, TERT promoter, PIK3CA/PTEN and SWI/SNF/chromatin-gene alterations"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B loss and heterogeneous focal amplifications"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Includes primary thyroid squamous carcinoma in WHO 5th; not every tumor is BRAF-mutant.",
+      "refs": [
+        "v_who_endocrine",
+        "v_highthyroid",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_medullary_thyroid_carcinoma",
+      "name": "Medullary thyroid carcinoma",
+      "system": "Endocrine",
+      "aliases": [
+        "MTC"
+      ],
+      "anchor": "Medullary: RET point mutation, not the usual papillary RET fusion.",
+      "snv": [
+        "Driver — RET activating variants (somatic or germline; M918T and cysteine variants are examples)",
+        "Driver — HRAS/KRAS activation in some RET-wild-type tumors"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Germline RET causes MEN2; a tumor RET result alone does not determine whether a variant is inherited.",
+      "refs": [
+        "v_who_endocrine",
+        "v_mtc",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_cribriform_morular_thyroid_carcinoma",
+      "name": "Cribriform-morular thyroid carcinoma",
+      "system": "Endocrine",
+      "aliases": [
+        "Cribriform morular variant of papillary thyroid carcinoma"
+      ],
+      "anchor": "Cribriform–morular: APC/CTNNB1 and nuclear beta-catenin.",
+      "snv": [
+        "Driver — APC inactivation (germline or somatic); CTNNB1 activation in a subset"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "WHO 5th treats it as distinct from papillary thyroid carcinoma; association with FAP is not universal.",
+      "refs": [
+        "v_who_endocrine",
+        "v_cribmor",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_thyroblastoma",
+      "name": "Thyroblastoma",
+      "system": "Endocrine",
+      "aliases": [
+        "Malignant teratoid thyroid tumor"
+      ],
+      "anchor": "Thyroid embryonal tumor: DICER1.",
+      "snv": [
+        "Driver — DICER1 RNase IIIb hotspot plus a second inactivating event (characteristic pattern)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Formerly malignant teratoid tumor of thyroid; evidence base is small and morphology is essential.",
+      "refs": [
+        "v_who_endocrine",
+        "v_thyroblastoma",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_spindle_epithelial_tumor_with_thymus_like_differentiation",
+      "name": "Spindle epithelial tumor with thymus-like differentiation",
+      "system": "Endocrine",
+      "aliases": [
+        "SETTLE"
+      ],
+      "anchor": "SETTLE: no established recurrent genomic hallmark.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "SS18::SSX supports synovial sarcoma, not SETTLE. Metastases can occur late despite bland histology.",
+      "refs": [
+        "v_who_endocrine",
+        "v_settle",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_intrathyroidal_thymic_carcinoma",
+      "name": "Intrathyroidal thymic carcinoma",
+      "system": "Endocrine",
+      "aliases": [
+        "CASTLE",
+        "Carcinoma showing thymus-like differentiation"
+      ],
+      "anchor": "Thymic differentiation in the thyroid has no defining recurrent driver.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "CD5/CD117 immunophenotype is not proof of KIT mutation; molecular evidence is limited.",
+      "refs": [
+        "v_who_endocrine",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_secretory_carcinoma_of_thyroid",
+      "name": "Secretory carcinoma of thyroid",
+      "system": "Endocrine",
+      "aliases": [],
+      "anchor": "Thyroid secretory carcinoma: ETV6::NTRK3.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — ETV6::NTRK3"
+      ],
+      "other": [],
+      "pitfall": "NTRK-rearranged papillary thyroid carcinoma is a different histologic diagnosis despite a shared fusion.",
+      "refs": [
+        "v_who_endocrine",
+        "v_thyroid_secretory",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_mucoepidermoid_carcinoma_of_thyroid",
+      "name": "Mucoepidermoid carcinoma of thyroid",
+      "system": "Endocrine",
+      "aliases": [],
+      "anchor": "Thyroid mucoepidermoid carcinoma has no consistent site-wide driver.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Rare and heterogeneous; do not automatically assign the salivary MAML2 hallmark or merge with sclerosing MEC with eosinophilia.",
+      "refs": [
+        "v_who_endocrine",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_sclerosing_mucoepidermoid_carcinoma_with_eosinophilia",
+      "name": "Sclerosing mucoepidermoid carcinoma with eosinophilia",
+      "system": "Endocrine",
+      "aliases": [
+        "SMECE"
+      ],
+      "anchor": "SMECE: a distinct rare thyroid tumor without a reliable mutation mnemonic.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Common thyroid drivers and MAML2 rearrangements were absent in a dedicated series; isolated mutation reports do not establish a universal driver.",
+      "refs": [
+        "v_who_endocrine",
+        "v_smece",
+        "v_thyroid_who"
+      ]
+    },
+    {
+      "id": "v_parathyroid_carcinoma",
+      "name": "Parathyroid carcinoma",
+      "system": "Endocrine",
+      "aliases": [],
+      "anchor": "Parathyroid carcinoma: CDC73/parafibromin.",
+      "snv": [
+        "Driver — CDC73 biallelic inactivation (somatic or germline-plus-somatic)"
+      ],
+      "cnv": [
+        "Driver — CDC73 deletion or allelic loss (can also be copy-neutral LOH)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "CDC73 loss supports a high-risk pathway but can occur in adenomas; malignancy requires invasion/metastatic criteria.",
+      "refs": [
+        "v_who_endocrine",
+        "v_parathyroid"
+      ]
+    },
+    {
+      "id": "v_adrenocortical_carcinoma",
+      "name": "Adrenocortical carcinoma",
+      "system": "Endocrine",
+      "aliases": [
+        "ACC",
+        "Adrenal cortical carcinoma"
+      ],
+      "anchor": "Adrenal cortex: TP53, Wnt and IGF2 dysregulation.",
+      "snv": [
+        "Driver/cooperating — TP53, CTNNB1, PRKAR1A, MEN1 and RB1 alterations (subsets)"
+      ],
+      "cnv": [
+        "Driver/cooperating — ZNRF3 deletion; CDKN2A/RB1 losses; TERT, CDK4 or CCNE1 amplification (subsets)"
+      ],
+      "rearr": [],
+      "other": [
+        "Epigenetic — IGF2 overexpression often relates to 11p15 imprinting/allelic changes"
+      ],
+      "pitfall": "Common benign adrenal adenoma drivers should not be assumed to define carcinoma; variants are merged.",
+      "refs": [
+        "v_who_endocrine",
+        "v_acc"
+      ]
+    },
+    {
+      "id": "v_pheochromocytoma",
+      "name": "Pheochromocytoma",
+      "system": "Endocrine",
+      "aliases": [
+        "Adrenal paraganglioma",
+        "PCC"
+      ],
+      "anchor": "Adrenal medulla: pseudohypoxia, kinase or Wnt routes.",
+      "snv": [
+        "Driver — RET, NF1, HRAS, VHL, SDHx, MAX, TMEM127, FH or EPAS1 alterations (alternative subsets)",
+        "Cooperating — ATRX alterations in a subset"
+      ],
+      "cnv": [
+        "Driver — second-allele losses/deletions involving susceptibility genes (subset)"
+      ],
+      "rearr": [
+        "Driver — UBTF::MAML3 and other MAML3 fusions (rare subset)"
+      ],
+      "other": [],
+      "pitfall": "All have metastatic potential; histology and driver mutation alone cannot label a tumor metastatic. Germline and somatic mechanisms must be distinguished.",
+      "refs": [
+        "v_who_endocrine",
+        "v_ppgl",
+        "v_ppgl_who"
+      ]
+    },
+    {
+      "id": "v_paraganglioma",
+      "name": "Paraganglioma",
+      "system": "Endocrine",
+      "aliases": [
+        "PGL",
+        "Carotid body paraganglioma",
+        "Head and neck paraganglioma"
+      ],
+      "anchor": "Extra-adrenal paraganglioma: remember SDHx, especially SDHB risk.",
+      "snv": [
+        "Driver — SDHB, SDHD, SDHC, SDHA, SDHAF2, VHL, FH or EPAS1 alterations (subsets)",
+        "Cooperating — ATRX/TERT alterations can accompany aggressive behavior"
+      ],
+      "cnv": [
+        "Driver — second-allele loss/deletion involving SDHx or other susceptibility genes"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Sympathetic and parasympathetic tumors are merged; all have metastatic potential. SDHB loss is a pathway marker, not proof of a germline SDHB variant.",
+      "refs": [
+        "v_who_endocrine",
+        "v_ppgl",
+        "v_ppgl_who"
+      ]
+    },
+    {
+      "id": "v_metastatic_pituitary_neuroendocrine_tumor",
+      "name": "Metastatic pituitary neuroendocrine tumor",
+      "system": "Endocrine",
+      "aliases": [
+        "Pituitary carcinoma",
+        "Metastatic PitNET"
+      ],
+      "anchor": "Metastatic PitNET: TP53/ATRX and lineage-dependent alterations.",
+      "snv": [
+        "Cooperating/progression — ATRX and TP53 inactivation in subsets"
+      ],
+      "cnv": [
+        "Cooperating — ATRX deletions and heterogeneous copy-number changes"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Formerly pituitary carcinoma. Metastasis, not local invasion or one mutation, establishes this category; ordinary nonmetastatic PitNETs are excluded.",
+      "refs": [
+        "v_who_endocrine",
+        "v_pitnet",
+        "v_nen_who"
+      ]
+    },
+    {
+      "id": "v_pituitary_blastoma",
+      "name": "Pituitary blastoma",
+      "system": "Endocrine",
+      "aliases": [],
+      "anchor": "Infantile pituitary blastoma: DICER1 two-hit pattern.",
+      "snv": [
+        "Driver — germline DICER1 loss-of-function plus somatic RNase IIIb hotspot (typical pattern)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "An embryonal tumor distinct from PitNET; rare adult cases exist and not every case has a demonstrable germline variant.",
+      "refs": [
+        "v_who_endocrine",
+        "v_pitblast"
+      ]
+    }
+  ],
+  "coverage": {
+    "systems": [
+      "Thoracic",
+      "Digestive",
+      "Breast",
+      "Endocrine"
+    ],
+    "basis": "WHO fifth-edition broad entities, with histologic variants collapsed and molecular literature checked on 2026-10-19. WHO online lists a sixth-edition Digestive volume; this file is not a sixth-edition reconciliation.",
+    "merged": [
+      "Lung adenocarcinoma histologic variants collapsed; sarcomatoid patterns grouped, with pulmonary blastoma retained for distinct molecular teaching.",
+      "Thymoma A/AB/B1–B3 combined; thymic carcinoma subtypes combined.",
+      "GI adenocarcinoma histologic patterns grouped by site; digestive NEC and MiNEN represented as site-family records with searchable site aliases.",
+      "Breast papillary invasive patterns grouped; separate in situ lesions excluded.",
+      "Thyroid variants and PitNET hormonal lineages collapsed; primary thyroid squamous carcinoma included with anaplastic carcinoma."
+    ],
+    "excluded": [
+      "In situ neoplasia, dysplasia, benign tumors and uncertain/intermediate-behavior lesions, including NIFTP, thyroid tumors of uncertain malignant potential, benign/borderline phyllodes tumors and nonmetastatic ordinary PitNET.",
+      "Organ-site lymphomas, germ-cell tumors, melanomas and mesenchymal tumors are cross-system entities intended to be represented in the companion hematology, germ-cell and soft-tissue/bone sections.",
+      "Metastases to these organs are not duplicated as new entities."
+    ],
+    "limitations": [
+      "Broad-entity study abstraction is not a line-by-line reproduction or guarantee of every WHO subtype or newly provisional entity.",
+      "Rare pulmonary epithelial-myoepithelial, thyroid thymic-like/mucoepidermoid and some NET entities have limited molecular data; empty arrays explicitly indicate no established characteristic recurrent alteration for memorization.",
+      "Alteration lists are representative established drivers/cooperating events, not a full mutation catalog; no frequencies or treatment recommendations are supplied.",
+      "Thymomas, carcinoids/NETs, paragangliomas and solid pseudopapillary neoplasms are included despite variable or indolent behavior because of their malignant classification/potential; metastatic status cannot be inferred from a listed mutation.",
+      "Some minor/common histologic breast-type profiles and rare digestive epithelial entities rely on broader study cohorts rather than entity-exclusive large series."
+    ]
+  }
+}

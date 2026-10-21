@@ -1,0 +1,1989 @@
+{
+  "sources": {
+    "nm_cns": {
+      "title": "WHO CNS5: official classification structure",
+      "url": "https://whobluebooks.iarc.who.int/structures/central-nervous-system-tumours/"
+    },
+    "nm_soft": {
+      "title": "WHO5: Soft Tissue and Bone Tumours—official structure",
+      "url": "https://whobluebooks.iarc.who.int/structures/soft-tissue-and-bone-tumours/"
+    },
+    "nm_eye": {
+      "title": "WHO5: Eye and Orbit Tumours—official structure",
+      "url": "https://whobluebooks.iarc.who.int/structures/eyetumours/"
+    },
+    "nm_cns_summary": {
+      "title": "Louis et al. 2021: WHO CNS5 classification summary",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8328013/"
+    },
+    "nm_lgg": {
+      "title": "TCGA: Integrated genomic analysis of diffuse lower-grade gliomas",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4530011/"
+    },
+    "nm_gbm": {
+      "title": "TCGA: Somatic genomic landscape of glioblastoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3910500/"
+    },
+    "nm_dmg": {
+      "title": "Spatial and temporal homogeneity of driver mutations in DIPG",
+      "url": "https://www.nature.com/articles/ncomms11185"
+    },
+    "nm_g34": {
+      "title": "Clinical and molecular landscape of diffuse hemispheric glioma, H3 G34-mutant",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12309718/"
+    },
+    "nm_infant": {
+      "title": "Infant high-grade gliomas: novel kinase fusions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8313225/"
+    },
+    "nm_hgap": {
+      "title": "Expanded molecular analysis of high-grade astrocytoma with piloid features",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9844520/"
+    },
+    "nm_pxa": {
+      "title": "Genetic landscape of anaplastic pleomorphic xanthoastrocytoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7837273/"
+    },
+    "nm_epn": {
+      "title": "Molecular classification of ependymal tumors across CNS compartments",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712639/"
+    },
+    "nm_epn_update": {
+      "title": "cIMPACT-NOW update 7: molecular classification of ependymal tumors",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8018155/"
+    },
+    "nm_cpc": {
+      "title": "Molecular characterization of choroid plexus tumors",
+      "url": "https://aacrjournals.org/clincancerres/article/21/1/184/14077/Molecular-Characterization-of-Choroid-Plexus"
+    },
+    "nm_mb": {
+      "title": "Whole-genome landscape of medulloblastoma subtypes",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5905700/"
+    },
+    "nm_atrt": {
+      "title": "ATRT: three epigenetic subgroups with distinct enhancer landscapes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26923874/"
+    },
+    "nm_etmr": {
+      "title": "Molecular landscape of ETMR at diagnosis and relapse",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6908757/"
+    },
+    "nm_pnet": {
+      "title": "New brain tumor entities emerge from molecular classification of CNS-PNETs",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5139621/"
+    },
+    "nm_pb": {
+      "title": "Pineoblastoma segregates into molecular subgroups",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7673644/"
+    },
+    "nm_pptid": {
+      "title": "Recurrent KBTBD4 insertions distinguish PPTID from pineoblastoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6483828/"
+    },
+    "nm_ptpr": {
+      "title": "Papillary tumor of the pineal region: a distinct molecular entity",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8029206/"
+    },
+    "nm_mening": {
+      "title": "Molecular prognostication in grade 3 meningiomas",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10824160/"
+    },
+    "nm_cns_dicer": {
+      "title": "Primary intracranial sarcoma: DICER1 mutations and distinct methylation profile",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29881993/"
+    },
+    "nm_dlgnt": {
+      "title": "Molecularly defined DLGNT: two subgroups with distinct genetic features",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29766299/"
+    },
+    "nm_seer_dlgnt": {
+      "title": "SEER: DLGNT malignant behavior coding clarification",
+      "url": "https://seer.cancer.gov/seer-inquiry/inquiry-detail/20240008/"
+    },
+    "nm_tcga_sarc": {
+      "title": "TCGA: comprehensive genomic characterization of adult soft tissue sarcomas",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5693358/"
+    },
+    "nm_sarc_seq": {
+      "title": "Clinical sequencing of soft tissue and bone sarcomas",
+      "url": "https://www.nature.com/articles/s41467-022-30453-x"
+    },
+    "nm_sarc_prof": {
+      "title": "Clinical genomic profiling of 7,494 soft tissue and bone sarcomas",
+      "url": "https://www.nature.com/articles/s41467-022-30496-0"
+    },
+    "nm_lipo": {
+      "title": "Myxoid pleomorphic liposarcoma: genomic and clinicopathologic study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9613513/"
+    },
+    "nm_rms": {
+      "title": "International consortium: genomic classification of rhabdomyosarcoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8425837/"
+    },
+    "nm_sft": {
+      "title": "Solitary fibrous tumors: NAB2::STAT6 variants and clinicopathology",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0002944014000212"
+    },
+    "nm_sef": {
+      "title": "Genetic dichotomy of pure SEF and hybrid SEF/LGFMS",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4232448/"
+    },
+    "nm_ifs": {
+      "title": "Discovery of ETV6::NTRK3 in congenital fibrosarcoma",
+      "url": "https://www.nature.com/articles/ng0298-184"
+    },
+    "nm_ntrk": {
+      "title": "Kinase fusion spindle cell tumors: RAF1, BRAF, NTRK1/2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6746236/"
+    },
+    "nm_ntrk3": {
+      "title": "NTRK fusions in a sarcoma series: pathology and molecular findings",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9130470/"
+    },
+    "nm_mifs": {
+      "title": "Deep sequencing of myxoinflammatory fibroblastic sarcoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31898851/"
+    },
+    "nm_angio": {
+      "title": "Targeted sequencing of angiosarcoma: MAPK and vascular pathway alterations",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4742160/"
+    },
+    "nm_ehe": {
+      "title": "Epithelioid hemangioendothelioma: molecular analysis of 39 cases",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4100035/"
+    },
+    "nm_mpnst": {
+      "title": "PRC2 inactivation by EED or SUZ12 loss in MPNST",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4249650/"
+    },
+    "nm_melnerve": {
+      "title": "PRKAR1A mutations in melanotic nerve sheath tumors",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6446921/"
+    },
+    "nm_myo": {
+      "title": "Genetically confirmed myoepithelial tumors of soft tissue, bone and viscera",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7170037/"
+    },
+    "nm_pecoma": {
+      "title": "Dichotomy of genetic abnormalities in PEComas",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4431898/"
+    },
+    "nm_intimal": {
+      "title": "Genomic alterations in intimal sarcoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6770224/"
+    },
+    "nm_emc": {
+      "title": "Extraskeletal myxoid chondrosarcoma: NR4A3 fusion cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36948401/"
+    },
+    "nm_smarcb1": {
+      "title": "Genetic landscape of SMARCB1 alterations in mesenchymal neoplasms",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36088476/"
+    },
+    "nm_round": {
+      "title": "Methylation distinguishes EWSR1::NFATC2 sarcoma from Ewing sarcoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7607515/"
+    },
+    "nm_round2": {
+      "title": "Methylation profiling in small round cell sarcomas",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7484949/"
+    },
+    "nm_synovial": {
+      "title": "Fusion transcript identification: Italian ACC sarcoma cohort",
+      "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.00489/full"
+    },
+    "nm_ccs": {
+      "title": "Clear cell sarcoma: molecular analysis of 33 cases",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18300804/"
+    },
+    "nm_dsrct": {
+      "title": "Comprehensive molecular profiling of desmoplastic small round cell tumor",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8293793/"
+    },
+    "nm_asps": {
+      "title": "Functional genomic analysis of the ASPSCR1::TFE3 oncoprotein",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4083568/"
+    },
+    "nm_osteo": {
+      "title": "Clinical sequencing of pediatric and adult osteosarcoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6825534/"
+    },
+    "nm_osteo_sv": {
+      "title": "Recurrent structural variation in pediatric osteosarcoma",
+      "url": "https://www.sciencedirect.com/science/article/pii/S221112471400165X"
+    },
+    "nm_chondro": {
+      "title": "Genomic characterization of chondrosarcoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11949235/"
+    },
+    "nm_meschondro": {
+      "title": "Discovery of HEY1::NCOA2 in mesenchymal chondrosarcoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3235801/"
+    },
+    "nm_chordoma": {
+      "title": "Whole-genome sequencing of skull-base chordoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7859411/"
+    },
+    "nm_adam": {
+      "title": "Comprehensive molecular characterization of adamantinoma",
+      "url": "https://doi.org/10.1097/PAS.0000000000001251"
+    },
+    "nm_gctb": {
+      "title": "Malignant giant cell tumor: clinicopathologic and genetic series of 28 cases",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40077813/"
+    },
+    "nm_gctb_loss": {
+      "title": "Absence of H3F3A in a subset of malignant giant cell tumors",
+      "url": "https://www.nature.com/articles/s41379-019-0318-5"
+    },
+    "nm_glomus": {
+      "title": "MIR143::NOTCH fusions in benign and malignant glomus tumors",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3889711/"
+    },
+    "nm_ofmt": {
+      "title": "PHF1-associated fusions in ossifying fibromyxoid tumors",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4053209/"
+    },
+    "nm_pmt": {
+      "title": "Malignant phosphaturic mesenchymal tumor with FN1::FGFR1 fusion",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12947606/"
+    },
+    "nm_granular": {
+      "title": "Whole-genome sequencing of malignant granular cell tumor",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4850888/"
+    },
+    "nm_ecto": {
+      "title": "HRAS mutations in malignant ectomesenchymoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4905780/"
+    },
+    "nm_nb": {
+      "title": "Genetic landscape of high-risk neuroblastoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3682833/"
+    },
+    "nm_nbtert": {
+      "title": "Telomerase activation by genomic rearrangement in neuroblastoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4881306/"
+    },
+    "nm_uvea": {
+      "title": "TCGA: four molecular and clinical subsets in uveal melanoma",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1535610817302957"
+    },
+    "nm_uvea_wgs": {
+      "title": "Whole-genome landscapes of uveal melanoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7229209/"
+    },
+    "nm_retino": {
+      "title": "Retinoblastoma genomic alterations beyond RB1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4850475/"
+    },
+    "nm_retino_wgs": {
+      "title": "Retinoblastoma: whole-genome analysis of RB1 rearrangements",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918943/"
+    },
+    "nm_medulloeye": {
+      "title": "DICER1 and KMT2D mutations in intraocular medulloepithelioma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26841698/"
+    },
+    "nm_prostate": {
+      "title": "Molecular reappraisal of specialized prostatic stromal tumors",
+      "url": "https://www.nature.com/articles/s41379-021-00818-6"
+    },
+    "nm_odont": {
+      "title": "Ameloblastic fibrosarcoma: BRAF and NRAS in a seven-case molecular series",
+      "url": "https://edoc.unibas.ch/entities/publication/7656555b-1990-4f19-bc83-d954dd2fa87a"
+    },
+    "nm_jaw": {
+      "title": "WHO-aligned update of malignant craniofacial bone tumors",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9301068/"
+    }
+  },
+  "entities": [
+    {
+      "id": "nm-astro",
+      "name": "Astrocytoma, IDH-mutant",
+      "system": "CNS",
+      "aliases": [],
+      "anchor": "IDH + TP53/ATRX; no whole-arm 1p/19q codeletion.",
+      "snv": [
+        "Defining — IDH1 R132 or IDH2 R172 mutation",
+        "Cooperating — TP53 and ATRX loss-of-function mutations"
+      ],
+      "cnv": [
+        "Grading — CDKN2A/B homozygous deletion establishes CNS WHO grade 4"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Grades 2–4 are one tumor type; an IDH-mutant grade 4 astrocytoma is not called glioblastoma.",
+      "refs": [
+        "nm_cns",
+        "nm_lgg",
+        "nm_cns_summary"
+      ]
+    },
+    {
+      "id": "nm-oligo",
+      "name": "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted",
+      "system": "CNS",
+      "aliases": [
+        "Oligodendroglioma"
+      ],
+      "anchor": "Oligo = IDH + whole-arm 1p/19q loss.",
+      "snv": [
+        "Defining — IDH1 or IDH2 mutation",
+        "Cooperating — TERT promoter, CIC and FUBP1 mutations"
+      ],
+      "cnv": [
+        "Defining — Combined whole-arm 1p and 19q deletion"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Both IDH mutation and whole-arm codeletion are required; isolated/partial deletions do not qualify.",
+      "refs": [
+        "nm_cns",
+        "nm_lgg"
+      ]
+    },
+    {
+      "id": "nm-gbm",
+      "name": "Glioblastoma, IDH-wildtype",
+      "system": "CNS",
+      "aliases": [
+        "GBM"
+      ],
+      "anchor": "EGFR, TERT, or +7/−10 in the appropriate adult diffuse glioma.",
+      "snv": [
+        "Driver — TERT promoter and EGFR mutations (subsets)",
+        "Cooperating — PTEN, NF1, TP53 and PI3K-pathway mutations"
+      ],
+      "cnv": [
+        "Driver — EGFR amplification",
+        "Characteristic — Whole chromosome 7 gain with chromosome 10 loss",
+        "Cooperating — CDKN2A/B deletion; PDGFRA or CDK4 amplification (subsets)"
+      ],
+      "rearr": [
+        "Driver — EGFR intragenic rearrangements such as EGFRvIII; FGFR3::TACC3 (small subset)"
+      ],
+      "other": [
+        "Predictive biomarker — MGMT promoter methylation is epigenetic, not a defining driver."
+      ],
+      "pitfall": "Molecular diagnostic criteria require appropriate age, site and diffuse astrocytic context; exclude pediatric-type and other molecular gliomas.",
+      "refs": [
+        "nm_cns",
+        "nm_gbm",
+        "nm_cns_summary"
+      ]
+    },
+    {
+      "id": "nm-dmg",
+      "name": "Diffuse midline glioma, H3 K27-altered",
+      "system": "CNS",
+      "aliases": [
+        "DIPG",
+        "H3 K27M glioma"
+      ],
+      "anchor": "Midline + loss of H3K27 methylation.",
+      "snv": [
+        "Defining — H3-3A/H3F3A or H3C-family K27M mutation (major subset)",
+        "Driver — EGFR mutation in an alternative molecular subset",
+        "Cooperating — ACVR1, TP53, PPM1D or PI3K-pathway mutations (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Defining — EZHIP overexpression can produce H3K27me3 loss without an H3 mutation."
+      ],
+      "pitfall": "K27M alone outside a diffuse midline glioma does not establish this diagnosis. Histone legacy numbering is used.",
+      "refs": [
+        "nm_cns",
+        "nm_dmg",
+        "nm_cns_summary"
+      ]
+    },
+    {
+      "id": "nm-g34",
+      "name": "Diffuse hemispheric glioma, H3 G34-mutant",
+      "system": "CNS",
+      "aliases": [],
+      "anchor": "G34 goes with hemispheres, TP53 and ATRX.",
+      "snv": [
+        "Defining — H3-3A (H3F3A) G34R/V mutation",
+        "Cooperating — TP53 and ATRX loss; PDGFRA activating mutation"
+      ],
+      "cnv": [
+        "Cooperating — PDGFRA amplification; CDKN2A/B deletion (subsets)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "This is a distinct pediatric-type high-grade glioma, including cases in adults; histone legacy G34 numbering is used.",
+      "refs": [
+        "nm_cns",
+        "nm_g34"
+      ]
+    },
+    {
+      "id": "nm-pedhgg",
+      "name": "Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype",
+      "system": "CNS",
+      "aliases": [],
+      "anchor": "Pediatric H3/IDH-wildtype high-grade tumors need a positive molecular identity.",
+      "snv": [
+        "Cooperating — TP53 or other pathway mutations (variable)"
+      ],
+      "cnv": [
+        "Driver — PDGFRA, EGFR or MYCN amplification in associated molecular groups"
+      ],
+      "rearr": [],
+      "other": [
+        "Defining context — Appropriate methylation class supports diagnosis; RTK1, RTK2 and MYCN-associated groups exist."
+      ],
+      "pitfall": "H3-wildtype plus IDH-wildtype alone is insufficient; this is not simply childhood glioblastoma.",
+      "refs": [
+        "nm_cns",
+        "nm_cns_summary"
+      ]
+    },
+    {
+      "id": "nm-infant",
+      "name": "Infant-type hemispheric glioma",
+      "system": "CNS",
+      "aliases": [],
+      "anchor": "Infant hemispheric glioma: look for a kinase fusion.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — ALK, NTRK1/2/3, ROS1 or MET fusion (alternative subsets)"
+      ],
+      "other": [],
+      "pitfall": "Fusion partner varies; absence of a detectable kinase fusion does not by itself exclude the integrated entity.",
+      "refs": [
+        "nm_cns",
+        "nm_infant"
+      ]
+    },
+    {
+      "id": "nm-hgap",
+      "name": "High-grade astrocytoma with piloid features",
+      "system": "CNS",
+      "aliases": [
+        "HGAP"
+      ],
+      "anchor": "MAPK activation + CDKN2A/B loss + a defining methylation profile.",
+      "snv": [
+        "Driver — NF1, BRAF or FGFR1 pathway mutation (alternative subsets)",
+        "Cooperating — ATRX mutation"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B homozygous deletion"
+      ],
+      "rearr": [
+        "Driver — BRAF or other MAPK-pathway fusion (subset)"
+      ],
+      "other": [
+        "Defining — DNA methylation profile is essential to this entity."
+      ],
+      "pitfall": "Piloid morphology or a MAPK mutation alone does not establish HGAP.",
+      "refs": [
+        "nm_cns",
+        "nm_hgap"
+      ]
+    },
+    {
+      "id": "nm-pxa",
+      "name": "Pleomorphic xanthoastrocytoma",
+      "system": "CNS",
+      "aliases": [
+        "PXA",
+        "Anaplastic PXA"
+      ],
+      "anchor": "PXA pairs BRAF/RAF activation with CDKN2A/B loss.",
+      "snv": [
+        "Driver — BRAF V600E (common subset)",
+        "Cooperating — TERT promoter mutation (especially higher-grade tumors)"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B homozygous deletion"
+      ],
+      "rearr": [
+        "Driver — BRAF or RAF1 fusion/rearrangement (alternative subset)"
+      ],
+      "other": [],
+      "pitfall": "Includes grades 2 and 3; grade 2 does not mean a benign tumor. Molecular findings overlap with other gliomas.",
+      "refs": [
+        "nm_cns",
+        "nm_pxa"
+      ]
+    },
+    {
+      "id": "nm-astroblast",
+      "name": "Astroblastoma, MN1-altered",
+      "system": "CNS",
+      "aliases": [
+        "Astroblastoma"
+      ],
+      "anchor": "Astroblastoma: MN1 rearrangement.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — MN1 rearrangement, usually MN1::BEND2; MN1::CXXC5 in a subset"
+      ],
+      "other": [
+        "Classification — DNA methylation helps resolve histologic mimics."
+      ],
+      "pitfall": "Astroblastic architecture is not specific; molecular identity matters. A uniform CNS WHO grade is not assigned.",
+      "refs": [
+        "nm_cns",
+        "nm_pnet"
+      ]
+    },
+    {
+      "id": "nm-dlgnt",
+      "name": "Diffuse leptomeningeal glioneuronal tumor",
+      "system": "CNS",
+      "aliases": [
+        "DLGNT"
+      ],
+      "anchor": "MAPK fusion + 1p loss, without IDH mutation.",
+      "snv": [],
+      "cnv": [
+        "Characteristic — 1p loss; 1q gain marks an important molecular subset"
+      ],
+      "rearr": [
+        "Driver — KIAA1549::BRAF (common); other MAPK-pathway fusions in subsets"
+      ],
+      "other": [
+        "Classification — Distinct methylation groups; malignant behavior coding does not imply uniformly high-grade histology."
+      ],
+      "pitfall": "Some tumors initially lack diffuse leptomeningeal spread. Do not call this oligodendroglioma from 1p loss alone.",
+      "refs": [
+        "nm_cns",
+        "nm_dlgnt",
+        "nm_seer_dlgnt"
+      ]
+    },
+    {
+      "id": "nm-epn",
+      "name": "Ependymoma",
+      "system": "CNS",
+      "aliases": [
+        "Supratentorial ependymoma",
+        "Posterior fossa ependymoma",
+        "Spinal ependymoma",
+        "ZFTA",
+        "PFA",
+        "PFB"
+      ],
+      "anchor": "Supratentorial fusions; posterior fossa epigenetics; spinal NF2/MYCN.",
+      "snv": [
+        "Driver — NF2 loss-of-function (spinal subset)"
+      ],
+      "cnv": [
+        "Defining — MYCN amplification in spinal ependymoma, MYCN-amplified",
+        "Characteristic — 22q loss in spinal tumors; 1q gain in subsets"
+      ],
+      "rearr": [
+        "Defining — ZFTA::RELA or other ZFTA fusion; YAP1::MAMLD1 or other YAP1 fusion (separate supratentorial types)"
+      ],
+      "other": [
+        "Defining — Posterior fossa PFA/PFB methylation groups; PFA commonly shows EZHIP-associated H3K27me3 loss."
+      ],
+      "pitfall": "These alterations describe alternative WHO entities within the broad family, not one co-occurring panel. Subependymoma is excluded.",
+      "refs": [
+        "nm_cns",
+        "nm_epn",
+        "nm_epn_update"
+      ]
+    },
+    {
+      "id": "nm-cpc",
+      "name": "Choroid plexus carcinoma",
+      "system": "CNS",
+      "aliases": [],
+      "anchor": "Choroid plexus carcinoma: remember TP53.",
+      "snv": [
+        "Driver — TP53 inactivation (somatic or germline-associated subset)"
+      ],
+      "cnv": [
+        "Characteristic — Complex chromosome gains and losses"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "TP53-wildtype cases occur; a tumor TP53 variant alone does not prove a germline syndrome.",
+      "refs": [
+        "nm_cns",
+        "nm_cpc"
+      ]
+    },
+    {
+      "id": "nm-mb",
+      "name": "Medulloblastoma",
+      "system": "CNS",
+      "aliases": [],
+      "anchor": "WNT→CTNNB1; SHH→PTCH1/SMO/SUFU; group 3/4→MYC-family and chromatin.",
+      "snv": [
+        "Driver — CTNNB1 activation or APC loss (WNT)",
+        "Driver — PTCH1, SUFU or SMO mutation (SHH); TP53 defines a key SHH subset",
+        "Driver/cooperating — KBTBD4 insertions and chromatin-regulator mutations (non-WNT/non-SHH subsets)"
+      ],
+      "cnv": [
+        "Characteristic — Monosomy 6 (WNT subset)",
+        "Driver — MYC amplification (group 3 enriched); MYCN or CDK6 amplification (subsets)",
+        "Characteristic — Isochromosome 17q (non-WNT/non-SHH enriched)"
+      ],
+      "rearr": [
+        "Driver — Enhancer-hijacking rearrangements involving GFI1/GFI1B or PRDM6 (subsets)"
+      ],
+      "other": [
+        "Defining — Molecular groups are integrated with methylation/expression findings."
+      ],
+      "pitfall": "No single mutation covers every medulloblastoma; group names are not interchangeable with histologic patterns.",
+      "refs": [
+        "nm_cns",
+        "nm_mb"
+      ]
+    },
+    {
+      "id": "nm-atrt",
+      "name": "Atypical teratoid/rhabdoid tumor",
+      "system": "CNS",
+      "aliases": [
+        "ATRT",
+        "AT/RT"
+      ],
+      "anchor": "ATRT = SWI/SNF loss, usually SMARCB1.",
+      "snv": [
+        "Defining — Biallelic SMARCB1 inactivation; rare SMARCA4-inactivated tumors"
+      ],
+      "cnv": [
+        "Defining — SMARCB1 deletion is a common inactivation mechanism"
+      ],
+      "rearr": [
+        "Defining — Structural disruption of SMARCB1 (subset)"
+      ],
+      "other": [
+        "Classification — Epigenetic groups exist despite few additional recurrent mutations."
+      ],
+      "pitfall": "Loss of INI1/SMARCB1 protein is a clue, not itself a DNA deletion result; other tumor types also lose SMARCB1.",
+      "refs": [
+        "nm_cns",
+        "nm_atrt",
+        "nm_smarcb1",
+        "nm_cns_summary"
+      ]
+    },
+    {
+      "id": "nm-etmr",
+      "name": "Embryonal tumor with multilayered rosettes",
+      "system": "CNS",
+      "aliases": [
+        "ETMR"
+      ],
+      "anchor": "ETMR: microRNA machinery—C19MC or DICER1.",
+      "snv": [
+        "Driver — DICER1 alterations in a subset without C19MC amplification"
+      ],
+      "cnv": [
+        "Driver — C19MC microRNA-cluster amplification; MIR17HG amplification in rare alternative cases"
+      ],
+      "rearr": [
+        "Driver — C19MC-region rearrangement, including TTYH1::C19MC-associated events"
+      ],
+      "other": [],
+      "pitfall": "C19MC amplification is not universal. Historical CNS medulloepithelioma/ependymoblastoma patterns overlap this family.",
+      "refs": [
+        "nm_cns",
+        "nm_etmr"
+      ]
+    },
+    {
+      "id": "nm-foxr2",
+      "name": "CNS neuroblastoma, FOXR2-activated",
+      "system": "CNS",
+      "aliases": [
+        "CNS NB-FOXR2"
+      ],
+      "anchor": "CNS FOXR2 is different from peripheral ALK/MYCN neuroblastoma.",
+      "snv": [],
+      "cnv": [
+        "Characteristic — Chromosome 1q gain"
+      ],
+      "rearr": [
+        "Driver — Structural events activating FOXR2 (variable architecture)"
+      ],
+      "other": [
+        "Defining — FOXR2 activation with an appropriate methylation profile."
+      ],
+      "pitfall": "FOXR2 expression/activation is the key; a single fixed fusion partner is not required.",
+      "refs": [
+        "nm_cns",
+        "nm_pnet"
+      ]
+    },
+    {
+      "id": "nm-bcorcns",
+      "name": "CNS tumor with BCOR internal tandem duplication",
+      "system": "CNS",
+      "aliases": [
+        "CNS BCOR-ITD"
+      ],
+      "anchor": "CNS BCOR tumor: exon 15 internal tandem duplication.",
+      "snv": [
+        "Defining — BCOR exon 15 internal tandem duplication (ITD)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "BCOR immunostaining alone does not prove an ITD; BCOR fusions in other sarcomas are different alterations.",
+      "refs": [
+        "nm_cns",
+        "nm_pnet"
+      ]
+    },
+    {
+      "id": "nm-embnos",
+      "name": "CNS embryonal tumor, NOS/NEC",
+      "system": "CNS",
+      "aliases": [
+        "CNS-PNET"
+      ],
+      "anchor": "Unresolved embryonal category: no universal genetic driver.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Unresolved — Molecular workup has not assigned a recognized specific embryonal entity."
+      ],
+      "pitfall": "NOS reflects missing/insufficient classification information; NEC reflects an investigated tumor outside established entities. Not one molecular disease.",
+      "refs": [
+        "nm_cns",
+        "nm_cns_summary"
+      ]
+    },
+    {
+      "id": "nm-pineoblast",
+      "name": "Pineoblastoma",
+      "system": "CNS",
+      "aliases": [],
+      "anchor": "Pineoblastoma: microRNA processing, RB1, or MYC/FOXR2.",
+      "snv": [
+        "Driver — DICER1, DROSHA or DGCR8 defects (miRNA-associated groups)",
+        "Driver — RB1 inactivation (RB-associated group)"
+      ],
+      "cnv": [
+        "Driver — DROSHA/DGCR8 or RB1 loss; MYC amplification (group-dependent)"
+      ],
+      "rearr": [],
+      "other": [
+        "Classification — MYC/FOXR2 activation and distinct methylation groups are important."
+      ],
+      "pitfall": "Listed abnormalities belong to alternative groups; not every pineoblastoma is DICER1-mutant.",
+      "refs": [
+        "nm_cns",
+        "nm_pb"
+      ]
+    },
+    {
+      "id": "nm-pptid",
+      "name": "Pineal parenchymal tumor of intermediate differentiation",
+      "system": "CNS",
+      "aliases": [
+        "PPTID"
+      ],
+      "anchor": "PPTID: KBTBD4 insertion.",
+      "snv": [
+        "Driver — Recurrent small in-frame KBTBD4 insertion (subset)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "“Intermediate differentiation” is the entity name, not synonymous with benign/intermediate behavior. No single mutation fully grades it.",
+      "refs": [
+        "nm_cns",
+        "nm_pptid"
+      ]
+    },
+    {
+      "id": "nm-ptpr",
+      "name": "Papillary tumor of the pineal region",
+      "system": "CNS",
+      "aliases": [
+        "PTPR"
+      ],
+      "anchor": "Papillary pineal tumor: chromosome 10 loss; PTEN in a subset.",
+      "snv": [
+        "Driver — PTEN inactivation (subset)"
+      ],
+      "cnv": [
+        "Characteristic — Chromosome 10 loss"
+      ],
+      "rearr": [],
+      "other": [
+        "Classification — Distinct DNA methylation profile."
+      ],
+      "pitfall": "PTEN mutations are variable across cohorts; chromosome 10 loss is not uniquely diagnostic.",
+      "refs": [
+        "nm_cns",
+        "nm_ptpr"
+      ]
+    },
+    {
+      "id": "nm-mening",
+      "name": "Meningioma, CNS WHO grade 3",
+      "system": "CNS",
+      "aliases": [
+        "Anaplastic meningioma",
+        "Malignant meningioma"
+      ],
+      "anchor": "Grade 3 molecular flags: TERT promoter or CDKN2A/B homozygous loss.",
+      "snv": [
+        "Grading — TERT promoter mutation",
+        "Driver/cooperating — NF2 or BAP1 inactivation (subsets)"
+      ],
+      "cnv": [
+        "Grading — CDKN2A and/or CDKN2B homozygous deletion",
+        "Characteristic — Accumulated chromosomal losses in aggressive tumors"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Only grade 3 is included here. Grade 3 can be assigned by histology or qualifying molecular findings; rhabdoid morphology alone is insufficient.",
+      "refs": [
+        "nm_cns",
+        "nm_mening",
+        "nm_cns_summary"
+      ]
+    },
+    {
+      "id": "nm-cnsdicer",
+      "name": "Primary intracranial sarcoma, DICER1-mutant",
+      "system": "CNS",
+      "aliases": [],
+      "anchor": "Intracranial sarcoma: DICER1 plus MAPK/TP53.",
+      "snv": [
+        "Defining — DICER1 RNase IIIb hotspot mutation, often with second-allele inactivation",
+        "Cooperating — TP53; KRAS or NF1 pathway alterations (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "A DICER1 alteration must be interpreted with histology/site and methylation classification; tumor-only findings do not establish germline status.",
+      "refs": [
+        "nm_cns",
+        "nm_cns_dicer"
+      ]
+    },
+    {
+      "id": "nm-lipo",
+      "name": "Liposarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Dedifferentiated liposarcoma",
+        "Myxoid liposarcoma",
+        "Pleomorphic liposarcoma",
+        "Myxoid pleomorphic liposarcoma",
+        "Well-differentiated liposarcoma"
+      ],
+      "anchor": "Three routes: MDM2 amplification, DDIT3 fusion, or complex TP53/RB1 damage.",
+      "snv": [
+        "Cooperating — TP53 and ATRX alterations (pleomorphic/myxoid pleomorphic subsets)",
+        "Cooperating — TERT promoter and PIK3CA alterations (myxoid subset)"
+      ],
+      "cnv": [
+        "Defining — MDM2 amplification, often with CDK4 (well-differentiated/dedifferentiated)",
+        "Cooperating — RB1 loss (pleomorphic/myxoid pleomorphic subsets)"
+      ],
+      "rearr": [
+        "Defining — FUS::DDIT3 or EWSR1::DDIT3 (myxoid)"
+      ],
+      "other": [],
+      "pitfall": "Keep the molecular subsets separate in memory. Atypical lipomatous tumor is an intermediate counterpart and is outside the malignant-only scope.",
+      "refs": [
+        "nm_soft",
+        "nm_tcga_sarc",
+        "nm_lipo"
+      ]
+    },
+    {
+      "id": "nm-lms",
+      "name": "Leiomyosarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Uterine leiomyosarcoma",
+        "Leiomyosarcoma of bone",
+        "Inflammatory leiomyosarcoma"
+      ],
+      "anchor": "Smooth muscle sarcoma: TP53, RB1, ATRX; complex genome.",
+      "snv": [
+        "Driver/cooperating — TP53, RB1, ATRX and PTEN inactivation (subsets)"
+      ],
+      "cnv": [
+        "Cooperating — RB1/PTEN loss; MYOCD amplification (subset)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "No universal defining fusion. Covers soft tissue, uterine and primary bone sites; the inflammatory subtype has distinctive near-haploid genomes.",
+      "refs": [
+        "nm_soft",
+        "nm_tcga_sarc"
+      ]
+    },
+    {
+      "id": "nm-rms",
+      "name": "Rhabdomyosarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Embryonal rhabdomyosarcoma",
+        "Alveolar rhabdomyosarcoma",
+        "Pleomorphic rhabdomyosarcoma",
+        "Spindle cell sclerosing rhabdomyosarcoma"
+      ],
+      "anchor": "RMS: FOXO1 fusion, RAS pathway, or MYOD1.",
+      "snv": [
+        "Driver — HRAS/KRAS/NRAS, FGFR4 or PIK3CA activation (fusion-negative subsets)",
+        "Driver — MYOD1 L122R (spindle/sclerosing subset)",
+        "Cooperating — TP53; DICER1 in selected anatomic subsets"
+      ],
+      "cnv": [
+        "Cooperating — 11p15 allelic imbalance; MYCN/CDK4 amplification (subsets)"
+      ],
+      "rearr": [
+        "Defining — PAX3::FOXO1 or PAX7::FOXO1 (fusion-positive subset)",
+        "Driver — VGLL2/NCOA2-associated fusions in infantile spindle-cell tumors; TFCP2 fusions in a rare intraosseous subset"
+      ],
+      "other": [],
+      "pitfall": "Broad family includes embryonal, alveolar, pleomorphic and spindle/sclerosing tumors. Histologic alveolar appearance is not equivalent to FOXO1 fusion.",
+      "refs": [
+        "nm_soft",
+        "nm_rms"
+      ]
+    },
+    {
+      "id": "nm-sft",
+      "name": "Solitary fibrous tumor, malignant/high-risk",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Hemangiopericytoma",
+        "Malignant solitary fibrous tumor"
+      ],
+      "anchor": "Solitary fibrous tumor: NAB2::STAT6.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — NAB2::STAT6"
+      ],
+      "other": [],
+      "pitfall": "The fusion identifies the tumor family, not malignant behavior; risk assessment remains clinicopathologic. Includes malignant CNS SFT.",
+      "refs": [
+        "nm_soft",
+        "nm_sft"
+      ]
+    },
+    {
+      "id": "nm-fibro",
+      "name": "Adult-type fibrosarcoma / fibrosarcoma of bone",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Adult fibrosarcoma",
+        "Fibrosarcoma of bone"
+      ],
+      "anchor": "A diagnosis of exclusion; no universal molecular hallmark.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Unresolved — No established recurrent defining driver for conventional adult-type fibrosarcoma."
+      ],
+      "pitfall": "Exclude fusion-defined mimics and other differentiated sarcomas before using this diagnosis.",
+      "refs": [
+        "nm_soft",
+        "nm_sarc_seq"
+      ]
+    },
+    {
+      "id": "nm-lowmyofib",
+      "name": "Low-grade myofibroblastic sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [],
+      "anchor": "Myofibroblastic morphology; no established signature driver.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Unresolved — No established recurrent defining molecular alteration."
+      ],
+      "pitfall": "Do not transfer ALK fusions from inflammatory myofibroblastic tumor to this different entity.",
+      "refs": [
+        "nm_soft",
+        "nm_sarc_seq"
+      ]
+    },
+    {
+      "id": "nm-mfs",
+      "name": "Myxofibrosarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [],
+      "anchor": "Complex genome: TP53/RB1/CDKN2A pathways.",
+      "snv": [
+        "Driver/cooperating — TP53 and other tumor-suppressor mutations"
+      ],
+      "cnv": [
+        "Cooperating — RB1, CDKN2A/B or TP53 loss; complex gains/losses"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "No single pathognomonic fusion; overlaps genomically with undifferentiated pleomorphic sarcoma.",
+      "refs": [
+        "nm_soft",
+        "nm_tcga_sarc"
+      ]
+    },
+    {
+      "id": "nm-lgfms",
+      "name": "Low-grade fibromyxoid sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "LGFMS",
+        "Hyalinizing spindle cell tumor with giant rosettes"
+      ],
+      "anchor": "Fibromyxoid + FUS::CREB3L2.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — FUS::CREB3L2; FUS::CREB3L1 in a smaller subset"
+      ],
+      "other": [],
+      "pitfall": "Bland histology does not imply benign behavior; hybrid LGFMS/SEF can share the FUS-associated profile.",
+      "refs": [
+        "nm_soft",
+        "nm_sef"
+      ]
+    },
+    {
+      "id": "nm-sef",
+      "name": "Sclerosing epithelioid fibrosarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "SEF"
+      ],
+      "anchor": "Sclerosing epithelioid sarcoma: EWSR1::CREB3L1.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — EWSR1::CREB3L1 (common); EWSR1::CREB3L2 (subset)",
+        "Defining — FUS::CREB3L2 in some hybrid LGFMS/SEF tumors"
+      ],
+      "other": [],
+      "pitfall": "MUC4 expression is an immunophenotypic clue, not a mutation; pure SEF and LGFMS have different fusion enrichments.",
+      "refs": [
+        "nm_soft",
+        "nm_sef"
+      ]
+    },
+    {
+      "id": "nm-ifs",
+      "name": "Infantile fibrosarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Congenital fibrosarcoma"
+      ],
+      "anchor": "Infantile fibrosarcoma: ETV6::NTRK3.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — ETV6::NTRK3 (typical)",
+        "Driver — Alternative NTRK or other kinase fusions in related fusion-negative tumors"
+      ],
+      "other": [],
+      "pitfall": "ETV6::NTRK3 is shared by several other entities; age, site and histology remain necessary.",
+      "refs": [
+        "nm_soft",
+        "nm_ifs",
+        "nm_ntrk3"
+      ]
+    },
+    {
+      "id": "nm-ntrk",
+      "name": "NTRK-rearranged spindle cell neoplasm, malignant",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "NTRK spindle cell sarcoma"
+      ],
+      "anchor": "Malignant spindle cells + an NTRK fusion.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — NTRK1, NTRK2 or NTRK3 fusion; examples include LMNA::NTRK1 and TPM3::NTRK1"
+      ],
+      "other": [],
+      "pitfall": "WHO5 emerging category; only malignant examples are included. Pan-TRK staining is not proof of a fusion.",
+      "refs": [
+        "nm_soft",
+        "nm_ntrk",
+        "nm_ntrk3"
+      ]
+    },
+    {
+      "id": "nm-angio",
+      "name": "Angiosarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [],
+      "anchor": "Vascular sarcoma: MYC amplification or vascular/MAPK pathway mutations.",
+      "snv": [
+        "Driver — KDR, PLCG1, PTPRB or RAS/MAPK-pathway mutations (subsets)",
+        "Cooperating — TP53 mutation"
+      ],
+      "cnv": [
+        "Driver — MYC amplification, especially radiation/lymphedema-associated tumors",
+        "Cooperating — FLT4 amplification; CDKN2A loss (subsets)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "MYC amplification is not universal. Includes primary cutaneous, visceral and bone angiosarcoma.",
+      "refs": [
+        "nm_soft",
+        "nm_angio"
+      ]
+    },
+    {
+      "id": "nm-ehe",
+      "name": "Epithelioid hemangioendothelioma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "EHE",
+        "YAP1 TFE3 hemangioendothelioma"
+      ],
+      "anchor": "EHE: WWTR1::CAMTA1; TFE3-associated alternative.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — WWTR1::CAMTA1",
+        "Defining — YAP1::TFE3 in a distinct related molecular subset"
+      ],
+      "other": [],
+      "pitfall": "A malignant vascular tumor despite sometimes indolent behavior; covers soft tissue, bone, lung and liver sites.",
+      "refs": [
+        "nm_soft",
+        "nm_ehe"
+      ]
+    },
+    {
+      "id": "nm-mpnst",
+      "name": "Malignant peripheral nerve sheath tumor",
+      "system": "Peripheral nerve",
+      "aliases": [
+        "MPNST",
+        "Malignant triton tumor",
+        "Epithelioid MPNST"
+      ],
+      "anchor": "NF1 + CDKN2A loss + PRC2 loss.",
+      "snv": [
+        "Driver — NF1 inactivation",
+        "Cooperating — SUZ12, EED and TP53 inactivation (subsets)"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B deletion; SUZ12/EED loss",
+        "Driver — SMARCB1 deletion/inactivation in an epithelioid subset"
+      ],
+      "rearr": [],
+      "other": [
+        "Surrogate — H3K27me3 loss reflects PRC2 disruption in many conventional tumors."
+      ],
+      "pitfall": "H3K27me3 loss is neither universal nor absolutely specific. Epithelioid MPNST can have different biology.",
+      "refs": [
+        "nm_soft",
+        "nm_mpnst",
+        "nm_smarcb1"
+      ]
+    },
+    {
+      "id": "nm-melnerve",
+      "name": "Malignant melanotic nerve sheath tumor",
+      "system": "Peripheral nerve",
+      "aliases": [
+        "Melanotic schwannoma"
+      ],
+      "anchor": "Pigmented nerve sheath tumor: PRKAR1A.",
+      "snv": [
+        "Driver — PRKAR1A loss-of-function mutation"
+      ],
+      "cnv": [
+        "Cooperating — Chromosome 17 loss/PRKAR1A allelic loss (subset)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Formerly melanotic schwannoma; distinct from conventional schwannoma and melanoma. Can be associated with Carney complex.",
+      "refs": [
+        "nm_soft",
+        "nm_melnerve"
+      ]
+    },
+    {
+      "id": "nm-myocarc",
+      "name": "Myoepithelial carcinoma of soft tissue/bone",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Soft tissue myoepithelial carcinoma"
+      ],
+      "anchor": "Soft tissue myoepithelial carcinoma often uses EWSR1 partners.",
+      "snv": [],
+      "cnv": [
+        "Driver — SMARCB1 deletion/inactivation (subset)"
+      ],
+      "rearr": [
+        "Driver — EWSR1::POU5F1; other EWSR1/FUS fusions including PBX1, PBX3 or KLF17 partners (subsets)"
+      ],
+      "other": [],
+      "pitfall": "A fusion does not prove malignancy; histology establishes carcinoma. Salivary gland myoepithelial tumors have a different molecular spectrum.",
+      "refs": [
+        "nm_soft",
+        "nm_myo",
+        "nm_smarcb1"
+      ]
+    },
+    {
+      "id": "nm-synovial",
+      "name": "Synovial sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [],
+      "anchor": "Synovial sarcoma: SS18::SSX.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — SS18::SSX1 or SS18::SSX2; rare SS18::SSX4"
+      ],
+      "other": [],
+      "pitfall": "The name does not imply origin from synovium; occurs at many sites.",
+      "refs": [
+        "nm_soft",
+        "nm_synovial"
+      ]
+    },
+    {
+      "id": "nm-episarc",
+      "name": "Epithelioid sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Proximal epithelioid sarcoma",
+        "Distal epithelioid sarcoma"
+      ],
+      "anchor": "Epithelioid sarcoma: SMARCB1/INI1 loss.",
+      "snv": [
+        "Driver — SMARCB1 inactivating variants (subset)"
+      ],
+      "cnv": [
+        "Driver — SMARCB1 homozygous deletion (common mechanism)"
+      ],
+      "rearr": [],
+      "other": [
+        "Surrogate — INI1 protein loss is characteristic."
+      ],
+      "pitfall": "SMARCB1 loss also occurs in several other tumors; it is not sufficient alone for diagnosis.",
+      "refs": [
+        "nm_soft",
+        "nm_smarcb1"
+      ]
+    },
+    {
+      "id": "nm-asps",
+      "name": "Alveolar soft part sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "ASPS"
+      ],
+      "anchor": "ASPS: ASPSCR1::TFE3.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — ASPSCR1::TFE3"
+      ],
+      "other": [],
+      "pitfall": "The same fusion can occur in TFE3-rearranged renal cell carcinoma; site and phenotype matter.",
+      "refs": [
+        "nm_soft",
+        "nm_asps"
+      ]
+    },
+    {
+      "id": "nm-ccs",
+      "name": "Clear cell sarcoma of soft tissue",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Clear cell sarcoma of tendons and aponeuroses"
+      ],
+      "anchor": "Melanocytic-looking sarcoma: EWSR1::ATF1.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — EWSR1::ATF1; EWSR1::CREB1 in a subset"
+      ],
+      "other": [],
+      "pitfall": "Do not equate it with cutaneous melanoma or gastrointestinal neuroectodermal tumor.",
+      "refs": [
+        "nm_soft",
+        "nm_ccs"
+      ]
+    },
+    {
+      "id": "nm-emc",
+      "name": "Extraskeletal myxoid chondrosarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "NR4A3-rearranged myxoid sarcoma"
+      ],
+      "anchor": "The name says cartilage; the defining gene is NR4A3.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — EWSR1::NR4A3; TAF15::NR4A3 and rarer NR4A3 partners"
+      ],
+      "other": [],
+      "pitfall": "Not a conventional cartilage-producing chondrosarcoma; EWSR1-negative results do not exclude a variant NR4A3 fusion.",
+      "refs": [
+        "nm_soft",
+        "nm_emc"
+      ]
+    },
+    {
+      "id": "nm-dsrct",
+      "name": "Desmoplastic small round cell tumor",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "DSRCT"
+      ],
+      "anchor": "DSRCT: EWSR1::WT1.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — EWSR1::WT1"
+      ],
+      "other": [],
+      "pitfall": "WT1 immunostaining alone is not the fusion; additional recurrent mutations are uncommon.",
+      "refs": [
+        "nm_soft",
+        "nm_dsrct"
+      ]
+    },
+    {
+      "id": "nm-rhabdoid",
+      "name": "Malignant rhabdoid tumor, extrarenal",
+      "system": "Pediatric embryonal",
+      "aliases": [
+        "Extrarenal rhabdoid tumor",
+        "MRT"
+      ],
+      "anchor": "Rhabdoid tumor: lose SMARCB1.",
+      "snv": [
+        "Defining — Biallelic SMARCB1 inactivation; rarely SMARCA4 inactivation"
+      ],
+      "cnv": [
+        "Defining — SMARCB1 deletion (frequent mechanism)"
+      ],
+      "rearr": [
+        "Defining — SMARCB1 structural disruption (subset)"
+      ],
+      "other": [],
+      "pitfall": "Rhabdoid morphology occurs in many unrelated cancers; renal rhabdoid tumor and CNS ATRT are covered separately.",
+      "refs": [
+        "nm_soft",
+        "nm_smarcb1",
+        "nm_atrt"
+      ]
+    },
+    {
+      "id": "nm-pecoma",
+      "name": "PEComa, malignant",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Malignant perivascular epithelioid cell tumor"
+      ],
+      "anchor": "PEComa: TSC–mTOR or TFE3.",
+      "snv": [
+        "Driver — TSC1 or TSC2 loss-of-function"
+      ],
+      "cnv": [
+        "Driver — TSC1/TSC2 deletion (subset)"
+      ],
+      "rearr": [
+        "Driver — TFE3 fusion, e.g. SFPQ::TFE3 (alternative subset)",
+        "Driver — RAD51B-associated fusion (rare uterine subset)"
+      ],
+      "other": [],
+      "pitfall": "Molecular route does not by itself establish malignant behavior; benign angiomyolipoma and LAM are excluded.",
+      "refs": [
+        "nm_soft",
+        "nm_pecoma"
+      ]
+    },
+    {
+      "id": "nm-intimal",
+      "name": "Intimal sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [],
+      "anchor": "Intimal sarcoma: MDM2, often CDK4/PDGFRA.",
+      "snv": [],
+      "cnv": [
+        "Driver — MDM2 amplification",
+        "Cooperating — CDK4 and/or PDGFRA amplification (subsets)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "A vascular/cardiac sarcoma with variable morphology; MDM2 amplification alone is not site-specific.",
+      "refs": [
+        "nm_soft",
+        "nm_intimal"
+      ]
+    },
+    {
+      "id": "nm-undiff",
+      "name": "Undifferentiated sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Undifferentiated pleomorphic sarcoma",
+        "UPS",
+        "Undifferentiated spindle cell sarcoma"
+      ],
+      "anchor": "A complex-genome category after excluding a specific lineage.",
+      "snv": [
+        "Driver/cooperating — TP53 and other tumor-suppressor mutations"
+      ],
+      "cnv": [
+        "Cooperating — RB1, CDKN2A/B or TP53 loss; complex copy-number alterations"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Includes undifferentiated pleomorphic sarcoma of soft tissue/bone; fusion-defined round cell sarcomas have separate entries.",
+      "refs": [
+        "nm_soft",
+        "nm_tcga_sarc"
+      ]
+    },
+    {
+      "id": "nm-ewing",
+      "name": "Ewing sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Ewing family tumor",
+        "Peripheral PNET"
+      ],
+      "anchor": "Ewing = FET-family gene + ETS-family transcription factor.",
+      "snv": [
+        "Cooperating — STAG2 and TP53 mutations (subsets)"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A deletion (subset)"
+      ],
+      "rearr": [
+        "Defining — EWSR1::FLI1 or EWSR1::ERG; rarer FET::ETS alternatives"
+      ],
+      "other": [],
+      "pitfall": "An EWSR1 rearrangement alone is not Ewing sarcoma; the partner matters.",
+      "refs": [
+        "nm_soft",
+        "nm_round",
+        "nm_sarc_prof"
+      ]
+    },
+    {
+      "id": "nm-nonets",
+      "name": "Round cell sarcoma with EWSR1–non-ETS fusions",
+      "system": "Soft tissue and bone",
+      "aliases": [],
+      "anchor": "EWSR1 + a non-ETS partner is a different family.",
+      "snv": [],
+      "cnv": [
+        "Characteristic — Amplification of the rearranged EWSR1 region in NFATC2-associated cases (subset)"
+      ],
+      "rearr": [
+        "Defining — EWSR1::NFATC2 or EWSR1::PATZ1; related FUS::NFATC2 tumors"
+      ],
+      "other": [],
+      "pitfall": "These are molecularly heterogeneous tumors; do not relabel every EWSR1 fusion tumor into this group.",
+      "refs": [
+        "nm_soft",
+        "nm_round"
+      ]
+    },
+    {
+      "id": "nm-cic",
+      "name": "CIC-rearranged sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [],
+      "anchor": "CIC sarcoma: usually CIC::DUX4.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — CIC::DUX4; alternative CIC partners including NUTM1 or FOXO4 (rare)"
+      ],
+      "other": [],
+      "pitfall": "Distinct from Ewing sarcoma; DUX4-region repetitive sequence can complicate fusion detection.",
+      "refs": [
+        "nm_soft",
+        "nm_round2",
+        "nm_cns_summary"
+      ]
+    },
+    {
+      "id": "nm-bcorsarc",
+      "name": "Sarcoma with BCOR genetic alterations",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "BCOR CCNB3 sarcoma",
+        "BCOR-ITD sarcoma"
+      ],
+      "anchor": "BCOR sarcoma: CCNB3 fusion or BCOR ITD.",
+      "snv": [
+        "Defining — BCOR internal tandem duplication (subset)"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Defining — BCOR::CCNB3; other BCOR fusions (subsets)",
+        "Related molecular subset — YWHAE::NUTM2B/E in infantile round cell sarcoma"
+      ],
+      "other": [],
+      "pitfall": "BCOR protein expression is not specific; CNS BCOR-ITD tumors and renal clear cell sarcoma are listed separately.",
+      "refs": [
+        "nm_soft",
+        "nm_round2",
+        "nm_cns_summary"
+      ]
+    },
+    {
+      "id": "nm-osteo",
+      "name": "Osteosarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Parosteal osteosarcoma",
+        "Periosteal osteosarcoma",
+        "Low-grade central osteosarcoma",
+        "High-grade surface osteosarcoma",
+        "Secondary osteosarcoma"
+      ],
+      "anchor": "Osteoid + disrupted TP53/RB1; low-grade central/parosteal often MDM2.",
+      "snv": [
+        "Driver/cooperating — TP53, RB1 and ATRX inactivation"
+      ],
+      "cnv": [
+        "Driver — MDM2 and CDK4 amplification (especially low-grade central/parosteal and their dedifferentiated forms)",
+        "Cooperating — Complex amplifications/deletions in conventional high-grade tumors"
+      ],
+      "rearr": [
+        "Driver — TP53-disrupting structural rearrangements (subset)"
+      ],
+      "other": [],
+      "pitfall": "No universal oncogenic fusion; includes central and surface histologic patterns. Osteoid production must be by tumor cells.",
+      "refs": [
+        "nm_soft",
+        "nm_osteo",
+        "nm_osteo_sv"
+      ]
+    },
+    {
+      "id": "nm-extraosteo",
+      "name": "Extraskeletal osteosarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [],
+      "anchor": "Soft tissue osteoid-producing sarcoma with a complex genome.",
+      "snv": [
+        "Driver/cooperating — TP53/RB-pathway alterations (subsets)"
+      ],
+      "cnv": [
+        "Cooperating — Complex copy-number changes; MDM2/CDK4 amplification in a subset"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Exclude a skeletal primary and dedifferentiated liposarcoma with osteosarcomatous differentiation.",
+      "refs": [
+        "nm_soft",
+        "nm_sarc_seq"
+      ]
+    },
+    {
+      "id": "nm-chondro",
+      "name": "Chondrosarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Conventional chondrosarcoma",
+        "Dedifferentiated chondrosarcoma",
+        "Mesenchymal chondrosarcoma",
+        "Clear cell chondrosarcoma",
+        "Peripheral chondrosarcoma",
+        "Periosteal chondrosarcoma"
+      ],
+      "anchor": "Central: IDH; peripheral: EXT lineage; mesenchymal: HEY1::NCOA2.",
+      "snv": [
+        "Driver — IDH1/IDH2 hotspot mutation (central conventional/dedifferentiated subsets)",
+        "Lineage-associated — EXT1/EXT2 inactivation in osteochondroma-associated peripheral tumors",
+        "Cooperating — TP53 and TERT promoter mutations (especially progression/dedifferentiation)"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B deletion (subsets)"
+      ],
+      "rearr": [
+        "Defining — HEY1::NCOA2 (mesenchymal subset)"
+      ],
+      "other": [],
+      "pitfall": "Clear cell and some periosteal tumors lack a consistent hallmark. EXT alterations alone indicate the precursor pathway, not malignant transformation.",
+      "refs": [
+        "nm_soft",
+        "nm_chondro",
+        "nm_meschondro"
+      ]
+    },
+    {
+      "id": "nm-chordoma",
+      "name": "Chordoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Conventional chordoma",
+        "Dedifferentiated chordoma",
+        "Poorly differentiated chordoma"
+      ],
+      "anchor": "Brachyury lineage; CDKN2A loss; poorly differentiated tumors lose SMARCB1.",
+      "snv": [
+        "Cooperating — PBRM1 or other chromatin-regulator alterations (subsets)"
+      ],
+      "cnv": [
+        "Driver/cooperating — CDKN2A/B loss; TBXT amplification (subsets)",
+        "Defining — SMARCB1 loss in poorly differentiated chordoma"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Brachyury protein expression is a lineage marker and does not automatically mean TBXT amplification.",
+      "refs": [
+        "nm_soft",
+        "nm_chordoma",
+        "nm_smarcb1"
+      ]
+    },
+    {
+      "id": "nm-adam",
+      "name": "Adamantinoma of long bones",
+      "system": "Soft tissue and bone",
+      "aliases": [],
+      "anchor": "Adamantinoma: no established universal genomic hallmark.",
+      "snv": [
+        "Candidate/cooperating — KMT2D alterations reported in a small molecular series"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Evidence — Genomic series remain small; no defining driver established."
+      ],
+      "pitfall": "Not ameloblastoma of the jaw. Osteofibrous dysplasia-like lesions have different behavior and are outside this malignant entry.",
+      "refs": [
+        "nm_soft",
+        "nm_adam"
+      ]
+    },
+    {
+      "id": "nm-gctb",
+      "name": "Malignant giant cell tumor of bone",
+      "system": "Soft tissue and bone",
+      "aliases": [],
+      "anchor": "H3.3 G34W marks the lineage, not malignancy.",
+      "snv": [
+        "Lineage-associated driver — H3-3A/H3F3A G34W (often retained, sometimes lost in malignant progression)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "H3F3A G34W also occurs in ordinary intermediate GCTB; malignancy requires a sarcomatous component. Some malignant components are mutation-negative.",
+      "refs": [
+        "nm_soft",
+        "nm_gctb",
+        "nm_gctb_loss"
+      ]
+    },
+    {
+      "id": "nm-glomus",
+      "name": "Glomus tumor, malignant",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Malignant glomus tumor"
+      ],
+      "anchor": "Malignant glomus tumor often carries a NOTCH fusion.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — MIR143/CARMN::NOTCH2; other NOTCH-family fusions (subsets)"
+      ],
+      "other": [],
+      "pitfall": "The same fusion class occurs in benign glomus tumors and cannot define malignant behavior.",
+      "refs": [
+        "nm_soft",
+        "nm_glomus"
+      ]
+    },
+    {
+      "id": "nm-ofmt",
+      "name": "Ossifying fibromyxoid tumor, malignant",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Malignant OFMT"
+      ],
+      "anchor": "Ossifying fibromyxoid tumor: PHF1-associated fusion.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — EP400::PHF1, MEAF6::PHF1 or EPC1::PHF1 (subsets)",
+        "Driver — Other fusions, including ZC3H7B::BCOR (rare)"
+      ],
+      "other": [],
+      "pitfall": "Fusions are shared with nonmalignant OFMT and some other tumor families; histology establishes malignancy.",
+      "refs": [
+        "nm_soft",
+        "nm_ofmt"
+      ]
+    },
+    {
+      "id": "nm-pmt",
+      "name": "Phosphaturic mesenchymal tumor, malignant",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Malignant PMT"
+      ],
+      "anchor": "Phosphaturic tumor: FGF signaling fusion.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — FN1::FGFR1; FN1::FGF1 in the broader PMT family"
+      ],
+      "other": [
+        "Functional output — FGF23 secretion can cause tumor-induced osteomalacia."
+      ],
+      "pitfall": "Only malignant PMT is included; these fusions do not independently distinguish benign from malignant tumors.",
+      "refs": [
+        "nm_soft",
+        "nm_pmt"
+      ]
+    },
+    {
+      "id": "nm-granular",
+      "name": "Granular cell tumor, malignant",
+      "system": "Peripheral nerve",
+      "aliases": [],
+      "anchor": "Rare malignant granular cell tumor: no validated universal driver.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Unresolved — No established malignancy-specific recurrent genomic hallmark; published sequencing cohorts are very small."
+      ],
+      "pitfall": "Do not promote an isolated case mutation to a universal driver or infer malignancy from mutations found in benign granular cell tumors.",
+      "refs": [
+        "nm_soft",
+        "nm_granular"
+      ]
+    },
+    {
+      "id": "nm-ecto",
+      "name": "Ectomesenchymoma",
+      "system": "Pediatric embryonal",
+      "aliases": [
+        "Malignant ectomesenchymoma"
+      ],
+      "anchor": "Rhabdomyoblastic + neural elements; often HRAS.",
+      "snv": [
+        "Driver — HRAS activating mutation (recurrent in small series)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "An exceptionally rare mixed tumor; HRAS is not specific and overlaps embryonal rhabdomyosarcoma.",
+      "refs": [
+        "nm_soft",
+        "nm_ecto"
+      ]
+    },
+    {
+      "id": "nm-neuroblast",
+      "name": "Neuroblastoma / ganglioneuroblastoma",
+      "system": "Pediatric embryonal",
+      "aliases": [
+        "Peripheral neuroblastoma",
+        "Ganglioneuroblastoma"
+      ],
+      "anchor": "Neuroblastoma: ALK, MYCN, or telomere maintenance.",
+      "snv": [
+        "Driver — ALK activating mutation",
+        "Driver/cooperating — ATRX, PTPN11 or RAS-pathway alteration (subsets)"
+      ],
+      "cnv": [
+        "Driver — MYCN amplification; ALK amplification (subset)",
+        "Characteristic — 1p/11q loss and 17q gain (subsets)"
+      ],
+      "rearr": [
+        "Driver — TERT enhancer-associated rearrangement (subset)"
+      ],
+      "other": [
+        "Mechanism — ATRX loss can support alternative lengthening of telomeres."
+      ],
+      "pitfall": "Many tumors have few coding mutations. Ganglioneuroblastoma is retained in this broad peripheral neuroblastic family; benign ganglioneuroma is excluded.",
+      "refs": [
+        "nm_soft",
+        "nm_nb",
+        "nm_nbtert"
+      ]
+    },
+    {
+      "id": "nm-uveal",
+      "name": "Uveal melanoma",
+      "system": "Eye and orbit",
+      "aliases": [
+        "Choroidal melanoma",
+        "Ciliary body melanoma",
+        "Iris melanoma"
+      ],
+      "anchor": "Uveal: GNAQ/GNA11, then BAP1/SF3B1/EIF1AX.",
+      "snv": [
+        "Driver — GNAQ or GNA11; less often CYSLTR2 or PLCB4",
+        "Cooperating/classifying — BAP1, SF3B1 or EIF1AX mutations"
+      ],
+      "cnv": [
+        "Cooperating — Monosomy 3/BAP1 allelic loss; chromosome 8q gain (subsets)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Uveal and conjunctival melanomas have different driver spectra; BRAF is not the usual uveal driver.",
+      "refs": [
+        "nm_eye",
+        "nm_uvea",
+        "nm_uvea_wgs"
+      ]
+    },
+    {
+      "id": "nm-retino",
+      "name": "Retinoblastoma",
+      "system": "Eye and orbit",
+      "aliases": [],
+      "anchor": "Retinoblastoma: two-hit RB1; rare MYCN-driven alternative.",
+      "snv": [
+        "Defining driver — Biallelic RB1 inactivation",
+        "Cooperating — BCOR or CREBBP mutation (subsets)"
+      ],
+      "cnv": [
+        "Driver — RB1 deletion; MYCN amplification (subset, occasionally RB1-intact)"
+      ],
+      "rearr": [
+        "Driver — RB1-disrupting structural rearrangements"
+      ],
+      "other": [
+        "Driver mechanism — RB1 promoter methylation or copy-neutral loss of heterozygosity can provide an inactivating hit."
+      ],
+      "pitfall": "A tumor RB1 event is not automatically germline; routine small-variant sequencing can miss structural/epigenetic hits.",
+      "refs": [
+        "nm_eye",
+        "nm_retino",
+        "nm_retino_wgs"
+      ]
+    },
+    {
+      "id": "nm-medulloeye",
+      "name": "Medulloepithelioma of ciliary body, malignant",
+      "system": "Eye and orbit",
+      "aliases": [
+        "Malignant intraocular medulloepithelioma"
+      ],
+      "anchor": "Intraocular medulloepithelioma: remember DICER1.",
+      "snv": [
+        "Driver — DICER1 mutation (subset)",
+        "Candidate/cooperating — KMT2D mutation (subset)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Only malignant cases are in scope. Ocular medulloepithelioma is not equivalent to CNS ETMR.",
+      "refs": [
+        "nm_eye",
+        "nm_medulloeye"
+      ]
+    },
+    {
+      "id": "nm-prostatic",
+      "name": "Prostatic stromal sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "PSS"
+      ],
+      "anchor": "Specialized prostatic stromal sarcoma has no universal driver.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Unresolved — Marked molecular heterogeneity; no established defining recurrent alteration."
+      ],
+      "pitfall": "Some presumed cases are reclassified after detecting a fusion characteristic of another sarcoma. Do not transfer findings from one case to the whole entity.",
+      "refs": [
+        "nm_soft",
+        "nm_prostate"
+      ]
+    },
+    {
+      "id": "nm-odonto",
+      "name": "Odontogenic sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "Ameloblastic fibrosarcoma",
+        "Ameloblastic fibrodentinosarcoma",
+        "Ameloblastic fibro-odontosarcoma"
+      ],
+      "anchor": "Odontogenic sarcoma: BRAF/MAPK in the malignant mesenchymal component.",
+      "snv": [
+        "Driver — BRAF V600E; NRAS mutation in an alternative small subset"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Rare-tumor evidence comes from small series; benign epithelial islands are part of the biphasic tumor.",
+      "refs": [
+        "nm_soft",
+        "nm_odont",
+        "nm_jaw"
+      ]
+    },
+    {
+      "id": "nm-odontocs",
+      "name": "Odontogenic carcinosarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [],
+      "anchor": "Both epithelial and mesenchymal components are malignant.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Unresolved — No established recurrent defining molecular driver."
+      ],
+      "pitfall": "Do not automatically assign the BRAF frequency of odontogenic sarcoma to this much rarer separate entity.",
+      "refs": [
+        "nm_soft",
+        "nm_jaw"
+      ]
+    }
+  ],
+  "coverage": {
+    "systems": [
+      "CNS",
+      "Soft tissue and bone",
+      "Peripheral nerve",
+      "Pediatric embryonal",
+      "Eye and orbit"
+    ],
+    "basis": "WHO fifth-edition structures for CNS, soft tissue/bone and eye/orbit; broad malignant families, with molecularly distinct CNS/round-cell sarcoma entities retained. Malignant behavior is not synonymous with high histologic grade.",
+    "merged": [
+      "Medulloblastoma molecular groups are internal alternatives within one broad row.",
+      "Ependymoma anatomic/molecular entities are internal alternatives within one row; nonmalignant subependymoma and myxopapillary ependymoma are excluded.",
+      "Liposarcoma, rhabdomyosarcoma, chondrosarcoma, osteosarcoma and chordoma histologic subsets are listed within broad rows.",
+      "Soft tissue, bone and visceral presentations of the same sarcoma family are combined, except when site changes molecular identity.",
+      "Peripheral neuroblastoma and ganglioneuroblastoma are combined."
+    ],
+    "excluded": [
+      "Benign and intermediate tumors: ordinary schwannoma/neurofibroma, grade 1–2 meningioma, pilocytic astrocytoma, most low-grade glioneuronal tumors, desmoid fibromatosis, ordinary giant cell tumor of bone, angiomatoid fibrous histiocytoma, conventional inflammatory myofibroblastic tumor, pseudomyogenic hemangioendothelioma, and other intermediate vascular/fibroblastic entities.",
+      "Provisional CNS DGONC, cribriform neuroepithelial tumor, FET::CREB intracranial mesenchymal tumor and desmoplastic myxoid pineal tumor are not automatically treated as established malignant entities.",
+      "CNS/ocular lymphomas and histiocytic neoplasms are covered with hematolymphoid tumors. CNS germ-cell tumors, renal embryonal tumors, GIST, epithelial/melanocytic skin/conjunctival tumors, salivary/lacrimal carcinomas and pituitary malignancies are covered in their respective organ families."
+    ],
+    "limitations": [
+      "This is an educational broad-family crosswalk, not a verbatim WHO taxonomy or an exhaustive list of every reported genomic alteration.",
+      "Evidence for exceptionally rare sarcomas may be limited to small cohorts; candidate findings are labeled and no fixed prevalence is implied.",
+      "Molecular grouping evolves; WHO5 emerging/provisional categories and behavior-code differences need explicit contextual interpretation.",
+      "A mutation, amplification, fusion or immunostain rarely proves tumor type without histology and clinical context."
+    ]
+  }
+}

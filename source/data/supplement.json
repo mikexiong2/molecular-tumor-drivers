@@ -1,0 +1,286 @@
+{
+  "sources": {
+    "s_kit": {
+      "title": "Hirota et al. — KIT activation in GIST (1998)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9438854/"
+    },
+    "s_pdgfra": {
+      "title": "Heinrich et al. — PDGFRA activation in GIST (2003)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12522257/"
+    },
+    "s_wtgist": {
+      "title": "Boikos et al. — Molecular subtypes of KIT/PDGFRA wild-type GIST (2016)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5472100/"
+    },
+    "s_ntrkgist": {
+      "title": "Cao et al. — NTRK-fusion GIST cohort (2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36612101/"
+    },
+    "s_ntrkdiff": {
+      "title": "Suurmeijer et al. — GI NTRK-rearranged mesenchymal tumors and distinction from GIST (2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32669612/"
+    },
+    "s_ppb": {
+      "title": "Pugh et al. — DICER1 and TP53 in pleuropulmonary blastoma (2014)",
+      "url": "https://www.nature.com/articles/onc2014150"
+    },
+    "s_ppms": {
+      "title": "Thway et al. — Primary pulmonary myxoid sarcoma (2011)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21997693/"
+    },
+    "s_kaposi": {
+      "title": "Chang et al. — Discovery of KSHV in Kaposi sarcoma (1994)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7997879/"
+    },
+    "s_kshv": {
+      "title": "IARC — Kaposi sarcoma herpesvirus: carcinogenicity evaluation",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK304348/"
+    },
+    "s_gnet": {
+      "title": "Stockman et al. — Malignant gastrointestinal neuroectodermal tumor (2012)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22592145/"
+    },
+    "s_eims": {
+      "title": "Lee et al. — ALK fusions in epithelioid inflammatory myofibroblastic sarcoma (2017)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27874193/"
+    },
+    "s_uesl": {
+      "title": "Setty et al. — C19MC and TP53 in undifferentiated embryonal sarcoma of liver (2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32310940/"
+    },
+    "s_dfsp": {
+      "title": "Abbott et al. — Fusion-copy gains in fibrosarcomatous DFSP (2006)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16980946/"
+    },
+    "s_dfsp2": {
+      "title": "Lee et al. — PDGFB/PDGFD rearrangements in DFSP (2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35034038/"
+    },
+    "s_pds": {
+      "title": "Griewank et al. — Mutations and copy-number profiles of pleomorphic dermal sarcoma (2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29099504/"
+    }
+  },
+  "entities": [
+    {
+      "id": "s_gist",
+      "name": "Gastrointestinal stromal tumor",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "GIST",
+        "malignant GIST"
+      ],
+      "anchor": "GIST → KIT or PDGFRA; if neither, think SDH or RAS-pathway biology.",
+      "snv": [
+        "Driver — KIT activating SNVs/indels; alternative PDGFRA activating variants (including D842V)",
+        "Alternative subsets — SDHA/B/C/D inactivation, NF1 loss, or BRAF activation"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Rare reported subset — NTRK fusions; careful distinction from other GI mesenchymal tumors is essential"
+      ],
+      "other": [
+        "Alternative SDH-deficiency mechanism — SDHC promoter hypermethylation"
+      ],
+      "pitfall": "KIT protein expression is not the same as a KIT mutation. Genotype alone does not determine metastatic risk. SDH/NF1 abnormalities may reflect germline predisposition; a tumor result alone does not establish this.",
+      "refs": [
+        "s_kit",
+        "s_pdgfra",
+        "s_wtgist",
+        "s_ntrkgist",
+        "s_ntrkdiff"
+      ]
+    },
+    {
+      "id": "s_ppb",
+      "name": "Pleuropulmonary blastoma",
+      "system": "Thoracic",
+      "aliases": [
+        "PPB"
+      ],
+      "anchor": "Childhood pleuropulmonary blastoma → two DICER1 hits.",
+      "snv": [
+        "Driver — DICER1 loss-of-function plus an RNase IIIb hotspot missense mutation",
+        "Progression/cooperating — TP53 inactivation; RAS-pathway lesions in subsets"
+      ],
+      "cnv": [
+        "Cooperating — TP53 allelic loss in a subset"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "The loss-of-function DICER1 hit is often germline but may be somatic. Types I–III are combined. Adult-type pulmonary blastoma is a different tumor; regressed type Ir is outside the malignant scope.",
+      "refs": [
+        "s_ppb"
+      ]
+    },
+    {
+      "id": "s_ppms",
+      "name": "Primary pulmonary myxoid sarcoma",
+      "system": "Thoracic",
+      "aliases": [],
+      "anchor": "Pulmonary myxoid sarcoma → EWSR1::CREB1.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Characteristic — EWSR1::CREB1"
+      ],
+      "other": [],
+      "pitfall": "This fusion is shared with other tumors, including GI neuroectodermal tumors and angiomatoid fibrous histiocytoma. Location and morphology remain essential.",
+      "refs": [
+        "s_ppms"
+      ]
+    },
+    {
+      "id": "s_kaposi",
+      "name": "Kaposi sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "KS",
+        "KSHV",
+        "HHV8"
+      ],
+      "anchor": "Kaposi sarcoma → KSHV / HHV8.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Viral driver — Kaposi sarcoma-associated herpesvirus (KSHV / HHV8); viral latency and host signaling promote the neoplasm"
+      ],
+      "pitfall": "A virally driven vascular neoplasm. No single recurrent human SNV, amplification or fusion is a defining study hallmark. Classic, endemic, epidemic and immunosuppression-associated settings are combined.",
+      "refs": [
+        "s_kaposi",
+        "s_kshv"
+      ]
+    },
+    {
+      "id": "s_gnet",
+      "name": "Malignant gastrointestinal neuroectodermal tumor",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "GNET",
+        "clear cell sarcoma-like tumor of gastrointestinal tract"
+      ],
+      "anchor": "GI neuroectodermal tumor → EWSR1 with ATF1 or CREB1.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Characteristic — EWSR1::ATF1 or EWSR1::CREB1"
+      ],
+      "other": [],
+      "pitfall": "Related fusion families occur in clear cell sarcoma, but this tumor lacks convincing melanocytic differentiation. An EWSR1 break-apart result does not by itself identify the partner or the diagnosis.",
+      "refs": [
+        "s_gnet"
+      ]
+    },
+    {
+      "id": "s_eims",
+      "name": "Epithelioid inflammatory myofibroblastic sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "EIMS"
+      ],
+      "anchor": "Aggressive epithelioid IMT-family tumor → ALK fusion.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Driver — RANBP2::ALK or RRBP1::ALK; other partners are reported"
+      ],
+      "other": [],
+      "pitfall": "Included for its malignant behavior. Conventional inflammatory myofibroblastic tumor is an intermediate neoplasm and excluded from this atlas. ALK fusion alone does not establish this aggressive phenotype.",
+      "refs": [
+        "s_eims"
+      ]
+    },
+    {
+      "id": "s_uesl",
+      "name": "Undifferentiated embryonal sarcoma of liver",
+      "system": "Digestive",
+      "aliases": [
+        "UESL"
+      ],
+      "anchor": "Embryonal liver sarcoma → C19MC activation plus TP53 damage.",
+      "snv": [
+        "Recurrent — TP53 inactivating variants"
+      ],
+      "cnv": [
+        "Cooperating — TP53 copy-number loss in a subset"
+      ],
+      "rearr": [
+        "Characteristic in molecular series — 19q13 structural rearrangements involving the C19MC microRNA region"
+      ],
+      "other": [
+        "Result — C19MC microRNA overexpression"
+      ],
+      "pitfall": "A recurrent pattern from small molecular cohorts, not a required universal diagnostic criterion. C19MC involvement can also occur in its mesenchymal hamartoma precursor.",
+      "refs": [
+        "s_uesl"
+      ]
+    },
+    {
+      "id": "s_dfsp",
+      "name": "Dermatofibrosarcoma protuberans, fibrosarcomatous",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "DFSP",
+        "FS-DFSP",
+        "fibrosarcomatous dermatofibrosarcoma protuberans"
+      ],
+      "anchor": "Fibrosarcomatous DFSP retains PDGF-ligand fusion biology.",
+      "snv": [],
+      "cnv": [
+        "Progression-associated — increased COL1A1::PDGFB fusion copy number in a subset"
+      ],
+      "rearr": [
+        "Characteristic — COL1A1::PDGFB",
+        "Alternative subset — PDGFD fusions, including EMILIN2::PDGFD"
+      ],
+      "other": [],
+      "pitfall": "Only the malignant fibrosarcomatous form is included. Conventional DFSP is intermediate. The fusion is shared with conventional DFSP and does not itself prove fibrosarcomatous transformation.",
+      "refs": [
+        "s_dfsp",
+        "s_dfsp2"
+      ]
+    },
+    {
+      "id": "s_pds",
+      "name": "Pleomorphic dermal sarcoma",
+      "system": "Skin & mucosal melanoma",
+      "aliases": [
+        "PDS"
+      ],
+      "anchor": "Pleomorphic dermal sarcoma → UV-related tumor-suppressor damage.",
+      "snv": [
+        "Recurrent — TP53, NOTCH1/2, FAT1, CDKN2A and TERT promoter alterations"
+      ],
+      "cnv": [
+        "Associated — complex gains and losses; no single defining copy-number signature"
+      ],
+      "rearr": [],
+      "other": [
+        "Associated — ultraviolet mutational signature"
+      ],
+      "pitfall": "Substantial genetic overlap with atypical fibroxanthoma; depth, necrosis and invasive features distinguish the malignant phenotype. Atypical fibroxanthoma is outside the malignant-only scope.",
+      "refs": [
+        "s_pds"
+      ]
+    }
+  ],
+  "coverage": {
+    "systems": [
+      "Thoracic",
+      "Digestive",
+      "Soft tissue and bone",
+      "Skin & mucosal melanoma"
+    ],
+    "basis": "Additional cross-system malignant entities checked against primary molecular studies.",
+    "merged": [
+      "PPB histologic types combined; conventional intermediate IMT and DFSP excluded while their aggressive sarcomatous counterparts are included."
+    ],
+    "excluded": [
+      "Regressed PPB type Ir and atypical fibroxanthoma."
+    ],
+    "limitations": [
+      "GIST genotype is not equivalent to metastatic behavior. The nosology of rare NTRK-fusion GI tumors requires careful pathological review."
+    ]
+  }
+}

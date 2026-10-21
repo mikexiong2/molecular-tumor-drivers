@@ -1,0 +1,1966 @@
+{
+  "sources": {
+    "h_who": {
+      "title": "WHO-HAEM5: myeloid and histiocytic/dendritic classification",
+      "url": "https://www.nature.com/articles/s41375-022-01613-1"
+    },
+    "h_lymph": {
+      "title": "WHO-HAEM5: lymphoid classification",
+      "url": "https://www.nature.com/articles/s41375-022-01620-2"
+    },
+    "h_mpn": {
+      "title": "Grinfeld et al.: genomic classification of myeloproliferative neoplasms",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1716614"
+    },
+    "h_calr": {
+      "title": "Klampfl et al.: CALR mutations in MPN",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1311347"
+    },
+    "h_csf": {
+      "title": "Maxson et al.: oncogenic CSF3R mutations",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1214514"
+    },
+    "h_jmml": {
+      "title": "Stieglitz et al.: genomic landscape of JMML",
+      "url": "https://www.nature.com/articles/ng.3400"
+    },
+    "h_mdsmpn": {
+      "title": "Multicenter genomic landscape of MDS/MPN",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39337700/"
+    },
+    "h_aml": {
+      "title": "Papaemmanuil et al.: genomic classification of AML",
+      "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa1516192"
+    },
+    "h_ball": {
+      "title": "Gu et al.: molecular subtypes of B-ALL",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6525306/"
+    },
+    "h_tall": {
+      "title": "Liu et al.: genomic landscape of T-ALL",
+      "url": "https://www.nature.com/articles/ng.3909"
+    },
+    "h_cll": {
+      "title": "Landau et al.: mutations driving CLL",
+      "url": "https://www.nature.com/articles/nature15395"
+    },
+    "h_hcl": {
+      "title": "Tiacci et al.: BRAF mutations in hairy-cell leukemia",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1014209"
+    },
+    "h_lpl": {
+      "title": "Treon et al.: MYD88 L265P in Waldenström macroglobulinemia",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1200710"
+    },
+    "h_fl": {
+      "title": "Okosun et al.: genomic drivers of follicular lymphoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/24362818/"
+    },
+    "h_dlbcl": {
+      "title": "Schmitz et al.: genetics and pathogenesis of DLBCL",
+      "url": "https://doi.org/10.1056/NEJMoa1801445"
+    },
+    "h_burkitt": {
+      "title": "Richter et al.: recurrent ID3 mutations in Burkitt lymphoma",
+      "url": "https://www.nature.com/articles/ng.2469"
+    },
+    "h_myeloma": {
+      "title": "Hoang et al.: whole-genome analysis of multiple myeloma",
+      "url": "https://www.nature.com/articles/s41375-018-0103-3"
+    },
+    "h_tpll": {
+      "title": "Schrader et al.: TCL1/ATM and epigenetic lesions in T-PLL",
+      "url": "https://www.nature.com/articles/s41467-017-02688-6"
+    },
+    "h_lgl": {
+      "title": "Koskela et al.: somatic STAT3 mutations in LGL leukemia",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1114885"
+    },
+    "h_atll": {
+      "title": "Kataoka et al.: integrated molecular analysis of ATLL",
+      "url": "https://www.nature.com/articles/ng.3415"
+    },
+    "h_ctcl": {
+      "title": "Choi et al.: genomic landscape of cutaneous T-cell lymphoma",
+      "url": "https://www.nature.com/articles/ng.3356"
+    },
+    "h_sezary": {
+      "title": "Wang et al.: genomic profiling of Sézary syndrome",
+      "url": "https://www.nature.com/articles/ng.3444"
+    },
+    "h_tfh": {
+      "title": "Palomero et al.: RHOA G17V in angioimmunoblastic lymphoma",
+      "url": "https://www.nature.com/articles/ng.2916"
+    },
+    "h_nk": {
+      "title": "Küçük et al.: STAT3/STAT5B in NK and gamma-delta T-cell lymphomas",
+      "url": "https://www.nature.com/articles/ncomms7025"
+    },
+    "h_meitl": {
+      "title": "Roberti et al.: SETD2 alterations in intestinal T-cell lymphoma",
+      "url": "https://www.nature.com/articles/ncomms12602"
+    },
+    "h_alk": {
+      "title": "Chiarle et al.: STAT3 and ALK-mediated lymphomagenesis",
+      "url": "https://www.nature.com/articles/nm1249"
+    },
+    "h_bpdc": {
+      "title": "Primary study: epigenetic dysregulation in BPDCN",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6442957/"
+    },
+    "h_bpmyc": {
+      "title": "Kubota et al.: RUNX2 enhancer hijacking activates MYC in BPDCN",
+      "url": "https://www.nature.com/articles/s41467-019-09710-z"
+    },
+    "h_bpmyb": {
+      "title": "Suzuki et al.: MYB rearrangements in BPDCN",
+      "url": "https://www.nature.com/articles/leu2017101"
+    },
+    "h_hist": {
+      "title": "Durham et al.: activating kinase alterations in histiocytic neoplasms",
+      "url": "https://www.nature.com/articles/s41591-019-0653-6"
+    }
+  },
+  "entities": [
+    {
+      "id": "h_cml",
+      "name": "Chronic myeloid leukemia",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "CML",
+        "Philadelphia chromosome"
+      ],
+      "anchor": "CML → BCR::ABL1.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — BCR::ABL1, usually t(9;22)"
+      ],
+      "other": [],
+      "pitfall": "ABL1 kinase-domain resistance mutations are acquired evolution events, not the initiating CML lesion.",
+      "refs": [
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_pv",
+      "name": "Polycythemia vera",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [],
+      "anchor": "PV → JAK2.",
+      "snv": [
+        "Driver — JAK2 V617F or exon 12 activating indels"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Cooperating — copy-neutral 9p loss of heterozygosity can increase mutant JAK2 dosage"
+      ],
+      "pitfall": "CALR and MPL are characteristic of ET/PMF rather than conventional PV.",
+      "refs": [
+        "h_mpn",
+        "h_calr"
+      ]
+    },
+    {
+      "id": "h_et",
+      "name": "Essential thrombocythemia",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "ET"
+      ],
+      "anchor": "ET → JAK2, CALR or MPL.",
+      "snv": [
+        "Alternative drivers — JAK2 V617F; CALR exon 9 frameshift; MPL activating variants"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Triple-negative cases exist; genotype does not distinguish ET from prefibrotic PMF.",
+      "refs": [
+        "h_calr",
+        "h_mpn"
+      ]
+    },
+    {
+      "id": "h_pmf",
+      "name": "Primary myelofibrosis",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "PMF",
+        "prefibrotic myelofibrosis"
+      ],
+      "anchor": "PMF shares the JAK2–CALR–MPL triad.",
+      "snv": [
+        "Alternative drivers — JAK2 V617F; CALR exon 9 frameshift; MPL activation",
+        "Cooperating — ASXL1, SRSF2, EZH2, IDH1/2, U2AF1"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Prefibrotic and overt fibrotic phases are combined. Additional lesions influence progression rather than define PMF alone.",
+      "refs": [
+        "h_mpn",
+        "h_calr"
+      ]
+    },
+    {
+      "id": "h_cnl",
+      "name": "Chronic neutrophilic leukemia",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "CNL"
+      ],
+      "anchor": "CNL → CSF3R T618I.",
+      "snv": [
+        "Driver — CSF3R membrane-proximal activating variants, especially T618I",
+        "Cooperating — SETBP1, ASXL1"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "A CSF3R mutation is interpreted with the neutrophilic phenotype and exclusion of mimics.",
+      "refs": [
+        "h_csf",
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_cel",
+      "name": "Chronic eosinophilic leukemia",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "CEL",
+        "CEL NOS"
+      ],
+      "anchor": "CEL: clonal eosinophilia without a defining kinase fusion.",
+      "snv": [
+        "Recurrent, nonspecific — ASXL1, TET2, SRSF2, STAT5B (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Exclude PDGFRA/B, FGFR1, JAK2 and other defining kinase-fusion neoplasms before using this category.",
+      "refs": [
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_jmml",
+      "name": "Juvenile myelomonocytic leukemia",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "JMML"
+      ],
+      "anchor": "JMML → RAS pathway.",
+      "snv": [
+        "Drivers — PTPN11, KRAS, NRAS; NF1 or CBL inactivation"
+      ],
+      "cnv": [
+        "Associated — monosomy 7 (subset)"
+      ],
+      "rearr": [],
+      "other": [
+        "Predisposition — NF1/CBL may be germline with a somatic second hit; not all RASopathy-associated myeloproliferation is JMML"
+      ],
+      "pitfall": "Interpret the molecular profile with morphology and lineage; no single listed lesion is sufficient in isolation.",
+      "refs": [
+        "h_jmml"
+      ]
+    },
+    {
+      "id": "h_mpnnos",
+      "name": "Myeloproliferative neoplasm, NOS",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [],
+      "anchor": "An MPN phenotype can remain unclassifiable.",
+      "snv": [
+        "Driver — JAK2, CALR or MPL in subsets"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "No unique NOS mutation; this is an exclusion category, not a fourth driver-defined MPN.",
+      "refs": [
+        "h_who",
+        "h_mpn"
+      ]
+    },
+    {
+      "id": "h_sm",
+      "name": "Systemic mastocytosis",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "SM",
+        "mast cell leukemia"
+      ],
+      "anchor": "Systemic mast cells → KIT, usually D816V.",
+      "snv": [
+        "Driver — KIT D816V; other activating KIT variants in subsets",
+        "Cooperating — SRSF2, ASXL1, RUNX1, TET2 in advanced disease"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Includes mast cell leukemia. Indolent and advanced systemic forms share KIT biology; KIT does not establish aggressiveness.",
+      "refs": [
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_mcs",
+      "name": "Mast cell sarcoma",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [],
+      "anchor": "Mast cell sarcoma does not reliably carry KIT D816V.",
+      "snv": [
+        "Reported — activating KIT variants in a subset"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Very rare; no universal recurrent molecular driver is established. Do not extrapolate the usual systemic-mastocytosis genotype.",
+      "refs": [
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_mds",
+      "name": "Myelodysplastic neoplasm",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "MDS",
+        "myelodysplastic syndrome",
+        "childhood myelodysplastic neoplasm"
+      ],
+      "anchor": "MDS: splicing, epigenetics, del(5q), or multi-hit TP53.",
+      "snv": [
+        "Subset-defining — SF3B1; biallelic TP53 inactivation",
+        "Drivers/cooperating — TET2, ASXL1, SRSF2, U2AF1, ZRSR2, RUNX1, STAG2"
+      ],
+      "cnv": [
+        "Subset-defining — isolated del(5q)",
+        "Associated — −7/del(7q), del(20q), +8; complex changes in TP53-altered cases"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Morphologic, low-blast and increased-blast forms combined. Adult clonal hematopoiesis mutations alone do not diagnose MDS.",
+      "refs": [
+        "h_who",
+        "h_aml"
+      ]
+    },
+    {
+      "id": "h_cmml",
+      "name": "Chronic myelomonocytic leukemia",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "CMML"
+      ],
+      "anchor": "CMML → TET2 + SRSF2; add RAS for proliferation.",
+      "snv": [
+        "Recurrent — TET2, SRSF2, ASXL1",
+        "Cooperating/proliferative — NRAS, KRAS, CBL, PTPN11"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "The TET2/SRSF2 combination is a useful association, not specific enough to replace persistent monocytosis and morphology.",
+      "refs": [
+        "h_mdsmpn"
+      ]
+    },
+    {
+      "id": "h_mdsneut",
+      "name": "MDS/MPN with neutrophilia",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "aCML",
+        "atypical chronic myeloid leukemia"
+      ],
+      "anchor": "Dysplastic neutrophilia → SETBP1, ASXL1, ETNK1.",
+      "snv": [
+        "Recurrent — SETBP1, ASXL1, ETNK1; RAS-pathway variants"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Formerly atypical CML. BCR::ABL1 is absent; distinguish from CSF3R-driven CNL.",
+      "refs": [
+        "h_mdsmpn",
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_mdst",
+      "name": "MDS/MPN with SF3B1 mutation and thrombocytosis",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "MDS MPN RS T",
+        "RARS T"
+      ],
+      "anchor": "SF3B1 dysplasia + JAK2 proliferation.",
+      "snv": [
+        "Defining — SF3B1 in the named genetic category",
+        "Cooperating — JAK2 V617F; less often CALR or MPL"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "A morphologic ring-sideroblast/thrombocytosis category can be used in SF3B1-wildtype cases under specified WHO criteria.",
+      "refs": [
+        "h_mdsmpn",
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_mdsmpnnos",
+      "name": "MDS/MPN, NOS",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [],
+      "anchor": "Overlap phenotype; no unique driver.",
+      "snv": [
+        "Recurrent — ASXL1, TET2, SRSF2, RAS-pathway alterations (variable)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "No mutation combination substitutes for excluding defined MDS/MPN, MDS and MPN entities.",
+      "refs": [
+        "h_mdsmpn"
+      ]
+    },
+    {
+      "id": "h_aml",
+      "name": "Acute myeloid leukemia",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "AML",
+        "acute erythroid leukemia",
+        "acute megakaryoblastic leukemia",
+        "acute basophilic leukemia",
+        "acute monocytic leukemia"
+      ],
+      "anchor": "AML: transcription-factor fusions or NPM1/CEBPA, with cooperating signaling lesions.",
+      "snv": [
+        "Subset-defining — NPM1; CEBPA",
+        "Cooperating — FLT3 ITD/TKD, KIT, NRAS/KRAS, IDH1/2, DNMT3A",
+        "Myelodysplasia-related — ASXL1, BCOR, EZH2, SF3B1, SRSF2, STAG2, U2AF1, ZRSR2"
+      ],
+      "cnv": [
+        "Associated — −5/del(5q), −7/del(7q), complex karyotype; TP53 loss in subsets"
+      ],
+      "rearr": [
+        "Subset-defining — RUNX1::RUNX1T1; CBFB::MYH11; KMT2A, MECOM or NUP98 rearrangements",
+        "Subset-defining — DEK::NUP214, RBM15::MRTFA; rare BCR::ABL1",
+        "Rare molecular subsets — CBFA2T3::GLIS2 and other recurrent fusions"
+      ],
+      "other": [],
+      "pitfall": "Broad AML entry combines genetic and differentiation categories; APL is separate for its exceptionally strong fusion association. FLT3 ITD is an insertion/duplication, not a fusion.",
+      "refs": [
+        "h_aml",
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_apl",
+      "name": "Acute promyelocytic leukemia",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "APL"
+      ],
+      "anchor": "APL → PML::RARA.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — PML::RARA t(15;17)"
+      ],
+      "other": [],
+      "pitfall": "Other RARA-family fusions can produce an APL-like phenotype but are biologically distinct; this cue refers to PML::RARA-positive APL.",
+      "refs": [
+        "h_who",
+        "h_aml"
+      ]
+    },
+    {
+      "id": "h_down",
+      "name": "Myeloid leukemia associated with Down syndrome",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "ML DS"
+      ],
+      "anchor": "Trisomy 21 + GATA1s, then additional hits.",
+      "snv": [
+        "Driver — GATA1 truncation producing GATA1s",
+        "Cooperating — cohesin, epigenetic and signaling-gene alterations"
+      ],
+      "cnv": [
+        "Constitutional context — trisomy 21"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Transient abnormal myelopoiesis shares GATA1 and is excluded as a separate malignancy here.",
+      "refs": [
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_myelosarcoma",
+      "name": "Myeloid sarcoma",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "chloroma"
+      ],
+      "anchor": "AML genetics outside the marrow.",
+      "snv": [
+        "Subset drivers — NPM1, FLT3, RAS-pathway or other AML-associated variants"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Subset drivers — RUNX1::RUNX1T1, CBFB::MYH11, KMT2A and other AML fusions"
+      ],
+      "other": [],
+      "pitfall": "No sarcoma-specific driver; evaluate with the underlying myeloid disease.",
+      "refs": [
+        "h_aml",
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_mlntk",
+      "name": "Myeloid/lymphoid neoplasm with tyrosine kinase fusion",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "MLN TK",
+        "PDGFRA",
+        "PDGFRB",
+        "FGFR1"
+      ],
+      "anchor": "Eosinophilia can point to a kinase fusion.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining subsets — FIP1L1::PDGFRA; ETV6::PDGFRB; ZMYM2::FGFR1; PCM1::JAK2",
+        "Other defining families — FLT3 fusions, ETV6::ABL1 and other recognized kinase fusions"
+      ],
+      "other": [],
+      "pitfall": "Examples are not the only partners. Eosinophilia can be absent; a cryptic deletion can generate FIP1L1::PDGFRA.",
+      "refs": [
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_mpal",
+      "name": "Acute leukemia of ambiguous lineage",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "MPAL",
+        "AUL",
+        "mixed phenotype acute leukemia"
+      ],
+      "anchor": "Mixed lineage can share ALL/AML fusion biology.",
+      "snv": [
+        "Cooperating — FLT3, RAS-pathway and epigenetic-gene variants (variable)"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Defining subsets — BCR::ABL1; KMT2A rearrangement; ZNF384 rearrangement",
+        "Subset — BCL11B rearrangement/activation"
+      ],
+      "other": [],
+      "pitfall": "Includes mixed-phenotype and acute undifferentiated leukemia. Lineage assignment still requires immunophenotypic criteria.",
+      "refs": [
+        "h_who",
+        "h_ball"
+      ]
+    },
+    {
+      "id": "h_ball",
+      "name": "B-lymphoblastic leukemia/lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "B ALL",
+        "B lymphoblastic lymphoma",
+        "B LBL"
+      ],
+      "anchor": "B-ALL: fusions and chromosome dosage define many subsets.",
+      "snv": [
+        "Subset-defining — PAX5 P80R; IKZF1 N159Y",
+        "Cooperating — RAS, JAK-pathway alterations; PAX5 loss-of-function"
+      ],
+      "cnv": [
+        "Defining subsets — high hyperdiploidy; hypodiploidy; iAMP21",
+        "Cooperating — IKZF1, CDKN2A/B, PAX5 deletions"
+      ],
+      "rearr": [
+        "Subset-defining — BCR::ABL1, ETV6::RUNX1, TCF3::PBX1; KMT2A rearrangements",
+        "Other subsets — DUX4, ZNF384, MEF2D, NUTM1, PAX5 rearrangements; TCF3::HLF",
+        "Ph-like subsets — ABL-class fusions; CRLF2 or JAK2 rearrangements"
+      ],
+      "other": [],
+      "pitfall": "A broad umbrella: these are alternative molecular groups, not a combined expected profile.",
+      "refs": [
+        "h_ball",
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_cll",
+      "name": "Chronic lymphocytic leukemia / small lymphocytic lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "CLL",
+        "SLL"
+      ],
+      "anchor": "CLL: del(13q), trisomy 12, and heterogeneous signaling/splicing lesions.",
+      "snv": [
+        "Recurrent — NOTCH1, SF3B1, TP53, ATM, BIRC3"
+      ],
+      "cnv": [
+        "Characteristic — del(13q14), trisomy 12",
+        "Progression/risk — del(11q/ATM), del(17p/TP53)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "IGHV mutation status reflects B-cell maturation history; it is not an oncogenic driver mutation. BTK/PLCG2 resistance lesions are not baseline defining events.",
+      "refs": [
+        "h_cll"
+      ]
+    },
+    {
+      "id": "h_hcl",
+      "name": "Hairy cell leukemia",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "HCL"
+      ],
+      "anchor": "Classic hairy cell → BRAF V600E.",
+      "snv": [
+        "Driver — BRAF V600E in the great majority"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "BRAF-wildtype cases require careful distinction from other splenic B-cell neoplasms; no single mutation is absolutely tumor-specific.",
+      "refs": [
+        "h_hcl",
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_sblpn",
+      "name": "Splenic B-cell lymphoma/leukemia with prominent nucleoli",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "HCL variant",
+        "HCLv",
+        "B prolymphocytic leukemia",
+        "SBLPN"
+      ],
+      "anchor": "Former HCL variant: think MAP2K1, not classic BRAF.",
+      "snv": [
+        "Driver — MAP2K1 (subset)",
+        "Cooperating — TP53 (subset)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "WHO5 includes former hairy-cell leukemia variant and some former B-prolymphocytic leukemias.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_sdrpl",
+      "name": "Splenic diffuse red pulp small B-cell lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "SDRPL"
+      ],
+      "anchor": "Red pulp lymphoma: CCND3 and BCOR associations.",
+      "snv": [
+        "Recurrent — CCND3, BCOR (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "No unique molecular hallmark; the splenic architecture and phenotype matter.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_mzl",
+      "name": "Marginal zone lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "MALT lymphoma",
+        "SMZL",
+        "nodal marginal zone lymphoma",
+        "extranodal marginal zone lymphoma"
+      ],
+      "anchor": "MALT fusions converge on NF-κB; splenic cases often involve NOTCH2/KLF2.",
+      "snv": [
+        "Drivers — NOTCH2, KLF2 (splenic-enriched); TNFAIP3, KMT2D and other NF-κB/chromatin lesions (site-dependent)"
+      ],
+      "cnv": [
+        "Associated — del(7q) in splenic MZL; trisomies 3/18 in subsets"
+      ],
+      "rearr": [
+        "MALT subsets — BIRC3::MALT1; IGH::MALT1; BCL10::IGH; IGH::FOXP1"
+      ],
+      "other": [
+        "Context — chronic antigenic stimulation, infection or autoimmunity in selected anatomical settings"
+      ],
+      "pitfall": "Splenic, nodal and extranodal/MALT forms combined with site-specific molecular notes. Do not apply a gastric MALT fusion frequency to all MZL.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_lpl",
+      "name": "Lymphoplasmacytic lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "Waldenstrom macroglobulinemia",
+        "LPL",
+        "WM"
+      ],
+      "anchor": "LPL/Waldenström → MYD88 L265P.",
+      "snv": [
+        "Driver — MYD88 L265P",
+        "Cooperating — CXCR4 truncating variants (subset)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "MYD88 is neither universal nor specific to LPL; it also occurs in selected large B-cell lymphomas.",
+      "refs": [
+        "h_lpl",
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_fl",
+      "name": "Follicular lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "FL",
+        "duodenal type follicular lymphoma",
+        "follicular large B cell lymphoma"
+      ],
+      "anchor": "Follicular → IGH::BCL2 plus chromatin modifiers.",
+      "snv": [
+        "Drivers/cooperating — KMT2D, CREBBP, EZH2"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Characteristic — IGH::BCL2 t(14;18), especially classic FL"
+      ],
+      "other": [],
+      "pitfall": "BCL2 rearrangement can be absent, especially in specific variants. Duodenal-type disease is included here.",
+      "refs": [
+        "h_fl",
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_ptfl",
+      "name": "Pediatric-type follicular lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "PTFL",
+        "testicular follicular lymphoma"
+      ],
+      "anchor": "Pediatric-type FL often lacks BCL2 rearrangement.",
+      "snv": [
+        "Recurrent — MAP2K1, TNFRSF14, IRF8"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Pediatric-type refers to biology, not an absolute age cutoff; this differs from conventional adult-type FL.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_pcfcl",
+      "name": "Primary cutaneous follicle center lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "PCFCL"
+      ],
+      "anchor": "A skin follicle-center lymphoma often lacks the classic FL translocation.",
+      "snv": [
+        "Recurrent — TNFRSF14 and chromatin-regulator alterations (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Strong BCL2 expression or rearrangement prompts consideration of systemic FL involving skin; exceptions occur.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_mcl",
+      "name": "Mantle cell lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "MCL"
+      ],
+      "anchor": "Mantle → CCND1 beside an immunoglobulin enhancer.",
+      "snv": [
+        "Cooperating — ATM, TP53, NOTCH1/2"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Characteristic — IGH::CCND1 t(11;14)",
+        "Alternative — CCND2 or CCND3 rearrangement in cyclin-D1-negative cases"
+      ],
+      "other": [],
+      "pitfall": "The rearrangement drives cyclin expression, not a conventional chimeric kinase. Leukemic non-nodal disease is included.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_dlbcl",
+      "name": "Diffuse large B-cell lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "DLBCL",
+        "T cell histiocyte rich large B cell lymphoma"
+      ],
+      "anchor": "DLBCL has multiple BCR/NF-κB and chromatin routes.",
+      "snv": [
+        "Subset drivers — MYD88, CD79B, CARD11; EZH2, CREBBP, KMT2D; NOTCH2, TNFAIP3"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B loss; BCL2 gains in subsets"
+      ],
+      "rearr": [
+        "Subset alterations — BCL6, BCL2 or MYC rearrangements"
+      ],
+      "other": [],
+      "pitfall": "Includes NOS and T-cell/histiocyte-rich morphology. MYC plus BCL2 rearrangements define a distinct category; double protein expression is not double-hit genetics.",
+      "refs": [
+        "h_dlbcl",
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_immunepriv",
+      "name": "Large B-cell lymphoma of immune-privileged sites",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "primary CNS lymphoma",
+        "testicular lymphoma",
+        "vitreoretinal lymphoma"
+      ],
+      "anchor": "CNS/testis/eye LBCL → MYD88–CD79B and immune escape.",
+      "snv": [
+        "Recurrent — MYD88 L265P, CD79B; PIM1"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B loss; 9p24.1 gains in subsets"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "CNS, vitreoretinal and testicular disease share enriched pathways, not a universal mutation.",
+      "refs": [
+        "h_lymph",
+        "h_dlbcl"
+      ]
+    },
+    {
+      "id": "h_leg",
+      "name": "Primary cutaneous diffuse large B-cell lymphoma, leg type",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [],
+      "anchor": "Leg-type LBCL often uses MYD88/CD79B.",
+      "snv": [
+        "Recurrent — MYD88 L265P, CD79B"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A deletion"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "The name is a clinicopathologic entity; lesions can arise outside the leg.",
+      "refs": [
+        "h_lymph",
+        "h_dlbcl"
+      ]
+    },
+    {
+      "id": "h_intravascular",
+      "name": "Intravascular large B-cell lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "IVLBCL"
+      ],
+      "anchor": "Intravascular LBCL: BCR/NF-κB alterations in a distinctive growth pattern.",
+      "snv": [
+        "Recurrent — MYD88, CD79B (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Intravascular growth defines the phenotype; the genotype overlaps other LBCLs.",
+      "refs": [
+        "h_lymph",
+        "h_dlbcl"
+      ]
+    },
+    {
+      "id": "h_pmbl",
+      "name": "Primary mediastinal large B-cell lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "PMBCL",
+        "PMBL"
+      ],
+      "anchor": "Mediastinal B-cell → JAK/STAT and 9p24.1.",
+      "snv": [
+        "Recurrent — STAT6, SOCS1, TNFAIP3"
+      ],
+      "cnv": [
+        "Characteristic — 9p24.1 gain/amplification (JAK2, CD274, PDCD1LG2)"
+      ],
+      "rearr": [
+        "Recurrent — CIITA rearrangements (subset)"
+      ],
+      "other": [],
+      "pitfall": "Mediastinal location alone is insufficient; integrated phenotype distinguishes it from other LBCLs.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_gray",
+      "name": "Mediastinal gray zone lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "MGZL"
+      ],
+      "anchor": "Gray zone shares PMBCL/Hodgkin immune-escape biology.",
+      "snv": [
+        "Recurrent — SOCS1, STAT6 (subsets)"
+      ],
+      "cnv": [
+        "Associated — 9p24.1 gains"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "An integrated mediastinal diagnosis; there is no unique diagnostic driver.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_doublehit",
+      "name": "DLBCL / high-grade B-cell lymphoma with MYC and BCL2 rearrangements",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "double hit lymphoma",
+        "triple hit lymphoma"
+      ],
+      "anchor": "Double hit means two rearrangements: MYC + BCL2.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — MYC rearrangement together with BCL2 rearrangement; BCL6 can additionally be rearranged"
+      ],
+      "other": [],
+      "pitfall": "MYC/BCL6-only cases do not belong to this WHO5 MYC/BCL2 category.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_hgbcl",
+      "name": "High-grade B-cell lymphoma, NOS",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [],
+      "anchor": "High-grade morphology can lack a defining genetic category.",
+      "snv": [
+        "Heterogeneous — TP53 and other aggressive B-cell lymphoma lesions"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Subset — isolated MYC rearrangement"
+      ],
+      "other": [],
+      "pitfall": "An exclusion category; not equivalent to Burkitt lymphoma or MYC/BCL2 double-hit disease.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_11q",
+      "name": "High-grade B-cell lymphoma with 11q aberration",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "HGBCL 11q"
+      ],
+      "anchor": "Burkitt-like appearance, characteristic 11q gain/loss.",
+      "snv": [],
+      "cnv": [
+        "Defining — proximal 11q gain with distal 11q loss"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Typically lacks a MYC rearrangement; the dosage pattern is more informative than one gene.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_irf4",
+      "name": "Large B-cell lymphoma with IRF4 rearrangement",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [],
+      "anchor": "IRF4-rearranged LBCL is a separate molecular entity.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — IRF4 rearrangement, commonly with an immunoglobulin locus"
+      ],
+      "other": [],
+      "pitfall": "MUM1/IRF4 protein staining alone does not establish rearrangement.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_alkb",
+      "name": "ALK-positive large B-cell lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [],
+      "anchor": "ALK in a B-cell lymphoma, often CLTC::ALK.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — ALK fusion; CLTC::ALK is common"
+      ],
+      "other": [],
+      "pitfall": "Distinguish from ALK-positive anaplastic large cell lymphoma using lineage.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_ebvb",
+      "name": "EBV-associated large B-cell lymphomas",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "EBV positive DLBCL",
+        "chronic inflammation associated lymphoma",
+        "fibrin associated large B cell lymphoma",
+        "lymphomatoid granulomatosis"
+      ],
+      "anchor": "For EBV-associated LBCL, the virus may be the strongest molecular cue.",
+      "snv": [
+        "Variable cooperating — TP53, TNFAIP3 and other immune/signaling lesions"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Viral driver — Epstein–Barr virus (EBV)"
+      ],
+      "pitfall": "Study umbrella for EBV-positive DLBCL, chronic-inflammation-associated LBCL, fibrin-associated LBCL and lymphomatoid granulomatosis; these remain distinct clinicopathologic diagnoses.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_pbl",
+      "name": "Plasmablastic lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "PBL"
+      ],
+      "anchor": "Plasmablastic lymphoma: MYC often joins EBV.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Frequent cooperating — MYC rearrangement"
+      ],
+      "other": [
+        "Viral — EBV in a substantial subset"
+      ],
+      "pitfall": "Plasma-cell markers alone do not distinguish this lymphoma from plasma cell myeloma.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_pel",
+      "name": "Primary effusion lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "PEL"
+      ],
+      "anchor": "PEL → KSHV/HHV8.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Defining viral association — KSHV/HHV8; EBV co-infection common"
+      ],
+      "pitfall": "Includes extracavitary PEL. No universal recurrent human SNV or fusion defines the disease.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_hhv8b",
+      "name": "KSHV/HHV8-positive diffuse large B-cell lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [],
+      "anchor": "HHV8-positive LBCL is distinct from PEL.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Defining viral association — KSHV/HHV8"
+      ],
+      "pitfall": "Often occurs in the context of HHV8-associated multicentric Castleman disease; morphology and phenotype distinguish it from PEL.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_fluid",
+      "name": "Fluid overload-associated large B-cell lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "HHV8 unrelated effusion large B cell lymphoma"
+      ],
+      "anchor": "An effusion lymphoma can be HHV8-negative.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "No established single defining genetic driver. HHV8 negativity and clinical/effusion context help distinguish it from PEL.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_burkitt",
+      "name": "Burkitt lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [],
+      "anchor": "Burkitt → MYC–immunoglobulin rearrangement.",
+      "snv": [
+        "Cooperating — ID3, TCF3, CCND3"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Characteristic — IGH::MYC; IGK/IGL–MYC alternatives"
+      ],
+      "other": [
+        "Viral — EBV association varies by biological group"
+      ],
+      "pitfall": "MYC rearrangement is not specific for Burkitt; high-grade B-cell differentials require integrated evaluation.",
+      "refs": [
+        "h_burkitt",
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_hodgkin",
+      "name": "Classic Hodgkin lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "CHL",
+        "classical Hodgkin lymphoma"
+      ],
+      "anchor": "Hodgkin: JAK/STAT, NF-κB and immune escape.",
+      "snv": [
+        "Recurrent — SOCS1, STAT6, TNFAIP3"
+      ],
+      "cnv": [
+        "Characteristic — 9p24.1 gain/amplification (JAK2, CD274, PDCD1LG2)"
+      ],
+      "rearr": [],
+      "other": [
+        "Viral — EBV-associated subset"
+      ],
+      "pitfall": "Histologic subtypes combined; many tumor mutations are hard to detect in bulk tissue because tumor cells are sparse.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_nlphl",
+      "name": "Nodular lymphocyte-predominant Hodgkin lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "NLPHL",
+        "NLPBCL"
+      ],
+      "anchor": "LP-cell disease remains distinct from classic Hodgkin.",
+      "snv": [
+        "Recurrent — SGK1, DUSP2, JUNB (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Recurrent — BCL6 rearrangements (subset)"
+      ],
+      "other": [],
+      "pitfall": "WHO5 retains this name; other classification systems use nodular lymphocyte-predominant B-cell lymphoma.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_myeloma",
+      "name": "Plasma cell myeloma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "multiple myeloma",
+        "MM",
+        "plasma cell leukemia"
+      ],
+      "anchor": "Myeloma: hyperdiploidy or IGH translocation, then progression hits.",
+      "snv": [
+        "Drivers/cooperating — KRAS, NRAS, BRAF; TP53 in progression"
+      ],
+      "cnv": [
+        "Initiating pattern — hyperdiploidy",
+        "Progression — gain/amplification 1q; del(1p), del(17p/TP53)"
+      ],
+      "rearr": [
+        "Subsets — IGH::CCND1; IGH::NSD2/FGFR3 (t(4;14)); IGH::MAF; IGH::MAFB",
+        "Progression — MYC rearrangements"
+      ],
+      "other": [],
+      "pitfall": "Includes plasma cell leukemia as a presentation. NSD2 and FGFR3 dysregulation can arise from the same t(4;14) event.",
+      "refs": [
+        "h_myeloma",
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_plasmacytoma",
+      "name": "Plasmacytoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [],
+      "anchor": "A localized plasma-cell tumor can share myeloma alterations.",
+      "snv": [],
+      "cnv": [
+        "Recurrent — aneuploidy and plasma-cell-neoplasm copy-number changes"
+      ],
+      "rearr": [
+        "Subset — IGH rearrangements involving cyclin-D genes or other myeloma-associated partners"
+      ],
+      "other": [],
+      "pitfall": "Solitary bone and extraosseous plasmacytomas combined. A myeloma-like alteration does not itself establish systemic myeloma.",
+      "refs": [
+        "h_lymph",
+        "h_myeloma"
+      ]
+    },
+    {
+      "id": "h_heavy",
+      "name": "Heavy chain diseases",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [],
+      "anchor": "Abnormal truncated immunoglobulin heavy chain is the clue.",
+      "snv": [
+        "Functional lesion — IGH deletions/sequence changes producing a truncated heavy chain"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Alpha, gamma and mu forms combined; this is not a single oncogenic fusion category. Specific recurrent initiating cancer drivers remain incompletely characterized.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_tall",
+      "name": "T-lymphoblastic leukemia/lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "T ALL",
+        "T LBL",
+        "ETP ALL"
+      ],
+      "anchor": "T-ALL → NOTCH1 plus T-cell transcription programs.",
+      "snv": [
+        "Driver — NOTCH1 activation; FBXW7 loss",
+        "Cooperating — PTEN, IL7R, JAK1/3, RAS-pathway lesions"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B deletion"
+      ],
+      "rearr": [
+        "Subset drivers — TAL1/STIL::TAL1, TLX1, TLX3, LMO1/2, HOXA or BCL11B activation"
+      ],
+      "other": [],
+      "pitfall": "Includes early T-precursor disease; its signaling/epigenetic profile differs from conventional T-ALL.",
+      "refs": [
+        "h_tall"
+      ]
+    },
+    {
+      "id": "h_tpll",
+      "name": "T-cell prolymphocytic leukemia",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "T PLL"
+      ],
+      "anchor": "T-PLL → TCL1A/MTCP1 activation plus ATM loss.",
+      "snv": [
+        "Cooperating — ATM; JAK1, JAK3, STAT5B"
+      ],
+      "cnv": [
+        "Cooperating — ATM/11q loss; 8q gains"
+      ],
+      "rearr": [
+        "Characteristic — TCR-locus rearrangements activating TCL1A, or MTCP1"
+      ],
+      "other": [],
+      "pitfall": "TCL1 activation and defective DNA-damage response are complementary molecular themes.",
+      "refs": [
+        "h_tpll"
+      ]
+    },
+    {
+      "id": "h_tlgl",
+      "name": "T-cell large granular lymphocytic leukemia",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "T LGL leukemia"
+      ],
+      "anchor": "T-LGL → STAT3; selected cases STAT5B.",
+      "snv": [
+        "Driver — STAT3 SH2-domain variants; STAT5B in selected subsets"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "TCR clonality is not itself an oncogenic rearrangement and can also occur in nonmalignant expansions.",
+      "refs": [
+        "h_lgl",
+        "h_nk"
+      ]
+    },
+    {
+      "id": "h_nklgl",
+      "name": "NK-large granular lymphocytic leukemia",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "chronic lymphoproliferative disorder NK",
+        "CLPD NK"
+      ],
+      "anchor": "Chronic NK expansion can involve STAT3.",
+      "snv": [
+        "Driver — STAT3 (subset)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Formerly chronic lymphoproliferative disorder of NK cells. Distinguish from aggressive NK-cell leukemia.",
+      "refs": [
+        "h_lymph",
+        "h_nk"
+      ]
+    },
+    {
+      "id": "h_atll",
+      "name": "Adult T-cell leukemia/lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "ATLL",
+        "ATL"
+      ],
+      "anchor": "ATLL → HTLV-1 plus TCR/NF-κB signaling.",
+      "snv": [
+        "Cooperating — PLCG1, PRKCB, CARD11, VAV1, CCR4"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Subset — CTLA4::CD28 or ICOS::CD28"
+      ],
+      "other": [
+        "Etiologic — HTLV-1 integration and viral oncogenic programs"
+      ],
+      "pitfall": "Acute, lymphoma, chronic and smoldering presentations combined.",
+      "refs": [
+        "h_atll"
+      ]
+    },
+    {
+      "id": "h_mf",
+      "name": "Mycosis fungoides",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "MF"
+      ],
+      "anchor": "MF: heterogeneous T-cell signaling and tumor-suppressor loss.",
+      "snv": [
+        "Recurrent — PLCG1, STAT3/5B, TP53 and other TCR/JAK-STAT lesions"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B, TP53 loss (especially advanced disease)"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "No universal driver; TCR clonality supports a clone, not malignancy by itself.",
+      "refs": [
+        "h_ctcl"
+      ]
+    },
+    {
+      "id": "h_sezary",
+      "name": "Sézary syndrome",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "Sezary syndrome"
+      ],
+      "anchor": "Sézary → T-cell signaling plus ZEB1/cell-cycle loss.",
+      "snv": [
+        "Recurrent — PLCG1, CARD11, CCR4, TP53"
+      ],
+      "cnv": [
+        "Cooperating — ZEB1, CDKN2A loss"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Separate leukemic cutaneous T-cell entity; not simply a genetic subtype of MF.",
+      "refs": [
+        "h_sezary"
+      ]
+    },
+    {
+      "id": "h_alcl",
+      "name": "Anaplastic large cell lymphoma, systemic",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "ALCL",
+        "ALK positive anaplastic large cell lymphoma",
+        "ALK negative anaplastic large cell lymphoma"
+      ],
+      "anchor": "ALCL: ALK fusion, or ALK-negative JAK/STAT alternatives.",
+      "snv": [
+        "ALK-negative subsets — JAK1, STAT3 activation"
+      ],
+      "cnv": [],
+      "rearr": [
+        "ALK-positive defining — NPM1::ALK and alternative ALK partners",
+        "ALK-negative subsets — DUSP22 or TP63 rearrangements"
+      ],
+      "other": [],
+      "pitfall": "ALK-positive and ALK-negative molecular groups are retained inside this broad entry; DUSP22 and TP63 are not equivalent biologically.",
+      "refs": [
+        "h_lymph",
+        "h_alk"
+      ]
+    },
+    {
+      "id": "h_bialcl",
+      "name": "Breast implant-associated anaplastic large cell lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "BIA ALCL"
+      ],
+      "anchor": "Implant-associated ALCL → JAK/STAT; usually ALK-negative.",
+      "snv": [
+        "Recurrent — JAK1, STAT3 (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "The implant-associated clinical setting defines this entity; do not equate it with systemic ALK-positive ALCL.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_pcalcl",
+      "name": "Primary cutaneous anaplastic large cell lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [],
+      "anchor": "Skin ALCL: DUSP22 rearrangement in a subset.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Subset — DUSP22 rearrangement"
+      ],
+      "other": [],
+      "pitfall": "Most cases lack ALK rearrangement. Distinguish from systemic ALCL involving skin and lymphomatoid papulosis.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_tfh",
+      "name": "Nodal T-follicular helper cell lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "AITL",
+        "angioimmunoblastic T cell lymphoma"
+      ],
+      "anchor": "TFH lymphoma → RHOA G17V + TET2/DNMT3A.",
+      "snv": [
+        "Drivers/cooperating — RHOA G17V, TET2, DNMT3A",
+        "Enriched subset — IDH2 R172 in angioimmunoblastic-type disease"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Subset — ITK::SYK, especially follicular-type"
+      ],
+      "other": [],
+      "pitfall": "Angioimmunoblastic, follicular and NOS forms combined. TET2/DNMT3A may arise in antecedent clonal hematopoiesis.",
+      "refs": [
+        "h_tfh",
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_ptcl",
+      "name": "Peripheral T-cell lymphoma, NOS",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "PTCL NOS"
+      ],
+      "anchor": "PTCL-NOS has no single defining mutation.",
+      "snv": [
+        "Variable drivers/cooperating — TET2, DNMT3A, VAV1, PLCG1, TP53"
+      ],
+      "cnv": [
+        "Subset — CDKN2A loss"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Exclude TFH, ALCL, viral and other defined T-cell entities before using NOS.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_hstcl",
+      "name": "Hepatosplenic T-cell lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "HSTCL"
+      ],
+      "anchor": "Hepatosplenic → i(7q), STAT5B and SETD2.",
+      "snv": [
+        "Recurrent — STAT5B, STAT3, SETD2"
+      ],
+      "cnv": [
+        "Characteristic — isochromosome 7q (7p loss/7q gain); trisomy 8"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Includes alpha-beta and gamma-delta lineages; no alteration is universal.",
+      "refs": [
+        "h_lymph",
+        "h_nk"
+      ]
+    },
+    {
+      "id": "h_eatl",
+      "name": "Enteropathy-associated T-cell lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "EATL"
+      ],
+      "anchor": "Celiac-associated intestinal lymphoma → JAK/STAT.",
+      "snv": [
+        "Recurrent — JAK1, STAT3 and epigenetic-regulator variants"
+      ],
+      "cnv": [
+        "Associated — 9q gains and other complex changes"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Do not merge the biology with MEITL, which is usually not celiac-associated.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_meitl",
+      "name": "Monomorphic epitheliotropic intestinal T-cell lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "MEITL",
+        "EATL type II"
+      ],
+      "anchor": "MEITL → SETD2 + STAT5B/JAK3.",
+      "snv": [
+        "Recurrent — SETD2 inactivation; STAT5B, JAK3 activation"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Formerly EATL type II; the obsolete type-II label does not imply celiac disease.",
+      "refs": [
+        "h_meitl"
+      ]
+    },
+    {
+      "id": "h_itcl",
+      "name": "Intestinal T-cell lymphoma, NOS",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [],
+      "anchor": "Intestinal T-cell malignancy without a defining category.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "No established single molecular hallmark; exclude EATL, MEITL and secondary intestinal involvement.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_indgi",
+      "name": "Indolent T-cell lymphoma of the gastrointestinal tract",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "indolent T cell lymphoproliferative disorder GI"
+      ],
+      "anchor": "Indolent GI T-cell lymphoma can have JAK/STAT lesions.",
+      "snv": [
+        "Subset — STAT3 and other JAK/STAT pathway alterations"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Subset — STAT3::JAK2"
+      ],
+      "other": [],
+      "pitfall": "WHO5 uses lymphoma terminology; do not confuse with indolent NK-cell lymphoproliferative disorder.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_sptcl",
+      "name": "Subcutaneous panniculitis-like T-cell lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "SPTCL"
+      ],
+      "anchor": "Panniculitis-like T-cell lymphoma: no universal somatic driver.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Predisposition — germline HAVCR2 variants in a subset, especially with immune dysregulation"
+      ],
+      "pitfall": "HAVCR2 is a susceptibility association, not a tumor-specific somatic finding. Alpha-beta lineage differs from cutaneous gamma-delta lymphoma.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_gd",
+      "name": "Primary cutaneous gamma-delta T-cell lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [],
+      "anchor": "Cutaneous gamma-delta lymphoma → JAK/STAT in subsets.",
+      "snv": [
+        "Driver — STAT3 or STAT5B activation (subset)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Separate from panniculitis-like alpha-beta lymphoma despite possible subcutaneous involvement.",
+      "refs": [
+        "h_nk",
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_cd8",
+      "name": "Primary cutaneous aggressive epidermotropic CD8-positive T-cell lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [],
+      "anchor": "Aggressive CD8 epidermotropism; no universal driver.",
+      "snv": [
+        "Subset — JAK/STAT pathway alterations"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Exclude indolent acral CD8-positive lymphoproliferative disorder, which is outside the malignant-only scope.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_enkt",
+      "name": "Extranodal NK/T-cell lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "ENKTL",
+        "nasal NK T lymphoma"
+      ],
+      "anchor": "Extranodal NK/T → EBV + JAK/STAT.",
+      "snv": [
+        "Cooperating — STAT3, JAK3, DDX3X, TP53 (subsets)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Defining viral association — EBV"
+      ],
+      "pitfall": "The old nasal-type name does not limit disease to the nose.",
+      "refs": [
+        "h_nk",
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_ankl",
+      "name": "Aggressive NK-cell leukemia",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "ANKL"
+      ],
+      "anchor": "Aggressive NK leukemia often combines EBV with signaling lesions.",
+      "snv": [
+        "Recurrent — JAK/STAT-pathway variants; TP53, DDX3X in subsets"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Viral — EBV in most cases"
+      ],
+      "pitfall": "EBV-negative cases occur; the fulminant clinical/lineage picture distinguishes it from NK-LGL leukemia.",
+      "refs": [
+        "h_nk",
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_nodalebv",
+      "name": "EBV-positive nodal T- and NK-cell lymphoma",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [],
+      "anchor": "Nodal EBV-positive T/NK disease is a distinct category.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Defining viral association — EBV"
+      ],
+      "pitfall": "No universal SNV/CNV/fusion hallmark is established for memorization. Exclude secondary nodal involvement by extranodal NK/T lymphoma.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_childtebv",
+      "name": "Systemic EBV-positive T-cell lymphoma of childhood",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [],
+      "anchor": "Childhood systemic T-cell lymphoma → clonal EBV-positive T cells.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Defining viral association — EBV"
+      ],
+      "pitfall": "Not equivalent to infectious mononucleosis, hemophagocytic syndrome alone or all chronic active EBV disease.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_bpdc",
+      "name": "Blastic plasmacytoid dendritic cell neoplasm",
+      "system": "Histiocytic & dendritic neoplasms",
+      "aliases": [
+        "BPDCN"
+      ],
+      "anchor": "BPDCN: epigenetic lesions; MYC/MYB rearrangements in subsets.",
+      "snv": [
+        "Recurrent — TET2, ASXL1, ZRSR2 and other epigenetic/splicing lesions"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B, RB1 and other recurrent losses"
+      ],
+      "rearr": [
+        "Subset — MYC enhancer hijacking, including RUNX2 regulatory regions; MYB rearrangements"
+      ],
+      "other": [],
+      "pitfall": "No single alteration is obligatory; plasmacytoid dendritic lineage is essential.",
+      "refs": [
+        "h_bpdc",
+        "h_bpmyc",
+        "h_bpmyb"
+      ]
+    },
+    {
+      "id": "h_lch",
+      "name": "Langerhans cell histiocytosis",
+      "system": "Histiocytic & dendritic neoplasms",
+      "aliases": [
+        "LCH"
+      ],
+      "anchor": "LCH → MAPK activation.",
+      "snv": [
+        "Driver — BRAF V600E; MAP2K1 and other MAPK variants"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Rare — BRAF and other kinase fusions"
+      ],
+      "other": [],
+      "pitfall": "A clonal myeloid neoplasm with a wide clinical spectrum; mutation does not predict extent by itself.",
+      "refs": [
+        "h_hist",
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_ecd",
+      "name": "Erdheim–Chester disease",
+      "system": "Histiocytic & dendritic neoplasms",
+      "aliases": [
+        "ECD"
+      ],
+      "anchor": "ECD → BRAF/MAPK.",
+      "snv": [
+        "Driver — BRAF V600E, MAP2K1, KRAS/NRAS, ARAF (alternative subsets)"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Included as a systemic histiocytic neoplasm; behavior is heterogeneous and is not inferred from BRAF alone.",
+      "refs": [
+        "h_hist"
+      ]
+    },
+    {
+      "id": "h_histsar",
+      "name": "Histiocytic sarcoma",
+      "system": "Histiocytic & dendritic neoplasms",
+      "aliases": [],
+      "anchor": "Histiocytic sarcoma can converge on MAPK.",
+      "snv": [
+        "Driver — BRAF, MAP2K1, KRAS/NRAS (subsets)",
+        "Cooperating — CDKN2A, TP53 alterations"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Some cases are clonally related to a prior lymphoid neoplasm; genetic overlap does not replace lineage assessment.",
+      "refs": [
+        "h_hist",
+        "h_who"
+      ]
+    },
+    {
+      "id": "h_lcs",
+      "name": "Langerhans cell sarcoma",
+      "system": "Histiocytic & dendritic neoplasms",
+      "aliases": [],
+      "anchor": "Malignant Langerhans morphology; no uniform driver.",
+      "snv": [
+        "Reported — MAPK-pathway alterations in a subset"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Do not presume the mutation distribution of LCH applies to this much rarer sarcoma.",
+      "refs": [
+        "h_who",
+        "h_hist"
+      ]
+    },
+    {
+      "id": "h_idcs",
+      "name": "Interdigitating dendritic cell sarcoma",
+      "system": "Histiocytic & dendritic neoplasms",
+      "aliases": [],
+      "anchor": "A rare dendritic sarcoma with limited molecular evidence.",
+      "snv": [
+        "Reported — BRAF/MAPK alterations in rare cases"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "No well-established recurrent defining alteration; phenotype and exclusion of mimics remain central.",
+      "refs": [
+        "h_who",
+        "h_hist"
+      ]
+    },
+    {
+      "id": "h_fdcs",
+      "name": "Follicular dendritic cell sarcoma",
+      "system": "Histiocytic & dendritic neoplasms",
+      "aliases": [
+        "inflammatory EBV positive follicular dendritic cell sarcoma"
+      ],
+      "anchor": "FDC sarcoma: NF-κB dysregulation; EBV in the inflammatory variant.",
+      "snv": [
+        "Recurrent — NFKBIA, CYLD and other NF-κB-regulator lesions (subsets)"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A loss (subset)"
+      ],
+      "rearr": [],
+      "other": [
+        "Viral — EBV in inflammatory EBV-positive follicular dendritic cell sarcoma"
+      ],
+      "pitfall": "Stromal/mesenchymal lineage despite its traditional placement with dendritic tumors; conventional and inflammatory EBV-positive forms are noted together.",
+      "refs": [
+        "h_lymph"
+      ]
+    },
+    {
+      "id": "h_frct",
+      "name": "Fibroblastic reticular cell tumor, malignant",
+      "system": "Histiocytic & dendritic neoplasms",
+      "aliases": [],
+      "anchor": "Reticular-cell malignancy has no established molecular signature.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Extremely rare; no validated recurrent driver is available for a reliable memorization cue.",
+      "refs": [
+        "h_lymph"
+      ]
+    }
+  ],
+  "coverage": {
+    "systems": [
+      "Myeloid & acute leukemias",
+      "B-cell & plasma-cell neoplasms",
+      "T-cell & NK-cell neoplasms",
+      "Histiocytic & dendritic neoplasms"
+    ],
+    "basis": "WHO-HAEM5 nomenclature, with broad study families and selected molecular distinctions retained. WHO authors’ 2022 classification papers are the baseline; the public draft structure can contain older terminology.",
+    "merged": [
+      "AML differentiation and genetic subsets combined except APL; MDS subtypes combined.",
+      "B-ALL and T-ALL molecular subsets nested inside broad lineage entries.",
+      "Marginal zone lymphomas and selected EBV-associated LBCL categories combined, with aliases and internal distinctions.",
+      "Post-cytotoxic, germline-predisposition and immune-dysregulation settings are qualifiers on underlying disease, not separate repeated mutation lists.",
+      "Histologic Hodgkin, follicular, ALCL and TFH variants grouped where suitable."
+    ],
+    "excluded": [
+      "CHIP/CCUS, MGUS, monoclonal B-cell lymphocytosis, in situ lymphoid lesions and transient abnormal myelopoiesis are not separate malignant entries.",
+      "Reactive histiocytoses, Castleman disease, lymphomatoid papulosis and indolent cutaneous lymphoproliferative disorders excluded.",
+      "Uncertain/provisional NK-lymphoblastic categories and nonmalignant mature plasmacytoid proliferations are not independently catalogued."
+    ],
+    "limitations": [
+      "Broad-family coverage is not a certified exhaustive WHO code crosswalk.",
+      "Rare lymphomas have limited driver evidence; several entries deliberately emphasize virus or lack of a defining alteration.",
+      "LCH and ECD are included as clonal histiocytic neoplasms; clinical aggressiveness varies widely.",
+      "Somatic mutations shared with clonal hematopoiesis do not establish a malignancy without diagnostic context."
+    ]
+  }
+}
