@@ -344,13 +344,17 @@
       "cnv": [
         "Characteristic — variable aneuploidy; CDKN2A/B deletion in some advanced tumors"
       ],
-      "rearr": [],
+      "rearr": [
+        "Defining (metaplastic thymoma) — YAP1::MAML2",
+        "Recurrent (aggressive type B2/B3 subset) — KMT2A::MAML2"
+      ],
       "other": [],
       "pitfall": "A, AB and B1–B3 are merged. Thymoma can invade or metastasize even when cytologically bland.",
       "refs": [
         "v_who_thoracic",
         "v_thymoma",
-        "v_thymic"
+        "v_thymic",
+        "u_thymoma_fus"
       ]
     },
     {
@@ -488,6 +492,57 @@
       "pitfall": "This fusion is shared with other tumors, including GI neuroectodermal tumors and angiomatoid fibrous histiocytoma. Location and morphology remain essential.",
       "refs": [
         "s_ppms"
+      ]
+    },
+    {
+      "id": "u_pplec",
+      "name": "Primary pulmonary lymphoepithelial carcinoma",
+      "system": "Thoracic",
+      "aliases": [
+        "PPLEC",
+        "pulmonary lymphoepithelioma-like carcinoma",
+        "LELC of lung"
+      ],
+      "anchor": "Pulmonary lymphoepithelial carcinoma → EBV-driven, nonsmoker-predominant, classic NSCLC drivers usually absent.",
+      "snv": [
+        "Notable absence — canonical NSCLC drivers (EGFR, KRAS, BRAF) are rarely mutated"
+      ],
+      "cnv": [
+        "Associated — EBV-associated copy-number alterations and NF-κB pathway dysregulation"
+      ],
+      "rearr": [],
+      "other": [
+        "Viral driver — Epstein–Barr virus (EBV; EBER-positive in >90% of Asian cohorts, lower in Western cohorts); high PD-L1 expression"
+      ],
+      "pitfall": "Reclassified under squamous cell carcinoma in WHO Thoracic 5th ed. Morphologically and immunophenotypically identical to metastatic nasopharyngeal carcinoma; nasopharyngeal imaging/endoscopy is mandatory before diagnosing a lung primary.",
+      "refs": [
+        "u_pplec"
+      ]
+    },
+    {
+      "id": "u_flac",
+      "name": "Fetal adenocarcinoma of the lung",
+      "system": "Thoracic",
+      "aliases": [
+        "FLAC",
+        "L-FLAC",
+        "H-FLAC",
+        "low-grade fetal adenocarcinoma",
+        "high-grade fetal adenocarcinoma"
+      ],
+      "anchor": "Low-grade fetal lung adenocarcinoma → CTNNB1 exon 3; high-grade → TP53.",
+      "snv": [
+        "Driver (low-grade) — CTNNB1 exon 3 activating variants driving nuclear/cytoplasmic β-catenin accumulation",
+        "Driver (high-grade) — TP53 inactivation; EGFR and KRAS variants are uncommon"
+      ],
+      "cnv": [
+        "Associated — higher chromosomal instability in high-grade than in pure low-grade tumors"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Frequently expresses neuroendocrine markers (synaptophysin, chromogranin) and TTF-1, mimicking neuroendocrine tumors. Distinguished from biphasic pulmonary blastoma by the absence of primitive malignant mesenchymal stroma.",
+      "refs": [
+        "u_flac"
       ]
     },
     {
@@ -641,10 +696,11 @@
       "other": [
         "Epigenetic — MLH1 promoter methylation is a common sporadic cause of MSI"
       ],
-      "pitfall": "The sequence is a teaching model, not a required order. Mucinous, medullary and signet-ring patterns are included.",
+      "pitfall": "The sequence is a teaching model, not a required order. Mucinous, medullary and signet-ring patterns are included. WHO Digestive 6th ed. (2026) adds lymphoglandular complex-like adenocarcinoma (shares conventional CRC pathways, nested here), whereas IBD-associated IDH1-enriched low-grade tubuloglandular adenocarcinoma is listed separately.",
       "refs": [
         "v_who_digestive",
-        "v_crc"
+        "v_crc",
+        "u_who6_dig"
       ]
     },
     {
@@ -848,11 +904,12 @@
         "Driver — FGFR2::BICC1 and other FGFR2 fusions (many partners)"
       ],
       "other": [],
-      "pitfall": "Small- versus large-duct patterns differ molecularly; FGFR2/IDH are enriched in small-duct tumors and are not universal.",
+      "pitfall": "Small- versus large-duct patterns differ molecularly; FGFR2/IDH are enriched in small-duct tumors and are not universal. WHO Digestive 6th ed. (July 2026) promotes small-duct and large-duct iCCA to separate entities (also listed separately in this atlas).",
       "refs": [
         "v_who_digestive",
         "v_icca",
-        "v_biliary"
+        "v_biliary",
+        "u_who6_dig"
       ]
     },
     {
@@ -930,10 +987,11 @@
       ],
       "rearr": [],
       "other": [],
-      "pitfall": "Variants including adenosquamous, colloid and undifferentiated carcinomas are merged. KRAS-wild-type disease can harbor alternative kinase drivers.",
+      "pitfall": "Variants including adenosquamous, colloid and undifferentiated carcinomas are merged. KRAS-wild-type disease can harbor alternative kinase drivers. Undifferentiated carcinoma with osteoclast-like giant cells shares core PDAC drivers (KRAS, TP53, CDKN2A, SMAD4) and is nested here; SWI/SNF-deficient undifferentiated GI/pancreatic carcinoma is listed separately.",
       "refs": [
         "v_who_digestive",
-        "v_pdac"
+        "v_pdac",
+        "u_who6_dig"
       ]
     },
     {
@@ -1213,13 +1271,14 @@
       "snv": [],
       "cnv": [],
       "rearr": [
-        "Driver — MALAT1::GLI1 (characteristic); other GLI fusions reported"
+        "Driver — MALAT1::GLI1 (characteristic) or PTCH1::GLI1; other GLI1 fusions reported"
       ],
       "other": [],
       "pitfall": "Rare low-grade malignant biphasic gastric tumor; a GLI1 fusion requires morphologic correlation.",
       "refs": [
         "v_who_digestive",
-        "v_gastroblastoma"
+        "v_gastroblastoma",
+        "u_gli1"
       ]
     },
     {
@@ -1245,6 +1304,182 @@
       "pitfall": "A recurrent pattern from small molecular cohorts, not a required universal diagnostic criterion. C19MC involvement can also occur in its mesenchymal hamartoma precursor.",
       "refs": [
         "s_uesl"
+      ]
+    },
+    {
+      "id": "u_alc",
+      "name": "Amphicrine-like carcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "ALC",
+        "amphicrine carcinoma"
+      ],
+      "anchor": "WHO 6th ed. amphicrine-like carcinoma → dual exocrine + neuroendocrine cells, gastric 20q13 gains.",
+      "snv": [
+        "Recurrent — site-specific carcinoma drivers including TP53, APC, KRAS and RB1; rare biallelic MUTYH in syndromic cases"
+      ],
+      "cnv": [
+        "Characteristic (gastric subset) — recurrent 20q13.12–q13.2 gains (MYT1, NTSR1, ZBTB46), distinct from MiNEN"
+      ],
+      "rearr": [
+        "Rare reported subset — actionable MAPK fusions (e.g., KANK4::RAF1) in pancreatic acinar-type cases"
+      ],
+      "other": [
+        "Dual biology — intimately intermixed or single-cell exocrine (mucin/acinar) and neuroendocrine differentiation (≥30% NE morphology + ≥2 NE markers)"
+      ],
+      "pitfall": "New entity in WHO Digestive 6th ed. (2026). Distinguished from MiNEN, which shows spatially separate NE and non-NE zones; CD56 alone is insufficient to establish neuroendocrine differentiation.",
+      "refs": [
+        "u_who6_dig",
+        "u_alc_cnv"
+      ]
+    },
+    {
+      "id": "u_lgtga",
+      "name": "Colorectal low-grade tubuloglandular adenocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "LGTGA",
+        "colitis-associated low-grade tubuloglandular adenocarcinoma"
+      ],
+      "anchor": "IBD-associated low-grade tubuloglandular CRC → enriched for IDH1 hotspot mutations.",
+      "snv": [
+        "Characteristic — somatic IDH1 hotspot variants (e.g., R132C), frequently accompanied by KRAS mutations",
+        "Cooperating — TP53 and PIK3CA alterations in the colitis-associated precursor pathway"
+      ],
+      "cnv": [
+        "Associated — colitis-associated chromosomal aneuploidy and arm-level LOH"
+      ],
+      "rearr": [],
+      "other": [
+        "Metabolic/epigenetic — IDH1 mutations drive 2-hydroxyglutarate–mediated hypermethylation; MLH1 loss/MSI-H occurs in a subset"
+      ],
+      "pitfall": "New subtype in WHO Digestive 6th ed. (2026) arising almost exclusively in IBD. Bland invasive glands lack stromal desmoplasia, making invasion easy to misread as regenerative crypt distortion or low-grade dysplasia on biopsy.",
+      "refs": [
+        "u_who6_dig",
+        "u_lgtga"
+      ]
+    },
+    {
+      "id": "u_ginut",
+      "name": "Gastrointestinal NUT-rearranged sarcoma",
+      "system": "Digestive",
+      "aliases": [
+        "GI NUT-rearranged sarcoma",
+        "NUTM1-rearranged GI sarcoma",
+        "NUTM2-rearranged sarcoma"
+      ],
+      "anchor": "GI NUT-rearranged sarcoma → MAD-family (MXD4/MXI1/MGA)::NUTM1 or NUTM2 fusions.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — NUTM1 or NUTM2 (NUTM2A/G) fusions with MAD-family partners, especially MXD4::NUTM1, MXI1::NUTM1, MXD1::NUTM1 and MGA::NUTM1"
+      ],
+      "other": [
+        "Distinct from NUT carcinoma — uses MAD-family rather than BET (BRD4/BRD3) partners; BET inhibitors may not be active"
+      ],
+      "pitfall": "New entity in WHO Digestive 6th ed. (2026). NUT1 immunohistochemistry is negative in NUTM2-rearranged sarcomas, so RNA sequencing is required when suspected.",
+      "refs": [
+        "u_who6_dig",
+        "u_ginut"
+      ]
+    },
+    {
+      "id": "u_swisnf_gi",
+      "name": "SWI/SNF complex-deficient undifferentiated carcinoma of the GI tract / pancreas",
+      "system": "Digestive",
+      "aliases": [
+        "SMARCA4-deficient GI carcinoma",
+        "SMARCB1-deficient pancreatic undifferentiated carcinoma"
+      ],
+      "anchor": "SWI/SNF-deficient GI/pancreatic undifferentiated carcinoma → biallelic SMARCA4, SMARCB1, SMARCA2 or ARID1A loss.",
+      "snv": [
+        "Defining mechanism — biallelic inactivation of SMARCA4 (BRG1), SMARCB1 (INI1), SMARCA2 (BRM) or ARID1A",
+        "Subset — pancreatic cases stratify into KRAS-mutant vs. KRAS-wild-type/SMARCB1-deficient groups"
+      ],
+      "cnv": [
+        "Driver — homozygous deletion of SMARCB1 (22q11.2) or SMARCA4 (19p13.2) in subsets"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Expanded category in WHO Digestive 6th ed. (2026). Pan-cytokeratin is absent or minimal in more than half of cases, closely mimicking sarcoma, melanoma or lymphoma; a SWI/SNF IHC panel is essential.",
+      "refs": [
+        "u_who6_dig"
+      ]
+    },
+    {
+      "id": "u_sd_icca",
+      "name": "Small-duct intrahepatic cholangiocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "SD-iCCA",
+        "small-duct iCCA"
+      ],
+      "anchor": "Small-duct iCCA (WHO 6th ed.) → IDH1/2, BAP1 and FGFR2 fusions.",
+      "snv": [
+        "Driver — IDH1 R132 or IDH2 R172 hotspot variants (enriched in small-duct disease)",
+        "Cooperating — BAP1, ARID1A and PBRM1 inactivation"
+      ],
+      "cnv": [
+        "Cooperating — CDKN2A/B deletion"
+      ],
+      "rearr": [
+        "Driver — FGFR2 fusions (e.g., FGFR2::BICC1 and many partners), strongly enriched in small-duct iCCA"
+      ],
+      "other": [],
+      "pitfall": "Promoted to a standalone entity separate from large-duct iCCA in WHO Digestive 6th ed. (2026). Peripheral mass-forming tumor linked to chronic liver disease/MASLD; actionable IDH1 and FGFR2 alterations are enriched here but not universal.",
+      "refs": [
+        "u_who6_dig",
+        "u_icca_sub"
+      ]
+    },
+    {
+      "id": "u_ld_icca",
+      "name": "Large-duct intrahepatic cholangiocarcinoma",
+      "system": "Digestive",
+      "aliases": [
+        "LD-iCCA",
+        "large-duct iCCA"
+      ],
+      "anchor": "Large-duct iCCA (WHO 6th ed.) → KRAS, TP53, SMAD4 and ERBB2 amplification.",
+      "snv": [
+        "Driver — KRAS activating variants",
+        "Cooperating — TP53, SMAD4 and NF1 inactivation"
+      ],
+      "cnv": [
+        "Driver — ERBB2 amplification (subset)",
+        "Cooperating — CDKN2A/B deletion"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Promoted to a standalone entity separate from small-duct iCCA in WHO Digestive 6th ed. (2026). Perihilar, mucin-producing biology closely overlaps with extrahepatic cholangiocarcinoma and metastatic pancreatic ductal adenocarcinoma.",
+      "refs": [
+        "u_who6_dig",
+        "u_icca_sub"
+      ]
+    },
+    {
+      "id": "u_lamn_hamn",
+      "name": "Appendiceal mucinous neoplasm (LAMN / HAMN)",
+      "system": "Digestive",
+      "aliases": [
+        "LAMN",
+        "HAMN",
+        "low-grade appendiceal mucinous neoplasm",
+        "high-grade appendiceal mucinous neoplasm"
+      ],
+      "anchor": "Appendiceal LAMN / HAMN → KRAS + GNAS, with TP53/RNF43 in HAMN.",
+      "snv": [
+        "Driver — high-frequency KRAS and GNAS activating mutations",
+        "Progression (HAMN) — TP53 and RNF43 alterations enriched in high-grade lesions"
+      ],
+      "cnv": [
+        "Associated — low chromosomal instability in LAMN; increased copy-number complexity in HAMN"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Reclassified under malignant epithelial neoplasms in WHO Digestive 6th ed. (2026) due to risk of pseudomyxoma peritonei. Must be distinguished from benign mucinous adenoma by loss of muscularis mucosae integrity across the entire appendix.",
+      "refs": [
+        "u_who6_dig"
       ]
     },
     {
@@ -1295,10 +1530,12 @@
       ],
       "rearr": [],
       "other": [],
-      "pitfall": "CDH1 loss is strongly characteristic but may arise through nonmutational mechanisms; pleomorphic and other variants are merged.",
+      "pitfall": "CDH1 loss is strongly characteristic but may arise through nonmutational mechanisms; pleomorphic and other variants are merged. WHO Breast 6th ed. (2026) adds invasive lobular carcinoma with extracellular mucin (ILCEM), which shares biallelic CDH1 loss and 16q loss/1q gain but behaves more aggressively than pure mucinous carcinoma.",
       "refs": [
         "v_who_breast",
-        "v_ilc"
+        "v_ilc",
+        "u_who6_breast",
+        "u_ilcem"
       ]
     },
     {
@@ -2785,6 +3022,78 @@
       ]
     },
     {
+      "id": "u_bhprcc",
+      "name": "Biphasic hyalinizing psammomatous / NF2-inactivated renal cell carcinoma",
+      "system": "Urinary & male genital",
+      "aliases": [
+        "BHP-RCC",
+        "NF2-mutated RCC",
+        "merlin-deficient RCC"
+      ],
+      "anchor": "BHP / NF2-inactivated RCC → biallelic NF2 (22q) loss driving Hippo-YAP/TAZ activation.",
+      "snv": [
+        "Defining — biallelic NF2 inactivating variants (nonsense, frameshift, splice-site) lacking VHL, PBRM1, FH or MET drivers",
+        "Cooperating — recurrent NSD1, BAP1, APC, SETD2, FAT1 and ARID1B variants"
+      ],
+      "cnv": [
+        "Driver — 22q deletion involving NF2 (often with CHEK2, SMARCB1, EP300); copy-loss-dominant genome",
+        "Cooperating — CDKN2A/CDKN2B deep deletion (subset)"
+      ],
+      "rearr": [],
+      "other": [
+        "Pathway — merlin loss activates Hippo-YAP/TAZ and cell-cycle signaling; aggressive early metastasis with attenuated response to immune checkpoint blockade"
+      ],
+      "pitfall": "Emerging malignant RCC entity. Small cells around basement-membrane globules mimic TFEB-rearranged RCC, while high-grade areas mimic papillary RCC or collecting duct carcinoma; merlin IHC loss is a sensitive surrogate.",
+      "refs": [
+        "u_bhprcc"
+      ]
+    },
+    {
+      "id": "u_tlfrcc",
+      "name": "Thyroid-like follicular renal cell carcinoma",
+      "system": "Urinary & male genital",
+      "aliases": [
+        "TLFRCC",
+        "EWSR1::PATZ1 RCC"
+      ],
+      "anchor": "Thyroid-like follicular RCC → EWSR1::PATZ1 fusion, PAX8+/TTF-1−.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Characteristic — EWSR1::PATZ1 intrachromosomal 22q12.2 rearrangement"
+      ],
+      "other": [],
+      "pitfall": "Listed under other renal tumors in WHO 5th ed.; typically low-grade but capable of distant metastasis and sarcomatoid transformation. Closely mimics metastatic follicular thyroid carcinoma; strictly negative for TTF-1 and thyroglobulin.",
+      "refs": [
+        "u_tlfrcc",
+        "u_tlfrcc2"
+      ]
+    },
+    {
+      "id": "u_ask",
+      "name": "Anaplastic sarcoma of the kidney",
+      "system": "Urinary & male genital",
+      "aliases": [
+        "DICER1-associated renal sarcoma"
+      ],
+      "anchor": "Anaplastic sarcoma of kidney → two DICER1 hits plus TP53 inactivation.",
+      "snv": [
+        "Driver — biallelic DICER1 inactivation (germline or somatic LOF + somatic RNase IIIb hotspot missense)",
+        "Cooperating — frequent TP53 inactivating variants; occasional KRAS, NRAS or NF1 alterations"
+      ],
+      "cnv": [
+        "Cooperating — 17p/TP53 LOH and complex aneuploidy"
+      ],
+      "rearr": [],
+      "other": [
+        "Predisposition — can arise via progression of DICER1-mutant pediatric cystic nephroma; germline DICER1 counseling is indicated"
+      ],
+      "pitfall": "Cystic architecture with bizarre pleomorphic spindle cells and heterologous chondroid/rhabdomyoblastic elements mimics anaplastic Wilms tumor, cystic nephroma or rhabdomyosarcoma.",
+      "refs": [
+        "u_ask"
+      ]
+    },
+    {
       "id": "e_germinoma",
       "name": "Germinoma family (seminoma / dysgerminoma / germinoma)",
       "system": "Germ-cell tumors",
@@ -3670,6 +3979,150 @@
       ]
     },
     {
+      "id": "u_geac",
+      "name": "Gastric-type endocervical adenocarcinoma",
+      "system": "Female genital",
+      "aliases": [
+        "G-EAC",
+        "GAS",
+        "minimal deviation adenocarcinoma",
+        "adenoma malignum"
+      ],
+      "anchor": "HPV-independent gastric-type cervical adenocarcinoma → TP53, CDKN2A, STK11 and KRAS.",
+      "snv": [
+        "Driver/cooperating — TP53 (~62%), CDKN2A (~44%), STK11 (~29%, germline in Peutz–Jeghers syndrome) and KRAS (~23%)"
+      ],
+      "cnv": [
+        "Cooperating — PTEN and CDKN2A deletions; occasional ERBB2 amplification"
+      ],
+      "rearr": [],
+      "other": [
+        "HPV-independent — lacks high-risk HPV; exhibits gastric pyloric mucin (MUC6+) and aggressive peritoneal/ovarian spread"
+      ],
+      "pitfall": "Separated here from HPV-associated cervical adenocarcinoma due to distinct HPV-independent genetics. Deceptively bland deep glands cause false-negative Pap smears/biopsies; always exclude metastatic pancreatobiliary/GI adenocarcinoma.",
+      "refs": [
+        "u_geac"
+      ]
+    },
+    {
+      "id": "u_gtec",
+      "name": "Endometrial mucinous carcinoma of gastric type",
+      "system": "Female genital",
+      "aliases": [
+        "GTEC",
+        "MCG",
+        "gastrointestinal-type endometrial mucinous carcinoma"
+      ],
+      "anchor": "Gastric-type endometrial mucinous carcinoma → TP53-mutant yet copy-number-low, with ~30% ERBB2 amplification.",
+      "snv": [
+        "Driver/cooperating — frequent TP53 mutations (40–60%) plus recurrent KRAS/NRAS and PIK3CA variants"
+      ],
+      "cnv": [
+        "Driver — ERBB2 (HER2) amplification in up to 30% of cases",
+        "Characteristic — paradoxically low overall copy-number burden despite TP53 mutation (p53abn/NSMP hybrid)"
+      ],
+      "rearr": [],
+      "other": [
+        "Aggressive ER−/PR− subtype — chemoresistant and distinct from conventional endometrioid mucinous carcinoma"
+      ],
+      "pitfall": "Emerging aggressive endometrial entity. Deceptively bland mucinous glands mimic benign mucinous metaplasia, low-grade endometrioid carcinoma, or downward/upward extension from cervical gastric-type adenocarcinoma.",
+      "refs": [
+        "u_gtec"
+      ]
+    },
+    {
+      "id": "u_stk11_adnexal",
+      "name": "STK11 adnexal tumor",
+      "system": "Female genital",
+      "aliases": [
+        "LKB1 adnexal tumor"
+      ],
+      "anchor": "STK11 adnexal tumor → biallelic STK11 (19p13.3) loss; ~50% Peutz–Jeghers syndrome.",
+      "snv": [
+        "Defining — biallelic STK11 (LKB1) inactivating variants (germline in ~50% with Peutz–Jeghers syndrome); lacks FOXL2, DICER1, CTNNB1 and BAP1 drivers"
+      ],
+      "cnv": [
+        "Driver — 19p13.3 LOH / STK11 loss; recurrent losses of 1p and 11q"
+      ],
+      "rearr": [],
+      "other": [
+        "Pathway — AMPK–mTOR activation; high recurrence and metastasis rates"
+      ],
+      "pitfall": "Emerging paratubal malignant neoplasm with polyphenotypic IHC (cytokeratin, inhibin, calretinin, WT1, ER/PR) mimicking FATWO, granulosa cell tumor or mesothelioma; STK11 (LKB1) IHC loss and NGS confirm the diagnosis.",
+      "refs": [
+        "u_stk11"
+      ]
+    },
+    {
+      "id": "u_ntrk_uterine",
+      "name": "NTRK-rearranged spindle cell sarcoma of the uterine cervix / corpus",
+      "system": "Female genital",
+      "aliases": [
+        "NTRK-rearranged cervical sarcoma",
+        "NTRK-rearranged uterine sarcoma"
+      ],
+      "anchor": "Uterine/cervical NTRK sarcoma → NTRK1 or NTRK3 fusion, S100+/CD34+, TRK-inhibitor sensitive.",
+      "snv": [],
+      "cnv": [
+        "Cooperating — CDKN2A/B deletion in a subset"
+      ],
+      "rearr": [
+        "Defining — in-frame NTRK1 or NTRK3 fusions (e.g., TPM3::NTRK1, TPR::NTRK1, EML4::NTRK3, TFG::NTRK3)"
+      ],
+      "other": [],
+      "pitfall": "Entrapped endocervical/endometrial glands create a pseudobiphasic pattern mimicking Müllerian adenosarcoma. Pan-TRK IHC is non-specific (can stain BCOR/YWHAE HG-ESS), so RNA-seq or FISH confirmation is mandatory.",
+      "refs": [
+        "u_ntrk_ut"
+      ]
+    },
+    {
+      "id": "u_col1a1_uterine",
+      "name": "COL1A1::PDGFB fusion-associated uterine sarcoma",
+      "system": "Female genital",
+      "aliases": [
+        "uterine DFSP-like sarcoma",
+        "COL1A1-PDGFB uterine sarcoma"
+      ],
+      "anchor": "COL1A1::PDGFB uterine sarcoma → visceral DFSP counterpart, CD34+, imatinib-responsive.",
+      "snv": [],
+      "cnv": [
+        "Associated — amplification of the COL1A1::PDGFB fusion locus on ring chromosomes or der(22)t(17;22)"
+      ],
+      "rearr": [
+        "Defining — t(17;22)(q22;q13) COL1A1::PDGFB fusion activating autocrine PDGFRβ signaling"
+      ],
+      "other": [],
+      "pitfall": "Often misclassified as undifferentiated uterine sarcoma or leiomyosarcoma. Diffuse strong CD34 positivity (S100−, desmin−, ER/PR−) in a uterine spindle-cell sarcoma should trigger COL1A1::PDGFB fusion testing.",
+      "refs": [
+        "u_col1a1_ut"
+      ]
+    },
+    {
+      "id": "u_dicer1_gyn",
+      "name": "DICER1-associated gynecologic sarcoma",
+      "system": "Female genital",
+      "aliases": [
+        "DICER1-mutant cervical ERMS",
+        "DICER1-related ovarian sarcoma"
+      ],
+      "anchor": "DICER1 gynecologic sarcoma → two DICER1 hits (LOF + RNase IIIb) ± TP53/RAS.",
+      "snv": [
+        "Defining — biallelic DICER1 mutations (germline/somatic LOF + somatic RNase IIIb hotspot missense)",
+        "Cooperating — secondary TP53, NF1 or KRAS/NRAS variants conferring anaplasia and aggressive metastasis"
+      ],
+      "cnv": [
+        "Cooperating — LOH of wild-type DICER1 allele and variable chromosomal gains/losses"
+      ],
+      "rearr": [],
+      "other": [
+        "Predisposition — flags potential germline DICER1 syndrome; lacks FOXO1 fusions of alveolar RMS"
+      ],
+      "pitfall": "Exophytic cervical polypoid masses in adolescents and young adults mimic benign endocervical polyps or Müllerian adenosarcoma; myogenic IHC and DICER1 sequencing prevent misdiagnosis.",
+      "refs": [
+        "u_dicer1_gyn"
+      ]
+    },
+    {
       "id": "e_oral",
       "name": "Oral cavity squamous cell carcinoma",
       "system": "Head & neck",
@@ -3833,10 +4286,11 @@
       ],
       "rearr": [],
       "other": [],
-      "pitfall": "Two distinct protein-deficient groups nested in one study entry; immunostain loss does not specify the exact DNA lesion.",
+      "pitfall": "Two distinct protein-deficient groups nested in one study entry; immunostain loss does not specify the exact DNA lesion. Includes SMARCB1-deficient sinonasal adenocarcinoma, a glandular variant with biallelic SMARCB1 loss and frequent yolk-sac-like or oncocytoid morphology.",
       "refs": [
         "e_hn",
-        "e_sinonasal"
+        "e_sinonasal",
+        "u_smarcb1_sin"
       ]
     },
     {
@@ -4424,6 +4878,116 @@
       ]
     },
     {
+      "id": "u_dek_aff2",
+      "name": "DEK::AFF2 fusion-associated sinonasal carcinoma",
+      "system": "Head & neck",
+      "aliases": [
+        "DEK::AFF2 carcinoma",
+        "AFF2-rearranged sinonasal carcinoma"
+      ],
+      "anchor": "DEK::AFF2 sinonasal carcinoma → t(6;X) DEK::AFF2 fusion, deceptively bland papillary look.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — t(6;X) DEK::AFF2 fusion; rare variant AFF2 fusions (e.g., CHD4::AFF2) expand the spectrum"
+      ],
+      "other": [
+        "Biology — very low TMB, HPV- and EGFR-wild-type, yet high local recurrence, nodal/lung metastasis and frequent PD-L1 expression"
+      ],
+      "pitfall": "Emerging subtype of non-keratinizing sinonasal SCC (also skull base/middle ear). Monotonous transitional-like papillary epithelium with neutrophils is repeatedly misdiagnosed as benign inverted papilloma until recurrence or metastasis.",
+      "refs": [
+        "u_dek_aff2",
+        "u_aff2_var"
+      ]
+    },
+    {
+      "id": "u_tcs",
+      "name": "Sinonasal teratocarcinosarcoma",
+      "system": "Head & neck",
+      "aliases": [
+        "SNTCS",
+        "SMARCA4-deficient sinonasal teratocarcinosarcoma"
+      ],
+      "anchor": "Sinonasal teratocarcinosarcoma → biallelic SMARCA4 loss plus CTNNB1 activation.",
+      "snv": [
+        "Driver — biallelic SMARCA4 (BRG1) inactivating variants (73–82%)",
+        "Cooperating — activating CTNNB1 mutations"
+      ],
+      "cnv": [
+        "Driver — 19p13.2 (SMARCA4) loss/LOH"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "Triphasic sinonasal malignancy (epithelial, mesenchymal and primitive neuroepithelial). Limited biopsies sampling a single component mimic olfactory neuroblastoma, SNUC or SCC; SMARCA4 IHC may show complete or partial loss.",
+      "refs": [
+        "u_tcs"
+      ]
+    },
+    {
+      "id": "u_ales",
+      "name": "Adamantinoma-like Ewing sarcoma of the head and neck",
+      "system": "Head & neck",
+      "aliases": [
+        "ALES",
+        "salivary adamantinoma-like Ewing sarcoma"
+      ],
+      "anchor": "Adamantinoma-like Ewing sarcoma → EWSR1/FUS::FLI1 with diffuse keratin/p40 and distinct methylation.",
+      "snv": [],
+      "cnv": [
+        "Associated — variable copy-number profiles from flat to complex"
+      ],
+      "rearr": [
+        "Defining — t(11;22) EWSR1::FLI1 fusion (or rare FUS::FLI1)"
+      ],
+      "other": [
+        "Epigenetic — forms a DNA methylation cluster separate from conventional Ewing sarcoma"
+      ],
+      "pitfall": "Diffuse strong cytokeratin and p63/p40 positivity in salivary, sinonasal or thyroid sites mimics basal cell adenocarcinoma, basaloid SCC or NUT carcinoma. EWSR1 FISH alone misses rare FUS::FLI1 cases.",
+      "refs": [
+        "u_ales"
+      ]
+    },
+    {
+      "id": "u_casg",
+      "name": "Cribriform adenocarcinoma of salivary gland",
+      "system": "Head & neck",
+      "aliases": [
+        "CASG",
+        "cribriform adenocarcinoma of minor salivary gland"
+      ],
+      "anchor": "Cribriform salivary adenocarcinoma → PRKD1/2/3 fusions (not PRKD1 E710D SNV).",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — PRKD1, PRKD2 or PRKD3 rearrangements (e.g., ARID1A::PRKD1, DDX3X::PRKD1, ATL2::PRKD3)"
+      ],
+      "other": [],
+      "pitfall": "Distinct fusion-driven counterpart within the polymorphous adenocarcinoma spectrum with higher cervical nodal metastasis (posterior tongue predilection). Optically clear overlapping nuclei mimic metastatic papillary thyroid carcinoma (TTF-1−/thyroglobulin−).",
+      "refs": [
+        "u_casg"
+      ]
+    },
+    {
+      "id": "u_poroid_hn",
+      "name": "Skin-analogue primary poroid carcinoma of the head and neck",
+      "system": "Head & neck",
+      "aliases": [
+        "salivary poroid carcinoma",
+        "extracutaneous poroid carcinoma"
+      ],
+      "anchor": "Salivary/H&N poroid carcinoma → YAP1::MAML2, YAP1::NUTM1 or WWTR1::NUTM1.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — YAP1::MAML2, YAP1::NUTM1 or WWTR1::NUTM1 fusions"
+      ],
+      "other": [],
+      "pitfall": "Emerging extracutaneous head-and-neck/salivary entity (2025). NUTM1-fused cases are NUT1 IHC-positive and mimic aggressive NUT carcinoma, while MAML2-fused cases mimic mucoepidermoid carcinoma.",
+      "refs": [
+        "u_poroid_hn"
+      ]
+    },
+    {
       "id": "e_melanoma",
       "name": "Cutaneous melanoma",
       "system": "Skin & mucosal melanoma",
@@ -4598,13 +5162,14 @@
       ],
       "cnv": [],
       "rearr": [
-        "Driver — YAP1::NUTM1 or YAP1::MAML2"
+        "Driver — YAP1::NUTM1 or YAP1::MAML2; rare WWTR1::NUTM1"
       ],
       "other": [],
       "pitfall": "Fusion is also found in benign poroma; it does not itself prove carcinoma.",
       "refs": [
         "e_skin",
-        "e_poro"
+        "e_poro",
+        "u_skin_who5"
       ]
     },
     {
@@ -4658,7 +5223,6 @@
       "other": [],
       "pitfall": "Rare; the same fusion can occur in benign hidradenoma and other lineages.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4712,7 +5276,6 @@
       "other": [],
       "pitfall": "Genetics overlap soft-tissue myoepithelial tumors; not all cases have a fusion.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4732,7 +5295,6 @@
       "other": [],
       "pitfall": "Primary invasive disease included; epidermis-confined disease and secondary spread from an underlying carcinoma are distinguished.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4750,7 +5312,6 @@
       "other": [],
       "pitfall": "Also occurs in benign pilomatricoma; morphology establishes carcinoma.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4768,7 +5329,6 @@
       "other": [],
       "pitfall": "No validated universal mutation signature.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4784,7 +5344,6 @@
       "other": [],
       "pitfall": "No established recurrent driver for a reliable memorization rule.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4802,7 +5361,6 @@
       "other": [],
       "pitfall": "No defining genetic event; distinguish from cutaneous SCC.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4820,7 +5378,6 @@
       "other": [],
       "pitfall": "Fusion alone cannot distinguish benign from malignant mixed tumor.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4836,7 +5393,6 @@
       "other": [],
       "pitfall": "Locally infiltrative skin carcinoma; do not infer salivary microsecretory MEF2C::SS18 biology.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4856,7 +5412,6 @@
       "other": [],
       "pitfall": "Exclude breast metastasis; AR/HER2 staining is not the same as a gene mutation or amplification.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4872,7 +5427,6 @@
       "other": [],
       "pitfall": "Exclude metastatic breast/GI carcinoma; no validated defining SNV/CNV/fusion.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4881,15 +5435,17 @@
       "name": "Digital papillary adenocarcinoma",
       "system": "Skin & mucosal melanoma",
       "aliases": [],
-      "anchor": "Digital papillary carcinoma: no routine defining human mutation.",
+      "anchor": "Digital papillary adenocarcinoma → HPV42-driven malignant sweat gland tumor.",
       "snv": [],
       "cnv": [],
       "rearr": [],
-      "other": [],
-      "pitfall": "Molecular evidence remains limited; do not assign an unproven universal fusion.",
+      "other": [
+        "Viral driver — human papillomavirus 42 (HPV42), classified as a low-risk HPV type yet recurrently driving digital papillary adenocarcinoma"
+      ],
+      "pitfall": "HPV42 in situ hybridization or sequencing strongly supports the diagnosis and distinguishes it from benign acral adnexal mimics, though not every laboratory tests for HPV42 routinely.",
       "refs": [
         "e_skin",
-        "e_skin"
+        "u_hpv42_dpa"
       ]
     },
     {
@@ -4906,7 +5462,6 @@
       "other": [],
       "pitfall": "No established recurrent malignant-specific driver.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4922,7 +5477,6 @@
       "other": [],
       "pitfall": "Includes otherwise unclassified eccrine/adnexal carcinoma; use named entities when criteria are met.",
       "refs": [
-        "e_skin",
         "e_skin"
       ]
     },
@@ -4947,6 +5501,28 @@
       "pitfall": "Substantial genetic overlap with atypical fibroxanthoma; depth, necrosis and invasive features distinguish the malignant phenotype. Atypical fibroxanthoma is outside the malignant-only scope.",
       "refs": [
         "s_pds"
+      ]
+    },
+    {
+      "id": "u_ctct",
+      "name": "CRTC1::TRIM11 cutaneous tumor (malignant/metastasizing subset)",
+      "system": "Skin & mucosal melanoma",
+      "aliases": [
+        "CTCT",
+        "CRTC1-TRIM11 cutaneous tumor"
+      ],
+      "anchor": "CRTC1::TRIM11 cutaneous tumor → CRTC1::TRIM11 fusion, SOX10+/TRIM11+, EWSR1-wildtype.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — CRTC1::TRIM11 gene fusion; lacks EWSR1 rearrangements"
+      ],
+      "other": [
+        "Behavior — ~12% metastasize to nodes or lungs (sometimes late); immune-cold and refractory to PD-1 inhibitors"
+      ],
+      "pitfall": "Added in WHO Skin 5th ed. SOX10 positivity with variable S100/HMB45/Melan-A closely mimics clear cell sarcoma or primary dermal melanoma; EWSR1 FISH negativity plus TRIM11 IHC or RNA-seq resolves it.",
+      "refs": [
+        "u_ctct"
       ]
     },
     {
@@ -5491,15 +6067,18 @@
       ],
       "cnv": [
         "Grading — CDKN2A and/or CDKN2B homozygous deletion",
-        "Characteristic — Accumulated chromosomal losses in aggressive tumors"
+        "Characteristic — Accumulated chromosomal losses in aggressive tumors",
+        "Grading (cIMPACT-NOW Update 8) — combined 1p and 22q loss upgrades morphologically grade 1 meningioma to CNS WHO grade 2"
       ],
       "rearr": [],
       "other": [],
-      "pitfall": "Only grade 3 is included here. Grade 3 can be assigned by histology or qualifying molecular findings; rhabdoid morphology alone is insufficient.",
+      "pitfall": "Only grade 3 is included here. Grade 3 can be assigned by histology or qualifying molecular findings; rhabdoid morphology alone is insufficient. cIMPACT-NOW Update 8 reaffirms TERT promoter mutation and CDKN2A/B homozygous deletion as sufficient for CNS WHO grade 3.",
       "refs": [
         "nm_cns",
         "nm_mening",
-        "nm_cns_summary"
+        "nm_cns_summary",
+        "u_cimpact8",
+        "u_cimpact8_pmc"
       ]
     },
     {
@@ -5519,6 +6098,149 @@
       "refs": [
         "nm_cns",
         "nm_cns_dicer"
+      ]
+    },
+    {
+      "id": "u_cns_cic",
+      "name": "CNS CIC-rearranged sarcoma",
+      "system": "CNS",
+      "aliases": [
+        "intracranial CIC-rearranged sarcoma",
+        "CIC::LEUTX CNS sarcoma"
+      ],
+      "anchor": "CNS CIC-rearranged sarcoma → CIC::DUX4 or CNS-enriched CIC::LEUTX.",
+      "snv": [],
+      "cnv": [
+        "Associated — variable aneuploidy; lacks 1p/19q codeletion"
+      ],
+      "rearr": [
+        "Defining — CIC (19q13) rearrangements, chiefly CIC::DUX4 and CNS-enriched CIC::LEUTX"
+      ],
+      "other": [
+        "Epigenetic — distinct sarcoma DNA methylation class with poor chemosensitivity"
+      ],
+      "pitfall": "WHO CNS5 mesenchymal entity mimicking Ewing sarcoma, embryonal tumor or glioblastoma. CIC break-apart FISH can be falsely negative due to cryptic insertions; RNA-seq or methylation profiling is preferred.",
+      "refs": [
+        "u_cns_cic"
+      ]
+    },
+    {
+      "id": "u_cns_fet_creb",
+      "name": "Intracranial mesenchymal tumor, FET::CREB fusion-positive",
+      "system": "CNS",
+      "aliases": [
+        "FET::CREB intracranial mesenchymal tumor"
+      ],
+      "anchor": "Intracranial FET::CREB mesenchymal tumor → EWSR1 or FUS fused to CREB1, ATF1 or CREM.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — EWSR1 or FUS fused to CREB1, ATF1 or CREM (EWSR1::ATF1 linked to worse PFS than EWSR1::CREB1)"
+      ],
+      "other": [
+        "Epigenetic — distinct DNA methylation profile with significant local recurrence risk"
+      ],
+      "pitfall": "Provisional WHO CNS5 entity frequently misdiagnosed as meningioma, solitary fibrous tumor, chordoid glioma or angiomatoid fibrous histiocytoma without fusion testing.",
+      "refs": [
+        "u_cns_fet"
+      ]
+    },
+    {
+      "id": "u_cns_plag",
+      "name": "CNS embryonal tumor with PLAG family gene alteration",
+      "system": "CNS",
+      "aliases": [
+        "ET, PLAG",
+        "PLAGL1-amplified CNS embryonal tumor",
+        "PLAGL2-amplified CNS embryonal tumor",
+        "PLAG1-fused CNS embryonal tumor"
+      ],
+      "anchor": "CNS embryonal tumor, PLAG → PLAGL1/PLAGL2 amplification or PLAG1 promoter-hijacking fusion.",
+      "snv": [],
+      "cnv": [
+        "Defining subsets — focal high-level amplification of PLAGL1 (6q24.2) or PLAGL2 (20q11.21, infant-predominant, worse OS)"
+      ],
+      "rearr": [
+        "Defining subset — PLAG1 (8q12.1) 3' promoter-hijacking fusions (e.g., ASAP1, ADGRG1, TMEM68, TCF4, CHD7::PLAG1)"
+      ],
+      "other": [
+        "Epigenetic — distinct methylation cluster with imprinted-gene (IGF2, DLK1) and desmin overexpression"
+      ],
+      "pitfall": "Emerging pediatric embryonal type with broad histology mimicking ependymoma or embryonal tumor NOS. Must be distinguished from supratentorial ependymoma-like NET_PLAGL1 (EWSR1::PLAGL1).",
+      "refs": [
+        "u_cns_plag"
+      ]
+    },
+    {
+      "id": "u_cns_bcor_fusion",
+      "name": "CNS tumor with BCOR/BCORL1 fusion",
+      "system": "CNS",
+      "aliases": [
+        "EP300::BCOR CNS tumor",
+        "BCOR-fused CNS tumor"
+      ],
+      "anchor": "CNS BCOR/BCORL1-fused tumor → EP300::BCOR(L1) in older patients, distinct from pediatric BCOR-ITD.",
+      "snv": [
+        "Rare fusion-negative subset — truncating BCOR SNVs/indels matching the same methylation class"
+      ],
+      "cnv": [
+        "Associated — breakpoints/CNVs at Xp11.4 (BCOR) and 22q12.31 (EP300)"
+      ],
+      "rearr": [
+        "Defining — EP300::BCOR, EP300::BCORL1, CREBBP::BCORL1, BCOR::CREBBP or MEAF6::CXXC5"
+      ],
+      "other": [
+        "Epigenetic — distinct methylation class from CNS tumor with BCOR ITD; older median age (~27–30 y)"
+      ],
+      "pitfall": "Emerging malignant neuroepithelial type. Oligodendroglioma-like vessels or ependymoma-like pseudorosettes with diffuse OLIG2 positivity frequently lead to misdiagnosis as oligodendroglioma, ependymoma or glioblastoma.",
+      "refs": [
+        "u_cns_bcorf"
+      ]
+    },
+    {
+      "id": "u_cns_hpap",
+      "name": "High-grade glioma with pleomorphic and pseudopapillary features (HPAP)",
+      "system": "CNS",
+      "aliases": [
+        "HPAP"
+      ],
+      "anchor": "HPAP → IDH/H3-wildtype, TP53/RB1/NF1/NF2 variants + monosomy 13, lacks CDKN2A/B loss.",
+      "snv": [
+        "Recurrent — TP53, RB1, NF1, NF2 (including germline schwannomatosis) and BRAF variants; IDH- and H3-wildtype"
+      ],
+      "cnv": [
+        "Characteristic — whole-chromosome aneuploidy with monosomy 13 or cnLOH of chr 13, 17 and 22; lacks 9p21 CDKN2A/B deletion"
+      ],
+      "rearr": [],
+      "other": [
+        "Epigenetic — defined by Bethesda CNS methylation classifier; better survival than IDH-wildtype glioblastoma despite high-grade morphology"
+      ],
+      "pitfall": "Emerging circumscribed high-grade glioma. Often misdiagnosed as anaplastic ependymoma, astroblastoma, PXA or GBM; juxta-/intraventricular location and diffuse p53 staining are clues.",
+      "refs": [
+        "u_cns_hpap"
+      ]
+    },
+    {
+      "id": "u_cns_gtaka",
+      "name": "Glioneuronal tumor with ATRX alteration, kinase fusion, and anaplastic features (GTAKA)",
+      "system": "CNS",
+      "aliases": [
+        "GTAKA"
+      ],
+      "anchor": "GTAKA → ATRX loss plus recurrent kinase fusion (usually NTRK1/2/3).",
+      "snv": [
+        "Defining — ATRX loss-of-function variants; IDH- and H3-wildtype"
+      ],
+      "cnv": [],
+      "rearr": [
+        "Defining — recurrent kinase fusions, most commonly NTRK1/2/3"
+      ],
+      "other": [
+        "Epigenetic — distinct methylation class with anaplastic behavior and potential TRK-inhibitor actionability"
+      ],
+      "pitfall": "Emerging malignant CNS glioneuronal type. Co-expression of OLIG2 and synaptophysin mimics DGONC, CNS NB-FOXR2 or pediatric HGG; requires RNA fusion panel and methylation profiling.",
+      "refs": [
+        "u_cns_gtaka"
       ]
     },
     {
@@ -5597,15 +6319,18 @@
       ],
       "rearr": [
         "Defining — PAX3::FOXO1 or PAX7::FOXO1 (fusion-positive subset)",
-        "Driver — VGLL2/NCOA2-associated fusions in infantile spindle-cell tumors; TFCP2 fusions in a rare intraosseous subset"
+        "Driver — VGLL2/NCOA2-associated fusions in infantile spindle-cell tumors; TFCP2 fusions in a rare intraosseous subset",
+        "Intraosseous / spindle-epithelioid subsets — EWSR1/FUS::TFCP2 or MEIS1::NCOA2 fusions"
       ],
       "other": [
         "Cooperating — 11p15 allelic imbalance / imprinting abnormalities; these need not alter copy number"
       ],
-      "pitfall": "Broad family includes embryonal, alveolar, pleomorphic and spindle/sclerosing tumors. Histologic alveolar appearance is not equivalent to FOXO1 fusion.",
+      "pitfall": "Broad family includes embryonal, alveolar, pleomorphic and spindle/sclerosing tumors. Histologic alveolar appearance is not equivalent to FOXO1 fusion. WHO Soft Tissue & Bone 6th ed. (Oct 2026) splits spindle cell/sclerosing RMS into molecularly distinct categories (VGLL2/NCOA2, MYOD1 L122R, and TFCP2/MEIS1-rearranged).",
       "refs": [
         "nm_soft",
-        "nm_rms"
+        "nm_rms",
+        "u_who6_stb",
+        "u_rms_tfcp2"
       ]
     },
     {
@@ -5644,10 +6369,11 @@
       "other": [
         "Unresolved — No established recurrent defining driver for conventional adult-type fibrosarcoma."
       ],
-      "pitfall": "Exclude fusion-defined mimics and other differentiated sarcomas before using this diagnosis.",
+      "pitfall": "Exclude fusion-defined mimics and other differentiated sarcomas before using this diagnosis. Note: WHO Soft Tissue & Bone 6th ed. (Oct 2026) retired adult-type fibrosarcoma as a standalone category; retained here for historical differential context.",
       "refs": [
         "nm_soft",
-        "nm_sarc_seq"
+        "nm_sarc_seq",
+        "u_who6_stb"
       ]
     },
     {
@@ -5811,10 +6537,11 @@
         "Defining — YAP1::TFE3 in a distinct related molecular subset"
       ],
       "other": [],
-      "pitfall": "A malignant vascular tumor despite sometimes indolent behavior; covers soft tissue, bone, lung and liver sites.",
+      "pitfall": "A malignant vascular tumor despite sometimes indolent behavior; covers soft tissue, bone, lung and liver sites. WHO Soft Tissue & Bone 6th ed. (Oct 2026) separates YAP1::TFE3 hemangioendothelioma as a distinct standalone entity (listed separately in this atlas).",
       "refs": [
         "nm_soft",
-        "nm_ehe"
+        "nm_ehe",
+        "u_who6_stb"
       ]
     },
     {
@@ -6071,10 +6798,11 @@
         "Defining — EWSR1::NFATC2 or EWSR1::PATZ1; related FUS::NFATC2 tumors"
       ],
       "other": [],
-      "pitfall": "These are molecularly heterogeneous tumors; do not relabel every EWSR1 fusion tumor into this group.",
+      "pitfall": "These are molecularly heterogeneous tumors; do not relabel every EWSR1 fusion tumor into this group. WHO Soft Tissue & Bone 6th ed. (Oct 2026) separates NFATC2-rearranged sarcoma and PATZ1-rearranged sarcoma into standalone entries (listed separately in this atlas).",
       "refs": [
         "nm_soft",
-        "nm_round"
+        "nm_round",
+        "u_who6_stb"
       ]
     },
     {
@@ -6414,13 +7142,15 @@
       "other": [
         "Alternative SDH-deficiency mechanism — SDHC promoter hypermethylation"
       ],
-      "pitfall": "KIT protein expression is not the same as a KIT mutation. Genotype alone does not determine metastatic risk. SDH/NF1 abnormalities may reflect germline predisposition; a tumor result alone does not establish this.",
+      "pitfall": "KIT protein expression is not the same as a KIT mutation. Genotype alone does not determine metastatic risk. SDH/NF1 abnormalities may reflect germline predisposition; a tumor result alone does not establish this. WHO 6th ed. Digestive and Soft Tissue & Bone (2026) separate SDH-deficient GIST as a distinct entity (listed separately in this atlas).",
       "refs": [
         "s_kit",
         "s_pdgfra",
         "s_wtgist",
         "s_ntrkgist",
-        "s_ntrkdiff"
+        "s_ntrkdiff",
+        "u_who6_dig",
+        "u_who6_stb"
       ]
     },
     {
@@ -6510,6 +7240,197 @@
       ]
     },
     {
+      "id": "u_gli1_mesench",
+      "name": "GLI1-altered mesenchymal tumor, malignant/metastasizing",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "GLI1-rearranged mesenchymal neoplasm",
+        "GLI1-amplified mesenchymal tumor"
+      ],
+      "anchor": "GLI1-altered mesenchymal tumor → GLI1 fusion or continuous 12q13–15 GLI1/CDK4/MDM2 amplicon.",
+      "snv": [
+        "Progression — secondary TP53 mutations (~20% of GLI1-amplified cases) and CDKN2A loss"
+      ],
+      "cnv": [
+        "Defining subset (~26%) — continuous 12q13–15 amplification co-amplifying GLI1, CDK4, MDM2, DDIT3, HMGA2 and STAT6 (worse OS than rearranged)"
+      ],
+      "rearr": [
+        "Defining subset (~74%) — GLI1 fusions, chiefly ACTB::GLI1, MALAT1::GLI1 and PTCH1::GLI1 (rare GLI2 fusions)"
+      ],
+      "other": [],
+      "pitfall": "Added in WHO Soft Tissue & Bone 6th ed. (Oct 2026). Co-amplification of MDM2/CDK4/STAT6 causes misdiagnosis as dedifferentiated liposarcoma or solitary fibrous tumor; nested CD56+ architecture mimics NET or glomus tumor.",
+      "refs": [
+        "u_who6_stb",
+        "u_gli1"
+      ]
+    },
+    {
+      "id": "u_nfatc2_sarc",
+      "name": "NFATC2-rearranged sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "EWSR1::NFATC2 sarcoma",
+        "FUS::NFATC2 sarcoma"
+      ],
+      "anchor": "NFATC2-rearranged sarcoma (WHO STB6) → EWSR1::NFATC2 (with fusion amp) or bone-restricted FUS::NFATC2.",
+      "snv": [],
+      "cnv": [
+        "Characteristic — unbalanced amplification of the EWSR1::NFATC2 fusion locus (absent in FUS::NFATC2)"
+      ],
+      "rearr": [
+        "Defining — EWSR1::NFATC2 (bone/soft tissue; favorable OS) or FUS::NFATC2 (bone; markedly worse prognosis)"
+      ],
+      "other": [],
+      "pitfall": "Split from EWSR1–non-ETS round cell sarcoma in WHO STB6 (Oct 2026). Identical EWSR1/FUS::NFATC2 fusions occur in benign simple bone cysts and vascular malformations (lacking fusion amplification), so morphology/CNV correlation is mandatory.",
+      "refs": [
+        "u_who6_stb",
+        "u_nfatc2"
+      ]
+    },
+    {
+      "id": "u_patz1_sarc",
+      "name": "PATZ1-rearranged sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "EWSR1::PATZ1 sarcoma"
+      ],
+      "anchor": "PATZ1-rearranged sarcoma (WHO STB6) → EWSR1::PATZ1 via 22q12 inversion/chromothripsis.",
+      "snv": [],
+      "cnv": [
+        "Characteristic — chromosome 22q intrachromosomal inversion / chromothripsis"
+      ],
+      "rearr": [
+        "Defining — EWSR1::PATZ1 (MN1::PATZ1 is not seen in extra-CNS sarcomas)"
+      ],
+      "other": [
+        "Epigenetic — polyphenotypic sarcoma clustering separately from low-grade CNS NET-PATZ1 on methylation"
+      ],
+      "pitfall": "Split from EWSR1–non-ETS round cell sarcoma in WHO STB6 (Oct 2026). Because EWSR1 and PATZ1 sit ~2 Mb apart on 22q12, standard EWSR1 break-apart FISH is frequently falsely negative; RNA-seq is required.",
+      "refs": [
+        "u_who6_stb",
+        "u_patz1"
+      ]
+    },
+    {
+      "id": "u_yap1_kmt2a",
+      "name": "YAP1::KMT2A-rearranged sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "VIM::KMT2A-rearranged sarcoma",
+        "KMT2A-rearranged soft tissue sarcoma"
+      ],
+      "anchor": "YAP1::KMT2A sarcoma → YAP1/VIM::KMT2A fusion, MUC4-negative, high lung-metastasis risk.",
+      "snv": [],
+      "cnv": [
+        "Cooperating — frequent CDKN2A homozygous deletion; occasional RB1 loss or MDM2/MDM4 amplification"
+      ],
+      "rearr": [
+        "Defining — YAP1::KMT2A (often with reciprocal KMT2A::YAP1) or VIM::KMT2A"
+      ],
+      "other": [
+        "Epigenetic — distinct DNA methylation cluster separate from SEF and LGFMS"
+      ],
+      "pitfall": "Emerging sarcoma (soft tissue and bone) with ~50% distant metastasis. Consistently MUC4-negative with deceptive hypocellular fibroma-like zones; KMT2A FISH is often falsely negative and KMT2A is omitted from many solid-tumor panels.",
+      "refs": [
+        "u_yap1_kmt2a"
+      ]
+    },
+    {
+      "id": "u_meis1_ncoa",
+      "name": "MEIS1::NCOA1/2 primitive spindle cell sarcoma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "MEIS1::NCOA2 spindle cell sarcoma",
+        "MEIS1::NCOA1 sarcoma"
+      ],
+      "anchor": "MEIS1::NCOA1/2 spindle cell sarcoma → visceral/pelvic/GU-GYN whorls, MyoD1/myogenin-negative.",
+      "snv": [
+        "Progression — secondary CTNNB1 hotspot mutations (~14%), linked to recurrence/metastasis"
+      ],
+      "cnv": [
+        "Associated — occasional 12q13–15 amplifications in high-grade uterine cases"
+      ],
+      "rearr": [
+        "Defining — MEIS1::NCOA2 or MEIS1::NCOA1 fusion"
+      ],
+      "other": [],
+      "pitfall": "Emerging sarcoma lacking skeletal muscle differentiation (distinguishing it from intraosseous MEIS1::NCOA2 RMS). Nuclear WT1, TLE1 and ER positivity with entrapped tubules mimics monophasic synovial sarcoma or MEST.",
+      "refs": [
+        "u_meis1"
+      ]
+    },
+    {
+      "id": "u_kinase_spindle",
+      "name": "Kinase-altered spindle cell neoplasm (non-NTRK), malignant",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "RAF1-rearranged spindle cell sarcoma",
+        "BRAF-rearranged spindle cell sarcoma",
+        "RET-rearranged spindle cell sarcoma"
+      ],
+      "anchor": "Non-NTRK kinase-altered spindle cell sarcoma → RAF1, BRAF, RET, ALK, ROS1 or MET fusions.",
+      "snv": [
+        "Alternative subset — activating BRAF point mutations/indels in infantile fibrosarcoma-like cases"
+      ],
+      "cnv": [
+        "Progression — CDKN2A/B deletion correlates with high-grade malignant transformation"
+      ],
+      "rearr": [
+        "Defining — fusions involving RAF1 (e.g., PDZRN3, SLMAP, ERC1::RAF1), BRAF, RET, ROS1, ALK, MET or LTK"
+      ],
+      "other": [],
+      "pitfall": "Emerging actionable sarcoma group beyond NTRK. S100/CD34 co-expression (SOX10−) mimics MPNST or solitary fibrous tumor; pan-TRK IHC is negative, requiring broad RNA sequencing.",
+      "refs": [
+        "u_kinase_sp"
+      ]
+    },
+    {
+      "id": "u_yap1_tfe3_he",
+      "name": "YAP1::TFE3 hemangioendothelioma",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "YAP1-TFE3 epithelioid hemangioendothelioma"
+      ],
+      "anchor": "YAP1::TFE3 hemangioendothelioma (WHO STB6) → YAP1::TFE3 fusion, nuclear TFE3+, distinct from EHE.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — YAP1::TFE3 gene fusion (lacks WWTR1::CAMTA1)"
+      ],
+      "other": [],
+      "pitfall": "Separated from conventional WWTR1::CAMTA1 epithelioid hemangioendothelioma in WHO STB6 (Oct 2026). Displays solid vasoformative epithelioid morphology and diffuse nuclear TFE3; requires fusion confirmation because TFE3 IHC alone is non-specific.",
+      "refs": [
+        "u_who6_stb"
+      ]
+    },
+    {
+      "id": "u_sdh_gist",
+      "name": "Succinate dehydrogenase (SDH)-deficient gastrointestinal stromal tumor",
+      "system": "Soft tissue and bone",
+      "aliases": [
+        "SDH-deficient GIST",
+        "Carney triad GIST",
+        "Carney–Stratakis GIST"
+      ],
+      "anchor": "SDH-deficient GIST (WHO 6th ed.) → SDHA/B/C/D loss or SDHC promoter hypermethylation; KIT/PDGFRA-wildtype.",
+      "snv": [
+        "Defining subset (~50–80%) — loss-of-function (often germline) mutations in SDHA (~30%), SDHB, SDHC or SDHD; KIT/PDGFRA-wildtype"
+      ],
+      "cnv": [
+        "Cooperating — LOH at the SDHx locus; typically lacks the 14q/22q losses of KIT-mutant GIST"
+      ],
+      "rearr": [],
+      "other": [
+        "Epigenetic subset (~20–50%) — SDHC promoter hypermethylation (Carney triad); succinate accumulation drives genome-wide hypermethylation (including MGMT) and imatinib resistance"
+      ],
+      "pitfall": "Separated as a standalone entity in WHO 6th ed. Digestive & STB6 (2026). Still stains for CD117/DOG1; SDHB IHC loss defines the entity, and standard GIST mitotic-size risk models do not reliably predict its indolent yet node-metastasizing course.",
+      "refs": [
+        "u_who6_dig",
+        "u_who6_stb",
+        "u_sdhgist"
+      ]
+    },
+    {
       "id": "nm-mpnst",
       "name": "Malignant peripheral nerve sheath tumor",
       "system": "Peripheral nerve",
@@ -6579,6 +7500,30 @@
       ]
     },
     {
+      "id": "u_empnst",
+      "name": "Epithelioid malignant peripheral nerve sheath tumor",
+      "system": "Peripheral nerve",
+      "aliases": [
+        "EMPNST",
+        "epithelioid MPNST"
+      ],
+      "anchor": "Epithelioid MPNST → biallelic SMARCB1 (INI1) loss (~75%), retained H3K27me3, not NF1-driven.",
+      "snv": [
+        "Driver — biallelic SMARCB1 (INI1) inactivation (~75%); generally lacks NF1 and PRC2 (SUZ12/EED) driver profile of conventional MPNST"
+      ],
+      "cnv": [
+        "Driver — 22q11.23 (SMARCB1) homozygous/hemizygous deletion"
+      ],
+      "rearr": [],
+      "other": [
+        "Distinct biology — retains H3K27me3 and shows diffuse strong S100/SOX10 expression"
+      ],
+      "pitfall": "Separated here from conventional MPNST due to distinct SMARCB1-driven genetics. Diffuse S100/SOX10 positivity closely mimics amelanotic melanoma; INI1 loss and absence of melanocytic markers (HMB45/Melan-A) aid distinction.",
+      "refs": [
+        "u_empnst"
+      ]
+    },
+    {
       "id": "nm-rhabdoid",
       "name": "Malignant rhabdoid tumor, extrarenal",
       "system": "Pediatric embryonal",
@@ -6618,10 +7563,11 @@
       "cnv": [],
       "rearr": [],
       "other": [],
-      "pitfall": "An exceptionally rare mixed tumor; HRAS is not specific and overlaps embryonal rhabdomyosarcoma.",
+      "pitfall": "An exceptionally rare mixed tumor; HRAS is not specific and overlaps embryonal rhabdomyosarcoma. Note: WHO Soft Tissue & Bone 6th ed. (Oct 2026) retired ectomesenchymoma as a standalone category; retained here for historical reference.",
       "refs": [
         "nm_soft",
-        "nm_ecto"
+        "nm_ecto",
+        "u_who6_stb"
       ]
     },
     {
@@ -7051,7 +7997,8 @@
         "Subset-defining — NPM1; CEBPA",
         "Cooperating — FLT3 ITD/TKD, KIT, NRAS/KRAS, IDH1/2, DNMT3A",
         "Myelodysplasia-related — ASXL1, BCOR, EZH2, SF3B1, SRSF2, STAG2, U2AF1, ZRSR2",
-        "Cooperating / adverse biology — TP53 inactivation in a subset"
+        "Cooperating / adverse biology — TP53 inactivation in a subset",
+        "Emerging high-risk subset — UBTF tandem duplications (UBTF-TD; menin-dependent)"
       ],
       "cnv": [
         "Associated — −5/del(5q), −7/del(7q), complex karyotype; TP53 loss in subsets"
@@ -7059,13 +8006,16 @@
       "rearr": [
         "Subset-defining — RUNX1::RUNX1T1; CBFB::MYH11; KMT2A, MECOM or NUP98 rearrangements",
         "Subset-defining — DEK::NUP214, RBM15::MRTFA; rare BCR::ABL1",
-        "Rare molecular subsets — CBFA2T3::GLIS2 and other recurrent fusions"
+        "Rare molecular subsets — CBFA2T3::GLIS2 and other recurrent fusions",
+        "Emerging high-risk subset — BCL11B structural variants / 14q32 enhancer hijacking"
       ],
       "other": [],
-      "pitfall": "Broad AML entry combines genetic and differentiation categories; APL is separate for its exceptionally strong fusion association. FLT3 ITD is an insertion/duplication, not a fusion.",
+      "pitfall": "Broad AML entry combines genetic and differentiation categories; APL is separate for its exceptionally strong fusion association. FLT3 ITD is an insertion/duplication, not a fusion. In WHO-HAEM5, NUP98 rearrangements (alongside PML::RARA, RUNX1::RUNX1T1, CBFB::MYH11, KMT2A, MECOM and NPM1) define AML regardless of the 20% blast threshold.",
       "refs": [
         "h_aml",
-        "h_who"
+        "h_who",
+        "u_aml_ubtf",
+        "u_aml_nup98"
       ]
     },
     {
@@ -7181,6 +8131,54 @@
       ]
     },
     {
+      "id": "u_germline_myeloid",
+      "name": "Myeloid neoplasms associated with germline predisposition",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "hereditary myeloid neoplasm",
+        "DDX41 myeloid neoplasm",
+        "GATA2 deficiency myeloid neoplasm"
+      ],
+      "anchor": "Germline-predisposed myeloid neoplasms → DDX41 (+ somatic 2nd hit), RUNX1, CEBPA, GATA2, ETV6, SAMD9/9L.",
+      "snv": [
+        "Defining germline drivers — without platelet/organ syndrome: DDX41 (up to 4% of adult AML/MDS, usually acquires somatic 2nd-hit DDX41), CEBPA, TP53",
+        "Defining germline drivers — with platelet disorder: RUNX1, ANKRD26, ETV6; with organ dysfunction: GATA2, SAMD9, SAMD9L"
+      ],
+      "cnv": [
+        "Progression — monosomy 7 / del(7q) is a hallmark progression event in GATA2 and SAMD9/SAMD9L syndromes"
+      ],
+      "rearr": [],
+      "other": [
+        "Reversion — somatic copy-neutral LOH can revert pathogenic SAMD9/SAMD9L alleles; germline DDX41 presents late (median ~68 y)"
+      ],
+      "pitfall": "WHO-HAEM5 secondary myeloid category. Older age or absent family history does not exclude germline DDX41; always confirm germline status on non-hematopoietic DNA (e.g., skin fibroblasts) before related-donor HSCT.",
+      "refs": [
+        "u_germline_my"
+      ]
+    },
+    {
+      "id": "u_ael",
+      "name": "Acute erythroid leukemia",
+      "system": "Myeloid & acute leukemias",
+      "aliases": [
+        "AEL",
+        "pure erythroid leukemia"
+      ],
+      "anchor": "Acute erythroid leukemia → ≥80% erythroid (≥30% proerythroblasts) + multi-hit TP53 and complex karyotype.",
+      "snv": [
+        "Characteristic — strongly enriched for biallelic/multi-hit TP53 loss-of-function mutations"
+      ],
+      "cnv": [
+        "Characteristic — complex karyotype (≥3 abnormalities), del(5q), del(7q) and del(17p)/17p cnLOH"
+      ],
+      "rearr": [],
+      "other": [],
+      "pitfall": "WHO-HAEM5 entity under AML defined by differentiation (supersedes AML-MR, whereas ICC groups TP53-mutant cases under AML with mutated TP53). Relying solely on p53 IHC can miss truncating TP53 variants.",
+      "refs": [
+        "u_ael"
+      ]
+    },
+    {
       "id": "h_ball",
       "name": "B-lymphoblastic leukemia/lymphoma",
       "system": "B-cell & plasma-cell neoplasms",
@@ -7196,18 +8194,22 @@
       ],
       "cnv": [
         "Defining subsets — high hyperdiploidy; hypodiploidy; iAMP21",
-        "Cooperating — IKZF1, CDKN2A/B, PAX5 deletions"
+        "Cooperating — IKZF1, CDKN2A/B, PAX5 deletions",
+        "Subset-defining (CDX2/UBTF) — 13q12 deletion retargeting the PAN3 enhancer to deregulate CDX2"
       ],
       "rearr": [
         "Subset-defining — BCR::ABL1, ETV6::RUNX1, TCF3::PBX1; KMT2A rearrangements",
         "Other subsets — DUX4, ZNF384, MEF2D, NUTM1, PAX5 rearrangements; TCF3::HLF",
-        "Ph-like subsets — ABL-class fusions; CRLF2 or JAK2 rearrangements"
+        "Ph-like subsets — ABL-class fusions; CRLF2 or JAK2 rearrangements",
+        "Emerging high-risk subset — UBTF::ATXN7L3 (CDX2/UBTF subtype)"
       ],
       "other": [],
       "pitfall": "A broad umbrella: these are alternative molecular groups, not a combined expected profile.",
       "refs": [
         "h_ball",
-        "h_lymph"
+        "h_lymph",
+        "u_all_2025",
+        "u_all_adult25"
       ]
     },
     {
@@ -7889,6 +8891,98 @@
       ]
     },
     {
+      "id": "u_falbcl",
+      "name": "Fibrin-associated large B-cell lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "FA-LBCL"
+      ],
+      "anchor": "Fibrin-associated LBCL → EBV-driven non-mass-forming aggregates in fibrin/prostheses, lacks MYC/BCL2/BCL6 fusions.",
+      "snv": [
+        "Low burden — sporadic SOCS1, KRAS, KMT2D, CARD11 or IGLL5 variants without a single defining SNV"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Viral driver — EBV-positive (EBER+) in the vast majority; indolent course often cured by resection alone"
+      ],
+      "pitfall": "Separated from DLBCL associated with chronic inflammation in WHO-HAEM5. Confined to fibrin/thrombus in cardiac myxomas, prosthetic valves, grafts or pseudocysts; avoid overtreating as aggressive systemic EBV+ DLBCL.",
+      "refs": [
+        "u_who5_lymph",
+        "u_lbcl_who5"
+      ]
+    },
+    {
+      "id": "u_thrlbcl",
+      "name": "T-cell/histiocyte-rich large B-cell lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "THRLBCL"
+      ],
+      "anchor": "THRLBCL → <10% large B cells, JUNB/DUSP2/SGK1/SOCS1/CREBBP variants + 9p24.1 PD-L1 gain.",
+      "snv": [
+        "Recurrent — JUNB, DUSP2, SGK1, SOCS1 and CREBBP mutations (overlapping with NLPHL)"
+      ],
+      "cnv": [
+        "Recurrent — 9p24.1 (CD274/PD-L1) gains/amplifications promoting immune evasion"
+      ],
+      "rearr": [],
+      "other": [
+        "Biology — diffuse T-cell/histiocyte-rich background lacking FDC meshworks; forms a biological continuum with Pattern E NLPHL"
+      ],
+      "pitfall": "WHO-HAEM5 entity. Needle-core biopsies cannot reliably distinguish THRLBCL from THRLBCL-like NLPHL because any residual nodular/FDC-rich NLPHL area elsewhere in the node establishes NLPHL.",
+      "refs": [
+        "u_lbcl_who5"
+      ]
+    },
+    {
+      "id": "u_pcmzl",
+      "name": "Primary cutaneous marginal zone lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "PCMZL",
+        "primary cutaneous marginal zone lymphoproliferative disorder"
+      ],
+      "anchor": "Primary cutaneous MZL → FAS death-domain mutations (~63%), lacks systemic MALT fusions and MYD88 L265P.",
+      "snv": [
+        "Characteristic — dominant-negative FAS (CD95) death-domain mutations (~63%); recurrent SLAMF1, SPEN and NCOR2; lacks MYD88 L265P"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Subsets — ~75% class-switched IgG+ (often IgG4+, Th2-rich) and ~25% IgM+; >99% 5-year disease-specific survival"
+      ],
+      "pitfall": "Separated from MALT lymphoma in WHO-HAEM5 (termed LPD in ICC 2022). Lacks BIRC3::MALT1/IGH::MALT1 translocations; do not confuse IgG4+ PCMZL with IgG4-related skin disease or overtreat as systemic MALT lymphoma.",
+      "refs": [
+        "u_pcmzl",
+        "u_pcptcl"
+      ]
+    },
+    {
+      "id": "u_bcl2neg_fcl",
+      "name": "BCL2-rearrangement-negative, CD23-positive follicle center lymphoma",
+      "system": "B-cell & plasma-cell neoplasms",
+      "aliases": [
+        "BCL2-R-negative CD23+ FCL",
+        "diffuse variant follicular lymphoma"
+      ],
+      "anchor": "BCL2-R− CD23+ follicle center lymphoma → STAT6 + CREBBP mutations, 1p36/TNFRSF14 loss, no t(14;18).",
+      "snv": [
+        "Characteristic — frequent STAT6 (e.g., D419A) and CREBBP co-mutations, plus TNFRSF14 and SOCS1 variants"
+      ],
+      "cnv": [
+        "Characteristic — 1p36 loss (TNFRSF14), 16p13 loss and 1q gain"
+      ],
+      "rearr": [],
+      "other": [
+        "Biology — lacks IGH::BCL2 t(14;18); predominantly diffuse inguinal/pelvic nodal growth with indolent course; CD23 serves as an IHC surrogate for STAT6 activation"
+      ],
+      "pitfall": "ICC 2022 provisional entity (subsumed under WHO-HAEM5 FL with uncommon features). Diffuse CD23+ architecture can be misdiagnosed as CLL/SLL (check CD5−/LEF1− and CD10+/BCL6+) or nodal MZL.",
+      "refs": [
+        "u_bcl2neg_fcl"
+      ]
+    },
+    {
       "id": "h_tall",
       "name": "T-lymphoblastic leukemia/lymphoma",
       "system": "T-cell & NK-cell neoplasms",
@@ -7906,12 +9000,15 @@
         "Cooperating — CDKN2A/B deletion"
       ],
       "rearr": [
-        "Subset drivers — TAL1/STIL::TAL1, TLX1, TLX3, LMO1/2, HOXA or BCL11B activation"
+        "Subset drivers — TAL1/STIL::TAL1, TLX1, TLX3, LMO1/2, HOXA or BCL11B activation",
+        "High-risk subsets — SPI1 rearrangements; ETP-like KMT2A/MLLT10 and BCL11B-rearranged ETP-ALL"
       ],
       "other": [],
       "pitfall": "Includes early T-precursor disease; its signaling/epigenetic profile differs from conventional T-ALL.",
       "refs": [
-        "h_tall"
+        "h_tall",
+        "u_all_2025",
+        "u_all_adult25"
       ]
     },
     {
@@ -8383,6 +9480,53 @@
       ]
     },
     {
+      "id": "u_inklpd",
+      "name": "Indolent NK-cell lymphoproliferative disorder of the gastrointestinal tract",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "iNKLPD-GI",
+        "NK-cell enteropathy",
+        "lymphomatoid gastropathy"
+      ],
+      "anchor": "Indolent GI NK-cell LPD → JAK3 exon 12 deletions, pSTAT5+, EBER-negative.",
+      "snv": [
+        "Characteristic — activating in-frame deletions in JAK3 exon 12 (canonically p.K563_C565del); occasional BRAF V600E, KRAS or SH2B3 variants"
+      ],
+      "cnv": [],
+      "rearr": [],
+      "other": [
+        "Pathway — universal phospho-STAT5 activation, germline TR genes (true NK lineage) and strict EBER negativity"
+      ],
+      "pitfall": "New entity in WHO-HAEM5. Must not be misdiagnosed as aggressive ENKTCL or MEITL and overtreated with systemic chemotherapy; EBER negativity, absence of angioinvasion/necrosis and mucosal confinement distinguish it.",
+      "refs": [
+        "u_ael",
+        "u_inklpd"
+      ]
+    },
+    {
+      "id": "u_pcptcl",
+      "name": "Primary cutaneous peripheral T-cell lymphoma, NOS",
+      "system": "T-cell & NK-cell neoplasms",
+      "aliases": [
+        "pcPTCL, NOS"
+      ],
+      "anchor": "Primary cutaneous PTCL, NOS → WHO-HAEM5 aggressive diagnosis of exclusion lacking ALCL fusions.",
+      "snv": [
+        "Heterogeneous — lacks a single entity-defining SNV driver across cases"
+      ],
+      "cnv": [
+        "Associated — complex, variable copy-number alterations"
+      ],
+      "rearr": [],
+      "other": [
+        "Biology — clonal TR rearrangements, lacks ALK, DUSP22 and TP63 rearrangements; aggressive course (5-year survival ~54%)"
+      ],
+      "pitfall": "New standalone entity in WHO-HAEM5. Requires excluding mycosis fungoides, pcALCL, PCGD-TCL, AECTCL and systemic PTCL; aberrant CD20 expression (~18%) can mimic B-cell lymphoma.",
+      "refs": [
+        "u_pcptcl"
+      ]
+    },
+    {
       "id": "h_bpdc",
       "name": "Blastic plasmacytoid dendritic cell neoplasm",
       "system": "Histiocytic & dendritic neoplasms",
@@ -8539,6 +9683,27 @@
       "pitfall": "Extremely rare; no validated recurrent driver is available for a reliable memorization cue.",
       "refs": [
         "h_lymph"
+      ]
+    },
+    {
+      "id": "u_alk_histio",
+      "name": "ALK-positive histiocytosis",
+      "system": "Histiocytic & dendritic neoplasms",
+      "aliases": [
+        "APH"
+      ],
+      "anchor": "ALK-positive histiocytosis → KIF5B::ALK (or variant ALK fusion), BRAF V600E-negative, ALK-inhibitor responsive.",
+      "snv": [],
+      "cnv": [],
+      "rearr": [
+        "Defining — ALK gene fusions in 100%, most commonly KIF5B::ALK (also TPM3, CLTC, EML4, TFG, COL1A2, DCTN1 or TRIM33::ALK)"
+      ],
+      "other": [
+        "Clinical — spans infantile multisystem, non-infantile multisystem and single-system (often CNS) disease with durable responses to ALK inhibitors"
+      ],
+      "pitfall": "New entity in WHO-HAEM5. Unlike LCH and Erdheim–Chester disease, lacks BRAF V600E and canonical MAPK point mutations; ALK IHC and fusion confirmation are essential.",
+      "refs": [
+        "u_alk_histio"
       ]
     }
   ],
@@ -9470,6 +10635,250 @@
     "s_pds": {
       "title": "Griewank et al. — Mutations and copy-number profiles of pleomorphic dermal sarcoma (2018)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/29099504/"
+    },
+    "u_who6_dig": {
+      "title": "Arends et al. — WHO Classification of Digestive System Tumours, 6th edition summary (Histopathology 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13128328/"
+    },
+    "u_who6_breast": {
+      "title": "Quinn, Tan et al. — WHO Classification of Breast Tumours, 6th edition summary (Histopathology 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13341065/"
+    },
+    "u_who6_stb": {
+      "title": "WHO Classification of Soft Tissue and Bone Tumours, 6th edition overview (2026)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42839882/"
+    },
+    "u_pplec": {
+      "title": "Primary pulmonary lymphoepithelial carcinoma: clinicopathologic and molecular characteristics (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13112634/"
+    },
+    "u_flac": {
+      "title": "Fetal adenocarcinoma of the lung: clinicopathologic and molecular distinctions (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6112786/"
+    },
+    "u_alc_cnv": {
+      "title": "Gastric amphicrine-like carcinoma copy-number landscape and 20q13 gains (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13570722/"
+    },
+    "u_lgtga": {
+      "title": "Colorectal low-grade tubuloglandular adenocarcinoma and IDH1 mutations in IBD (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10603140/"
+    },
+    "u_ginut": {
+      "title": "Gastrointestinal NUT-rearranged sarcomas with MAD-family NUTM1/NUTM2 fusions (PubMed 2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40609381/"
+    },
+    "u_icca_sub": {
+      "title": "Small-duct versus large-duct intrahepatic cholangiocarcinoma molecular profiles (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12110356/"
+    },
+    "u_sdhgist": {
+      "title": "Succinate dehydrogenase-deficient gastrointestinal stromal tumor biology and epigenetics (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11808740"
+    },
+    "u_bhprcc": {
+      "title": "NF2-inactivated (merlin-deficient) / biphasic hyalinizing psammomatous RCC cohort (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12924687/"
+    },
+    "u_tlfrcc": {
+      "title": "Thyroid-like follicular renal cell carcinoma and EWSR1::PATZ1 fusion (PubMed 2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34099871/"
+    },
+    "u_tlfrcc2": {
+      "title": "Metastatic thyroid-like follicular RCC retaining EWSR1::PATZ1 (PMC 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10948545/"
+    },
+    "u_ask": {
+      "title": "DICER1 and TP53 mutations in anaplastic sarcoma of the kidney (PMC 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11590164/"
+    },
+    "u_geac": {
+      "title": "Genomic landscape of HPV-independent gastric-type endocervical adenocarcinoma (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12839000/"
+    },
+    "u_gtec": {
+      "title": "Endometrial mucinous carcinoma of gastric type: TP53, low CNV and ERBB2 amplification (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13564903/"
+    },
+    "u_stk11": {
+      "title": "STK11 adnexal tumor: biallelic STK11 inactivation and clinicopathologic spectrum (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11921566/"
+    },
+    "u_ntrk_ut": {
+      "title": "NTRK-rearranged spindle cell sarcoma of the uterine cervix and corpus (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11863720/"
+    },
+    "u_col1a1_ut": {
+      "title": "COL1A1::PDGFB fusion-associated uterine sarcoma (PMC 2023)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10042132/"
+    },
+    "u_dicer1_gyn": {
+      "title": "DICER1-associated gynecologic sarcomas and secondary TP53/RAS alterations (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12978575/"
+    },
+    "u_dek_aff2": {
+      "title": "DEK::AFF2 fusion-associated sinonasal carcinoma molecular and clinical profile (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13576631/"
+    },
+    "u_aff2_var": {
+      "title": "Variant AFF2 fusions including CHD4::AFF2 in sinonasal carcinoma (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12916527/"
+    },
+    "u_tcs": {
+      "title": "Sinonasal teratocarcinosarcoma: SMARCA4 inactivation and CTNNB1 mutations (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11889493/"
+    },
+    "u_ales": {
+      "title": "Adamantinoma-like Ewing sarcoma of the head and neck: EWSR1/FUS::FLI1 and methylation (PMC 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11195538/"
+    },
+    "u_casg": {
+      "title": "Cribriform adenocarcinoma of salivary gland and PRKD1/2/3 rearrangements (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12612566/"
+    },
+    "u_poroid_hn": {
+      "title": "Skin-analogue primary poroid neoplasms of the head and neck with YAP1/WWTR1 fusions (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13176066/"
+    },
+    "u_ctct": {
+      "title": "CRTC1::TRIM11 cutaneous tumor: metastasizing subset and diagnostic pitfalls (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12146674/"
+    },
+    "u_cns_cic": {
+      "title": "Primary CNS CIC-rearranged sarcoma including CIC::LEUTX enrichment (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12883352/"
+    },
+    "u_cns_fet": {
+      "title": "Intracranial mesenchymal tumor, FET::CREB fusion-positive (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13633723/"
+    },
+    "u_cns_plag": {
+      "title": "CNS embryonal tumor with PLAG family gene alterations: PLAGL1/PLAGL2 amplification and PLAG1 fusions (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12317869/"
+    },
+    "u_cns_bcorf": {
+      "title": "CNS tumor with BCOR/BCORL1 fusion distinct from BCOR-ITD (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12295092/"
+    },
+    "u_cns_hpap": {
+      "title": "High-grade glioma with pleomorphic and pseudopapillary features (HPAP) (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12067899/"
+    },
+    "u_cns_gtaka": {
+      "title": "Emerging CNS tumor types including GTAKA and BRD4::LEUTX embryonal tumor (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13602056/"
+    },
+    "u_gli1": {
+      "title": "GLI1-altered mesenchymal neoplasms: fusions, 12q13-15 amplification and metastatic risk (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12150273/"
+    },
+    "u_nfatc2": {
+      "title": "NFATC2-rearranged sarcoma: EWSR1::NFATC2 vs FUS::NFATC2 biology (Arch Pathol Lab Med 2025)",
+      "url": "https://aplm.kglmeridian.com/view/journals/arpa/150/4/article-p317.xml"
+    },
+    "u_patz1": {
+      "title": "PATZ1-rearranged extra-CNS sarcoma versus CNS NET-PATZ1 (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12102922/"
+    },
+    "u_yap1_kmt2a": {
+      "title": "YAP1::KMT2A and VIM::KMT2A-rearranged sarcomas (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13528201/"
+    },
+    "u_meis1": {
+      "title": "MEIS1::NCOA1/2 primitive spindle cell sarcoma (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12715815/"
+    },
+    "u_kinase_sp": {
+      "title": "Kinase-altered spindle cell neoplasms beyond NTRK: RAF1, BRAF, RET, ALK, ROS1, MET (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13240951/"
+    },
+    "u_empnst": {
+      "title": "Epithelioid malignant peripheral nerve sheath tumor and SMARCB1 inactivation (PubMed 2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41237389/"
+    },
+    "u_germline_my": {
+      "title": "WHO-HAEM5 myeloid neoplasms associated with germline predisposition (Med Genet 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11006249/"
+    },
+    "u_ael": {
+      "title": "WHO-HAEM5 overview: acute erythroid leukemia and multi-hit TP53 (NCBI Bookshelf)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK586208/"
+    },
+    "u_who5_lymph": {
+      "title": "Alaggio et al. — WHO Classification of Haematolymphoid Tumours, 5th edition: lymphoid neoplasms (Leukemia 2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9214472/"
+    },
+    "u_lbcl_who5": {
+      "title": "Large B-cell lymphomas in WHO-HAEM5 including FA-LBCL and THRLBCL (Cancers 2023)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10137297/"
+    },
+    "u_pcmzl": {
+      "title": "Primary cutaneous marginal zone lymphoma: FAS mutations and class-switched subsets (PMC 2023)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9883170/"
+    },
+    "u_bcl2neg_fcl": {
+      "title": "BCL2-rearrangement-negative, CD23-positive follicle center lymphoma: STAT6 and CREBBP (PMC 2023)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9852150/"
+    },
+    "u_inklpd": {
+      "title": "Indolent NK-cell lymphoproliferative disorder of the GI tract and JAK3 deletions (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12149972/"
+    },
+    "u_pcptcl": {
+      "title": "Primary cutaneous peripheral T-cell lymphoma, NOS in WHO-HAEM5 (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13605474/"
+    },
+    "u_alk_histio": {
+      "title": "WHO-HAEM5 histiocytic and dendritic cell neoplasms including ALK-positive histiocytosis (PMC 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11528248/"
+    },
+    "u_aml_ubtf": {
+      "title": "Novel high-risk AML categories: UBTF tandem duplications and BCL11B structural variants (Haematologica 2025)",
+      "url": "https://haematologica.org/article/view/11895"
+    },
+    "u_aml_nup98": {
+      "title": "Strategies for identifying NUP98 rearrangements in adult myeloid neoplasms (PMC 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12862305/"
+    },
+    "u_all_2025": {
+      "title": "Genomic subclassification and risk stratification of ALL: CDX2/UBTF, ETP-like and SPI1 (Acta Haematol 2025)",
+      "url": "https://karger.com/aha/article/149/1/8/929645/Genomic-Subclassification-and-Risk-Stratification"
+    },
+    "u_all_adult25": {
+      "title": "Adult acute lymphoblastic leukemia: 2025 update on WHO-HAEM5 and ICC genomic subtypes (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12712861/"
+    },
+    "u_cimpact8": {
+      "title": "cIMPACT-NOW update 8: molecular risk parameters and WHO grading of meningiomas (Neuro Oncol 2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39212325/"
+    },
+    "u_cimpact8_pmc": {
+      "title": "Integrated meningioma grading following cIMPACT-NOW update 8 (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12650713/"
+    },
+    "u_thymoma_fus": {
+      "title": "Gene fusions in thymic epithelial tumors: YAP1::MAML2 and KMT2A::MAML2 (PMC 2023)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10705505/"
+    },
+    "u_hpv42_dpa": {
+      "title": "Human papillomavirus 42 drives digital papillary adenocarcinoma (Cancer Discov / PMC 2023)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9827110/"
+    },
+    "u_skin_who5": {
+      "title": "WHO 5th edition skin tumor updates: YAP1/WWTR1 poroid fusions and ALPK1 (PMC 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11460152/"
+    },
+    "u_rms_tfcp2": {
+      "title": "TFCP2 fusion-positive rhabdomyosarcomas and spindle cell RMS molecular subsets (PMC 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12070825/"
+    },
+    "u_ilcem": {
+      "title": "Invasive lobular carcinoma with extracellular mucin: CDH1 inactivation and 16q/1q profile (PubMed 2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35477749/"
+    },
+    "u_smarcb1_sin": {
+      "title": "SMARCB1-deficient sinonasal adenocarcinoma clinicopathologic and molecular review (PubMed 2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38085333/"
     }
   },
   "coverage": [
@@ -9602,7 +11011,36 @@
       "limitations": [
         "GIST genotype is not equivalent to metastatic behavior. The nosology of rare NTRK-fusion GI tumors requires careful pathological review."
       ]
+    },
+    {
+      "systems": [
+        "Thoracic",
+        "Digestive",
+        "Breast",
+        "Urinary & male genital",
+        "Female genital",
+        "Head & neck",
+        "Skin & mucosal melanoma",
+        "CNS",
+        "Soft tissue and bone",
+        "Peripheral nerve",
+        "Myeloid & acute leukemias",
+        "B-cell & plasma-cell neoplasms",
+        "T-cell & NK-cell neoplasms",
+        "Histiocytic & dendritic neoplasms"
+      ],
+      "basis": "November 2026 update incorporating WHO 6th edition Digestive System Tumours (July 2026), Breast Tumours (2026), Soft Tissue & Bone Tumours (October 2026), WHO 5th edition Haematolymphoid/Skin/Head & Neck/Urinary/Female Genital/CNS volumes, cIMPACT-NOW Update 8, and peer-reviewed 2024–2026 molecular pathology literature.",
+      "merged": [
+        "Subtypes sharing the same core oncogenic drivers as their parent entity (such as invasive lobular carcinoma with extracellular mucin, colorectal lymphoglandular complex-like adenocarcinoma, pancreatic undifferentiated carcinoma with osteoclast-like giant cells, enteric-type lung adenocarcinoma, and SMARCB1-deficient sinonasal adenocarcinoma) remain nested with updated notes inside their parent entries.",
+        "Subtypes and newly recognized WHO 5th/6th-edition or emerging entities with distinct oncogenic drivers are added as standalone entries."
+      ],
+      "excluded": [
+        "Benign, preinvasive or predominantly indolent emerging entities (including LOT, EVT, papillary renal neoplasm with reverse polarity, cutaneous cribriform tumor, CNS NET-PATZ1, and VEXAS clonal hemato-inflammatory syndrome)."
+      ],
+      "limitations": [
+        "Emerging and provisional entities not yet formalized in a WHO Blue Book edition (such as BHP/NF2-inactivated RCC, HPAP, ET-PLAG, CNS BCOR/BCORL1-fused tumor, GTAKA, YAP1::KMT2A sarcoma, MEIS1::NCOA1/2 sarcoma, and skin-analogue head-and-neck poroid carcinoma) are explicitly flagged in their notes."
+      ]
     }
   ],
-  "reviewed": "2026-10-19"
+  "reviewed": "2026-11-23"
 }
