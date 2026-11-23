@@ -1,8 +1,8 @@
 # Tumor Driver Atlas
 
-A self-contained molecular pathology study website covering 401 broad malignant tumor entries in 18 organ and lineage groups, with 232 linked taxonomy and molecular references.
+A self-contained molecular pathology study website covering 449 malignant tumor entries in 18 organ and lineage groups, with 293 linked taxonomy and molecular references.
 
-Includes searchable reference cards, SNV/indel–copy number–rearrangement comparisons, a printable info sheet, flashcards, bookmarks and browser-local learning progress. All CSS, JavaScript and study data are embedded in `index.html`. No API key, backend, package installation or build step is needed to publish the supplied page.
+Includes searchable reference cards, SNV/indel–copy number–rearrangement comparisons, a printable info sheet, flashcards with a downloadable pre-built Anki deck (`tumor-driver-atlas.apkg`), bookmarks and browser-local learning progress. All CSS, JavaScript and study data are embedded in `index.html`. No API key, backend, package installation or build step is needed to publish the supplied page.
 
 ## Publish on GitHub Pages
 
@@ -22,12 +22,13 @@ The entry page also works by opening `index.html` directly. Bookmarks and learni
 | File or folder | Purpose |
 | --- | --- |
 | `index.html` | Ready-to-host page with all styling, interactions and data embedded. |
+| `tumor-driver-atlas.apkg` | Pre-built Anki 2.1 flashcard package organized into subdecks by organ and lineage group. |
 | `.nojekyll` | Disables Jekyll processing on GitHub Pages. |
 | `.gitignore` | Excludes common local system and Python cache files from Git. |
 | `source/template.html` | Editable page layout, CSS and JavaScript, with a data placeholder. |
-| `source/data/*.json` | Five editable source datasets: visceral, epithelial, neuro/mesenchymal, hematologic and supplementary entries. |
+| `source/data/*.json` | Six editable source datasets: visceral, epithelial, neuro/mesenchymal, hematologic, supplementary and 2026 WHO/literature updates (`updates_2026.json`). |
 | `source/data/build_*.py` | Four optional authoring helpers retained from the original project. They regenerate their corresponding dataset files. |
-| `source/build.py` | Portable assembler; combines the datasets, applies the existing editorial corrections and writes the root `index.html`. |
+| `source/build.py` | Portable assembler; combines the datasets, applies editorial updates and writes the root `index.html` and `tumor-driver-atlas.apkg`. |
 | `source/atlas.json` | Generated consolidated dataset containing all entries, sources and scope notes. |
 | `SHA256SUMS.txt` | Checksums for the files in this export. |
 
@@ -60,9 +61,9 @@ The optional `source/data/build_*.py` helpers are not part of the normal build. 
 
 ## Content scope and verification
 
-The medical content retains its original review date of 19 October 2026. This export was prepared on 21 October 2026 and does not constitute a new literature review.
+The medical content was updated on 23 November 2026 to incorporate newly categorized malignant entities and oncogenic driver updates from the WHO 6th edition Digestive (July 2026), Breast (2026), and Soft Tissue & Bone (October 2026) volumes, WHO 5th edition volumes, cIMPACT-NOW Update 8, and peer-reviewed 2024–2026 literature.
 
-This is an independent educational synthesis based on the WHO 5th edition, with broad diagnoses and selected molecular distinctions. Completeness against every current WHO entity and every 6th-edition revision has not been certified. The webpage contains detailed grouping, evidence and exclusion notes. An empty alteration column does not imply a negative molecular test; listed alterations may occur only in subsets.
+This is an independent educational synthesis based on the WHO 5th and 6th editions, with broad diagnoses plus standalone cards for molecularly distinct subtypes and emerging entities. Completeness against every subscription-only WHO entry has not been certified. The webpage contains detailed grouping, evidence and exclusion notes. An empty alteration column does not imply a negative molecular test; listed alterations may occur only in subsets.
 
 The export was checked for complete data/source references and an identical generated entry page. Search, filtering, bookmarks, flashcard logic and print-sheet generation passed the original logic checks. Visual browser QA remained unavailable because the browser tool could not verify an administrator security policy.
 
